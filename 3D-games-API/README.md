@@ -1,6 +1,40 @@
 # 3D Games API - 评论评分系统后端
 
-这是 3D Games 项目的后端 API，基于 Game-Comment 模板创建。
+这是 3D Games 项目的后端 API 服务，提供完整的评论和评分系统支持。
+
+## 📖 项目介绍
+
+3D Games API 是一个基于 Node.js 和 PostgreSQL 的后端服务，为 3D Games 前端平台提供：
+
+- **💬 评论系统**：玩家可以对游戏进行评论，支持昵称、评论内容等
+- **⭐ 评分系统**：5 星评分系统，支持评分统计和分布展示
+- **🔐 管理员认证**：JWT 认证的管理员登录系统
+- **📊 数据管理**：管理员可以查看、编辑、删除评论和评分
+- **🗄️ 数据持久化**：使用 PostgreSQL 数据库存储所有数据
+- **🔒 安全机制**：JWT Token 认证，密码加密存储
+
+## ✨ 核心功能
+
+### 公开接口
+- ✅ 获取游戏评论列表
+- ✅ 提交新评论
+- ✅ 获取游戏评分统计
+- ✅ 提交游戏评分
+- ✅ 健康检查接口
+
+### 管理员接口
+- ✅ 管理员登录认证
+- ✅ 获取所有游戏反馈数据
+- ✅ 删除评论/评分
+- ✅ 手动添加反馈
+- ✅ 编辑反馈内容
+- ✅ 更新评分数据
+
+### 数据管理
+- ✅ 多项目支持（通过项目前缀）
+- ✅ 数据隔离和安全性
+- ✅ 自动时间戳记录
+- ✅ 灵活的查询接口
 
 ## 🚀 快速开始
 
@@ -12,21 +46,7 @@ npm install
 
 ### 2. 配置环境变量
 
-复制 `env.example` 为 `.env` 并修改配置：
-
-```bash
-cp env.example .env
-```
-
-编辑 `.env` 文件：
-
-```env
-PROJECT_PREFIX=3d_games
-DATABASE_URL=your_neon_database_url
-JWT_SECRET=your-secret-jwt-key
-FRONTEND_URL=http://localhost:5173
-PORT=3000
-```
+复制 `env.example` 为 `.env` 并修改配置，设置数据库连接和其他必要的配置项。
 
 ### 3. 初始化数据库
 
@@ -34,10 +54,7 @@ PORT=3000
 npm run init-db
 ```
 
-这将创建：
-- `3d_games_feedback` 表（评论和评分）
-- `game_admins_users` 表（管理员账户）
-- 默认管理员账户（用户名：admin，密码：admin123）
+这将创建数据库表和默认管理员账户。
 
 ### 4. 启动服务器
 
@@ -51,24 +68,7 @@ npm run dev
 npm start
 ```
 
-服务器将在 `http://localhost:3000` 启动
-
-## 📡 API 端点
-
-### 公开接口
-- `GET /health` - 健康检查
-- `GET /comments?pageId={addressBar}` - 获取评论
-- `POST /comments` - 提交评论
-- `GET /ratings?pageId={addressBar}` - 获取评分统计
-- `POST /ratings` - 提交评分
-
-### 管理员接口（需要 JWT Token）
-- `POST /admin/login` - 管理员登录
-- `GET /admin/feedback` - 获取所有游戏数据
-- `DELETE /admin/feedback/:pageId/:feedbackId` - 删除反馈
-- `POST /admin/feedback/manual` - 手动添加反馈
-- `PUT /admin/feedback/:pageId/:feedbackId` - 更新反馈
-- `PUT /admin/ratings/:pageId` - 更新评分
+服务器将在配置的端口启动（默认：3000）
 
 ## 🔑 默认管理员账户
 
@@ -78,33 +78,38 @@ npm start
 
 ⚠️ **重要**: 生产环境部署后请立即修改默认密码！
 
-## 🌐 部署到 Vercel
+## 🔒 安全特性
 
-1. 将代码推送到 GitHub
-2. 在 Vercel 中导入项目
-3. 配置环境变量：
-   - `PROJECT_PREFIX`
-   - `DATABASE_URL`
-   - `JWT_SECRET`
-   - `FRONTEND_URL`
+- **密码加密**：使用 bcrypt 加密存储密码
+- **JWT 认证**：管理员接口使用 JWT Token 认证
+- **CORS 配置**：限制跨域请求来源
+- **数据验证**：输入数据验证和清理
+- **SQL 注入防护**：使用参数化查询
 
-## 📝 数据库表结构
+## 🐛 常见问题
 
-### 3d_games_feedback
-- `id` - 主键
-- `game_address_bar` - 游戏地址标识（对应 games.js 中的 addressBar）
-- `name` - 评论者昵称
-- `email` - 邮箱（可选）
-- `text` - 评论内容
-- `rating` - 评分（1-5）
-- `added_by_admin` - 是否由管理员添加
-- `created_at` - 创建时间
+### 数据库连接失败
+- 检查数据库连接字符串是否正确
+- 确保数据库服务正在运行
+- 检查网络连接和防火墙设置
 
-### game_admins_users（全局共享）
-- `id` - 主键
-- `username` - 用户名
-- `password` - 加密密码
-- `role` - 角色
-- `project_id` - 项目ID
-- `created_at` - 创建时间
+### JWT Token 无效
+- 检查 JWT 密钥配置是否正确
+- 确认 Token 是否过期
+- 验证 Token 格式是否正确
 
+### CORS 错误
+- 检查前端地址配置是否正确
+- 确认前端地址与配置一致
+- 检查请求头是否正确
+
+### 管理员无法登录
+- 确认数据库已初始化
+- 检查项目前缀配置是否匹配
+- 验证用户名和密码是否正确
+- 检查数据库表中是否有管理员账户
+
+## 📚 相关文档
+
+- 前端项目：查看 `../3D-games/README.md` 了解前端详情
+- 设置指南：查看 `../3D-games/SETUP.md` 了解完整设置流程

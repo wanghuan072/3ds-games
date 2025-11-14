@@ -1,112 +1,76 @@
-# 3D Games - 游戏评论评分系统
+# 3D Games - 免费在线 3D 游戏平台
 
-基于 Vue 3 + Vite 的游戏网站，集成了评论和评分功能。
+一个现代化的 3D 游戏聚合平台，提供丰富的 H5 3D 网页游戏和 Nintendo 3DS 游戏指南。基于 Vue 3 + Vite 构建，集成了完整的评论评分系统和管理后台。
 
-## 🚀 快速开始
+## 📖 项目介绍
 
-### 1. 安装依赖
+3D Games 是一个综合性的游戏平台，致力于为玩家提供：
 
-```bash
-npm install
-```
+- **🎮 丰富的游戏库**：精选的 H5 3D 网页游戏，涵盖赛车、射击、动作、平台等多种类型
+- **📚 3DS 游戏指南**：详细的 Nintendo 3DS 游戏攻略、评测和推荐
+- **💬 互动社区**：玩家评论和评分系统，分享游戏体验
+- **🎨 精美界面**：现代化的深色主题设计，响应式布局，完美适配各种设备
+- **🔍 智能搜索**：快速查找你喜欢的游戏
+- **📱 移动优先**：完美支持手机、平板和桌面设备
 
-### 2. 配置环境变量
+## ✨ 核心功能
 
-复制 `env.example` 为 `.env.local` 并修改配置：
+### 游戏展示
+- ✅ 游戏列表展示（支持大图/小图两种尺寸）
+- ✅ 游戏分类浏览（赛车、射击、动作等）
+- ✅ 热门游戏和新游戏专区
+- ✅ 游戏详情页（含 iframe 在线游玩）
+- ✅ 全屏游戏模式
+- ✅ 游戏标签系统（Hot、New、Updated）
 
-```bash
-cp .env.example .env.local
-```
+### 3DS 游戏指南
+- ✅ 3DS 游戏列表和详情
+- ✅ 游戏攻略和评测
+- ✅ 游戏截图和视频展示
+- ✅ 游戏信息（开发商、发行商、评分等）
 
-编辑 `.env.local` 文件，设置后端 API 地址：
+### 评论评分系统
+- ✅ 5 星评分系统
+- ✅ 评论发布和管理
+- ✅ 评分统计和分布展示
+- ✅ 实时数据更新
 
-```env
-VITE_API_BASE_URL=http://localhost:3000
-```
+### 管理员后台
+- ✅ 管理员登录认证
+- ✅ 评论和评分管理
+- ✅ 数据统计和查看
+- ✅ 手动添加/编辑反馈
 
-### 3. 启动开发服务器
+### SEO 优化
+- ✅ 动态 SEO 标签（Title、Description、Keywords）
+- ✅ 结构化数据（Schema.org）
+- ✅ Open Graph 和 Twitter Card 支持
+- ✅ 自动生成站点地图
+- ✅ Canonical URL 设置
 
-```bash
-npm run dev
-```
+## 🎨 UI/UX 设计
 
-### 4. 构建生产版本
+- **深色主题**：深色背景 + 金色/橙色强调色
+- **响应式设计**：完美支持桌面、平板、移动端
+- **等宽字体**：Consolas/Monaco 代码风格字体
+- **渐变效果**：精美的背景渐变和卡片阴影
+- **动画过渡**：流畅的交互动画
 
-```bash
-npm run build
-```
+## 🔗 主要页面
 
-## 📁 项目结构
+- **首页**：展示精选游戏和平台介绍
+- **游戏列表**：浏览所有可用游戏
+- **游戏详情**：在线游玩和查看游戏信息
+- **热门游戏**：查看最受欢迎的游戏
+- **新游戏**：发现最新添加的游戏
+- **3DS 游戏指南**：探索 Nintendo 3DS 游戏世界
+- **搜索功能**：快速找到你想要的游戏
+- **管理员后台**：管理评论和评分数据
 
-```
-3D-games/
-├── src/
-│   ├── components/      # 组件
-│   │   ├── AppHeader.vue
-│   │   ├── AppFooter.vue
-│   │   └── GameGrid.vue
-│   ├── views/          # 页面
-│   │   ├── HomeView.vue
-│   │   ├── GameDetailView.vue  # 游戏详情页（含评论评分）
-│   │   └── admin/      # 管理员后台
-│   │       ├── Login.vue
-│   │       └── CommentRatingManagement.vue
-│   ├── services/       # API 服务
-│   │   └── api.js
-│   ├── data/          # 游戏数据
-│   │   └── games.js
-│   └── router/        # 路由配置
-│       └── index.js
-└── public/            # 静态资源
-    └── images/
-        └── games/
-```
+## 🔌 后端支持
 
-## 🎮 功能特性
+项目包含完整的后端 API 服务（位于 `3D-games-API` 目录），提供评论评分系统的数据存储和管理功能。
 
-- ✅ 游戏列表展示（支持大图/小图）
-- ✅ 游戏详情页（含 iframe 游戏播放）
-- ✅ 评论和评分系统
-- ✅ 管理员后台（评论管理）
-- ✅ 响应式设计
-- ✅ 卡哇伊风格 UI
+## 📄 许可证
 
-## 🔗 路由
-
-- `/` - 首页
-- `/games/:addressBar` - 游戏详情页
-- `/admin/login` - 管理员登录
-- `/admin/dashboard` - 管理员后台
-
-## 🔌 后端 API
-
-后端 API 位于 `3D-games-API` 目录，详细说明请查看该目录的 README.md。
-
-## 📝 游戏数据格式
-
-在 `src/data/games.js` 中配置游戏数据：
-
-```javascript
-{
-  id: 1,
-  title: "Game Title",
-  description: "Game description",
-  publishDate: "2025-01-15",
-  addressBar: "game-url-slug",  // 用于 URL 和数据库标识
-  iframeUrl: "https://example.com/game",
-  imageUrl: "/images/games/game-01.webp",
-  imageAlt: "Game image alt text",
-  size: "large",  // "large" 或 "small"
-  seo: {
-    title: "Game SEO Title",
-    description: "Game SEO description",
-    keywords: "game, keywords"
-  },
-  categories: ["shooting"],
-  detailsHtml: "<h3>Game Details</h3><p>...</p>"
-}
-```
-
-## 🎨 样式
-
-项目采用卡哇伊风格，使用柔和的粉色、紫色和蓝色渐变背景。
+本项目采用 MIT 许可证。

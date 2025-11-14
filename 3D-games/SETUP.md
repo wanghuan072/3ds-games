@@ -25,14 +25,7 @@
    cp env.example .env
    ```
    
-   编辑 `.env` 文件，设置：
-   ```env
-   PROJECT_PREFIX=3d_games
-   DATABASE_URL=your_neon_database_connection_string
-   JWT_SECRET=your-secret-key-change-this
-   FRONTEND_URL=http://localhost:5173
-   PORT=3000
-   ```
+   编辑 `.env` 文件，设置数据库连接和其他配置项。
 
 4. **初始化数据库**
    ```bash
@@ -64,12 +57,12 @@
    ```bash
    # Windows PowerShell
    Copy-Item .env.example .env.local
+   
+   # Linux/Mac
+   cp .env.example .env.local
    ```
    
-   编辑 `.env.local` 文件：
-   ```env
-   VITE_API_BASE_URL=http://localhost:3000
-   ```
+   编辑 `.env.local` 文件，设置后端 API 地址。
 
 4. **启动开发服务器**
    ```bash
@@ -82,7 +75,7 @@
 
 1. **检查后端 API**
    - 访问 `http://localhost:3000/health`
-   - 应该看到 `{"status":"OK",...}`
+   - 应该看到服务器状态信息
 
 2. **检查前端**
    - 访问 `http://localhost:5173`
@@ -90,78 +83,49 @@
 
 3. **测试游戏详情页**
    - 点击任意游戏卡片
-   - 应该跳转到 `/games/{addressBar}` 页面
+   - 应该跳转到游戏详情页面
    - 右侧应该显示评论和评分表单
 
 4. **测试管理员后台**
-   - 访问 `http://localhost:5173/admin/login`
-   - 使用默认账户登录：
-     - 用户名: `admin`
-     - 密码: `admin123`
+   - 访问管理员登录页面
+   - 使用默认账户登录
    - 登录后应该跳转到管理后台
-
-## 🔧 配置说明
-
-### 后端配置（3D-games-API/.env）
-
-- `PROJECT_PREFIX`: 项目前缀，用于数据库表名（默认：`3d_games`）
-- `DATABASE_URL`: Neon PostgreSQL 数据库连接字符串
-- `JWT_SECRET`: JWT 密钥（生产环境请使用强密钥）
-- `FRONTEND_URL`: 前端地址（用于 CORS）
-- `PORT`: 后端端口（默认：3000）
-
-### 前端配置（3D-games/.env.local）
-
-- `VITE_API_BASE_URL`: 后端 API 地址
-
-## 📝 游戏数据配置
-
-编辑 `3D-games/src/data/games.js` 添加或修改游戏数据。
-
-每个游戏需要包含：
-- `addressBar`: 用于 URL 和数据库标识（重要！）
-- `title`: 游戏标题
-- `imageUrl`: 游戏封面图
-- `iframeUrl`: 游戏 iframe 地址
-- `detailsHtml`: 游戏详情 HTML
-- `size`: "large" 或 "small"（大图/小图）
 
 ## 🎯 默认账户
 
 - **管理员用户名**: `admin`
 - **管理员密码**: `admin123`
-- **项目前缀**: `3d_games`
 
 ⚠️ **重要**: 生产环境部署后请立即修改默认密码！
-
-## 🌐 部署
-
-### 后端部署（Vercel）
-
-1. 在 Vercel 中导入 `3D-games-API` 项目
-2. 配置环境变量
-3. 部署
-
-### 前端部署（Vercel）
-
-1. 在 Vercel 中导入 `3D-games` 项目
-2. 配置环境变量 `VITE_API_BASE_URL` 为后端地址
-3. 部署
 
 ## 🐛 常见问题
 
 ### 数据库连接失败
-- 检查 `DATABASE_URL` 是否正确
+- 检查数据库连接字符串是否正确
 - 确保数据库允许外部连接
+- 检查数据库服务是否正常运行
 
 ### API 请求失败
-- 检查后端是否运行在 `http://localhost:3000`
-- 检查前端 `.env.local` 中的 `VITE_API_BASE_URL`
-- 检查浏览器控制台是否有 CORS 错误
+- 检查后端是否正常运行
+- 检查前端环境变量配置
+- 检查浏览器控制台是否有错误信息
 
 ### 管理员无法登录
-- 检查数据库是否已初始化（运行 `npm run init-db`）
-- 检查 `PROJECT_PREFIX` 是否匹配
-- 检查数据库表中是否有管理员账户
+- 检查数据库是否已初始化
+- 检查项目前缀配置是否匹配
+- 验证用户名和密码是否正确
 
+### 游戏图片不显示
+- 检查图片路径是否正确
+- 确认图片文件是否存在
+- 检查图片文件名是否与配置一致
 
+### 站点地图未生成
+- 运行站点地图生成命令
+- 检查生成的文件是否存在
+- 确认所有路由配置正确
+
+## 📚 相关文档
+
+- 前端项目：查看 `README.md` 了解项目详情
+- 后端 API：查看 `3D-games-API/README.md` 了解 API 文档
