@@ -83,6 +83,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0 24px;
+  align-items: flex-start;
 }
 
 /* 右侧内容区域 */

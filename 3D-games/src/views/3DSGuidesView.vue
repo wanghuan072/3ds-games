@@ -14,7 +14,7 @@
                 <span class="badge-text">NINTENDO</span>
                 <span class="badge-accent">3DS</span>
               </div>
-              <h1 class="title-main">3DS Game Guides</h1>
+              <h1 class="title-main">Best 3DS Games Recommendations</h1>
               <h2 class="title-subtitle">Curated Best 3DS Games for Stereoscopic 3D Adventure</h2>
               <p class="hero-description">
                 Explore the finest collection of Nintendo 3DS games, from epic RPGs and thrilling action-adventure titles to puzzle games and platformers. Our carefully curated guides help you master every challenge, unlock hidden secrets, and fully experience the magic of glasses-free 3D gaming. Whether you're seeking timeless classics or discovering new favorites, find comprehensive walkthroughs, expert strategies, and detailed tips to enhance your 3DS gaming journey.
@@ -62,7 +62,7 @@
               <div class="section-header-left">
                 <div class="section-icon">⭐</div>
                 <div>
-                  <h2 class="section-title">All 3DS Games Guides</h2>
+                  <h2 class="section-title">All 3DS Games</h2>
                   <p class="section-subtitle">Complete guides for all Nintendo 3DS games</p>
                 </div>
               </div>
@@ -203,7 +203,7 @@ function navigateToGuide(addressBar) {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }

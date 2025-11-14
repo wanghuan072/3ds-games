@@ -4,7 +4,7 @@
       <div class="page-layout" :class="{ 'page-fullscreen-layout': isPageFullscreen }">
         <!-- 左侧分类导航 -->
         <SidebarNav v-if="!isPageFullscreen" />
-        
+
         <!-- 右侧主要内容 -->
         <div class="content-area">
           <div class="game-detail-wrapper">
@@ -19,152 +19,205 @@
 
             <!-- 详情主体 -->
             <div v-else class="layout" :class="{ 'page-fullscreen-layout': isPageFullscreen }">
-      <!-- 左列：主内容 -->
-      <section class="main" :class="{ 'page-fullscreen': isPageFullscreen }">
-        <div class="player">
-          <!-- 预览蒙版（点击后显示 iframe） -->
-          <div v-if="!showGameplay" class="preview" @click="toggleGameplay">
-            <div class="preview-bg" :style="{ backgroundImage: `url(${game.imageUrl})` }">
-              <div class="preview-overlay">
-                <div class="icon">
-                  <img :src="game.imageUrl" :alt="game.imageAlt || game.title" />
+              <!-- 左列：主内容 -->
+              <section class="main" :class="{ 'page-fullscreen': isPageFullscreen }">
+                <div class="player">
+                  <!-- 预览蒙版（点击后显示 iframe） -->
+                  <div v-if="!showGameplay" class="preview" @click="toggleGameplay">
+                    <div class="preview-bg" :style="{ backgroundImage: `url(${game.imageUrl})` }">
+                      <div class="preview-overlay">
+                        <div class="icon">
+                          <img :src="game.imageUrl" :alt="game.imageAlt || game.title" />
+                        </div>
+                        <button class="play">PLAY</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 游戏 iframe -->
+                  <div v-else class="iframe-wrap">
+                    <iframe
+                      ref="gameIframe"
+                      :src="game.iframeUrl"
+                      title="game"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
-                <button class="play">PLAY</button>
-              </div>
-            </div>
-          </div>
 
-          <!-- 游戏 iframe -->
-          <div v-else class="iframe-wrap">
-            <iframe
-              ref="gameIframe"
-              :src="game.iframeUrl"
-              title="game"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-
-        <!-- 操作栏 -->
-        <div class="controls">
-          <div class="title">{{ game.title }}</div>
-          <div class="actions">
-            <button
-              class="btn"
-              :disabled="!showGameplay"
-              @click="toggleFullscreen"
-              title="Fullscreen"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="15 3 21 3 21 9"></polyline>
-                <polyline points="9 21 3 21 3 15"></polyline>
-                <line x1="21" y1="3" x2="14" y2="10"></line>
-                <line x1="3" y1="21" x2="10" y2="14"></line>
-              </svg>
-            </button>
-            <button
-              class="btn"
-              :disabled="!showGameplay"
-              @click="togglePageFullscreen"
-              title="Page Fullscreen"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- About 内容 -->
-        <article class="about">
-          <div class="details-html" v-html="game.detailsHtml"></div>
-        </article>
-      </section>
-
-      <!-- 右列：评分/评论 -->
-      <aside class="sidebar" v-if="!isPageFullscreen">
-        <!-- 评分概览 -->
-        <div class="panel">
-          <h3 class="panel-title">Rating Overview</h3>
-          <div v-if="loadingData" class="loading-text">Loading...</div>
-          <div v-else class="summary-row">
-            <div class="summary-score">{{ Number(averageRating).toFixed(1) }}</div>
-            <div class="summary-stars">
-              <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= Math.round(averageRating) }">★</span>
-            </div>
-            <div class="summary-count">{{ ratingStats.count }} ratings</div>
-          </div>
-          
-          <!-- 评分分布 -->
-          <div v-if="!loadingData && ratingStats.count > 0" class="rating-distribution">
-            <div v-for="n in 5" :key="n" class="rating-bar">
-              <span class="rating-label">{{ n }}★</span>
-              <div class="bar-container">
-                <div class="bar" :style="{ width: getRatingPercentage(n) + '%' }"></div>
-              </div>
-              <span class="rating-count">{{ getRatingCount(n) }}</span>
-            </div>
-          </div>
-          <div v-else-if="!loadingData && ratingStats.count === 0" class="no-ratings">
-            <p class="muted small">No rating data available</p>
-          </div>
-        </div>
-
-        <!-- 写评论 -->
-        <div class="panel">
-          <h3 class="panel-title">Write Your Review</h3>
-          <div class="field">
-            <label class="label">Nickname <span class="req">*</span></label>
-            <input class="input" type="text" v-model="form.nickname" placeholder="Enter your nickname" />
-          </div>
-          <div class="field">
-            <label class="label">Rating <span class="req">*</span></label>
-            <div class="stars-input">
-              <span
-                v-for="n in 5"
-                :key="n"
-                class="star"
-                :class="{ filled: n <= form.rating, hover: n <= hoverRating && hoverRating > 0 }"
-                @click="selectRating(n)"
-                @mouseenter="hoverRating = n"
-                @mouseleave="hoverRating = 0"
-              >{{ n <= (hoverRating || form.rating) ? '★' : '☆' }}</span>
-            </div>
-            <div v-if="form.rating > 0" class="rating-selected">Selected {{ form.rating }} star rating</div>
-          </div>
-          <div class="field">
-            <label class="label">Comment <span class="req">*</span></label>
-            <textarea class="textarea" rows="4" v-model="form.comment" maxlength="1000" placeholder="Share your thoughts..."></textarea>
-            <div class="hint">{{ form.comment.length }}/1000</div>
-          </div>
-          <button class="btn wide" @click="submitReview" :disabled="submitting || !form.nickname || !form.comment || !form.rating">
-            {{ submitting ? 'Submitting...' : 'Submit Review' }}
-          </button>
-        </div>
-
-        <!-- 评论列表 -->
-        <div class="panel">
-          <h3 class="panel-title">All Reviews ({{ reviews.length }})</h3>
-          <div v-if="loadingData" class="loading-text">Loading...</div>
-          <div v-else-if="reviews.length === 0" class="no-reviews">No reviews yet, be the first to review!</div>
-          <ul v-else class="reviews">
-            <li v-for="r in reviews" :key="r.id" class="review-item">
-              <div class="review-head">
-                <span class="review-name">{{ r.name }}</span>
-                <span class="review-date">{{ formatDate(r.timestamp) }}</span>
-              </div>
-              <div v-if="r.rating" class="review-rating">
-                <span class="review-rating-label">Rating:</span>
-                <div class="review-stars">
-                  <span v-for="n in 5" :key="n" class="star" :class="{ filled: n <= r.rating }">★</span>
+                <!-- 操作栏 -->
+                <div class="controls">
+                  <div class="title">{{ game.title }}</div>
+                  <div class="actions">
+                    <button
+                      class="btn"
+                      :disabled="!showGameplay"
+                      @click="toggleFullscreen"
+                      title="Fullscreen"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <polyline points="9 21 3 21 3 15"></polyline>
+                        <line x1="21" y1="3" x2="14" y2="10"></line>
+                        <line x1="3" y1="21" x2="10" y2="14"></line>
+                      </svg>
+                    </button>
+                    <button
+                      class="btn"
+                      :disabled="!showGameplay"
+                      @click="togglePageFullscreen"
+                      title="Page Fullscreen"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
-              </div>
-              <p class="review-text">{{ r.text }}</p>
-            </li>
-          </ul>
-        </div>
-      </aside>
+
+                <!-- About 内容 -->
+                <article class="about">
+                  <div class="details-html" v-html="game.detailsHtml"></div>
+                </article>
+              </section>
+
+              <!-- 右列：评分/评论 -->
+              <aside class="sidebar" v-if="!isPageFullscreen">
+                <!-- 评分概览 -->
+                <div class="panel">
+                  <h3 class="panel-title">Rating Overview</h3>
+                  <div v-if="loadingData" class="loading-text">Loading...</div>
+                  <div v-else class="summary-row">
+                    <div class="summary-score">{{ Number(averageRating).toFixed(1) }}</div>
+                    <div class="summary-stars">
+                      <span
+                        v-for="n in 5"
+                        :key="n"
+                        class="star"
+                        :class="{ filled: n <= Math.round(averageRating) }"
+                        >★</span
+                      >
+                    </div>
+                    <div class="summary-count">{{ ratingStats.count }} ratings</div>
+                  </div>
+
+                  <!-- 评分分布 -->
+                  <div v-if="!loadingData && ratingStats.count > 0" class="rating-distribution">
+                    <div v-for="n in 5" :key="n" class="rating-bar">
+                      <span class="rating-label">{{ n }}★</span>
+                      <div class="bar-container">
+                        <div class="bar" :style="{ width: getRatingPercentage(n) + '%' }"></div>
+                      </div>
+                      <span class="rating-count">{{ getRatingCount(n) }}</span>
+                    </div>
+                  </div>
+                  <div v-else-if="!loadingData && ratingStats.count === 0" class="no-ratings">
+                    <p class="muted small">No rating data available</p>
+                  </div>
+                </div>
+
+                <!-- 写评论 -->
+                <div class="panel">
+                  <h3 class="panel-title">Write Your Review</h3>
+                  <div class="field">
+                    <label class="label">Nickname <span class="req">*</span></label>
+                    <input
+                      class="input"
+                      type="text"
+                      v-model="form.nickname"
+                      placeholder="Enter your nickname"
+                    />
+                  </div>
+                  <div class="field">
+                    <label class="label">Rating <span class="req">*</span></label>
+                    <div class="stars-input">
+                      <span
+                        v-for="n in 5"
+                        :key="n"
+                        class="star"
+                        :class="{
+                          filled: n <= form.rating,
+                          hover: n <= hoverRating && hoverRating > 0,
+                        }"
+                        @click="selectRating(n)"
+                        @mouseenter="hoverRating = n"
+                        @mouseleave="hoverRating = 0"
+                        >{{ n <= (hoverRating || form.rating) ? '★' : '☆' }}</span
+                      >
+                    </div>
+                    <div v-if="form.rating > 0" class="rating-selected">
+                      Selected {{ form.rating }} star rating
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Comment <span class="req">*</span></label>
+                    <textarea
+                      class="textarea"
+                      rows="4"
+                      v-model="form.comment"
+                      maxlength="1000"
+                      placeholder="Share your thoughts..."
+                    ></textarea>
+                    <div class="hint">{{ form.comment.length }}/1000</div>
+                  </div>
+                  <button
+                    class="btn wide"
+                    @click="submitReview"
+                    :disabled="submitting || !form.nickname || !form.comment || !form.rating"
+                  >
+                    {{ submitting ? 'Submitting...' : 'Submit Review' }}
+                  </button>
+                </div>
+
+                <!-- 评论列表 -->
+                <div class="panel">
+                  <h3 class="panel-title">All Reviews ({{ reviews.length }})</h3>
+                  <div v-if="loadingData" class="loading-text">Loading...</div>
+                  <div v-else-if="reviews.length === 0" class="no-reviews">
+                    No reviews yet, be the first to review!
+                  </div>
+                  <ul v-else class="reviews">
+                    <li v-for="r in reviews" :key="r.id" class="review-item">
+                      <div class="review-head">
+                        <span class="review-name">{{ r.name }}</span>
+                        <span class="review-date">{{ formatDate(r.timestamp) }}</span>
+                      </div>
+                      <div v-if="r.rating" class="review-rating">
+                        <span class="review-rating-label">Rating:</span>
+                        <div class="review-stars">
+                          <span
+                            v-for="n in 5"
+                            :key="n"
+                            class="star"
+                            :class="{ filled: n <= r.rating }"
+                            >★</span
+                          >
+                        </div>
+                      </div>
+                      <p class="review-text">{{ r.text }}</p>
+                    </li>
+                  </ul>
+                </div>
+              </aside>
             </div>
           </div>
         </div>
@@ -190,7 +243,7 @@ const gameIframe = ref(null)
 const game = computed(() => games.find((g) => g.addressBar === route.params.addressBar))
 
 const reviews = ref([])
-const ratingStats = ref({ average: 0, count: 0, ratings: { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 } })
+const ratingStats = ref({ average: 0, count: 0, ratings: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 } })
 const submitting = ref(false)
 const loadingData = ref(false)
 const form = ref({ nickname: '', rating: 0, comment: '' })
@@ -249,7 +302,7 @@ const loadData = async () => {
   try {
     const [commentsData, ratingsData] = await Promise.all([
       commentAPI.getComments(game.value.addressBar),
-      ratingAPI.getRatings(game.value.addressBar)
+      ratingAPI.getRatings(game.value.addressBar),
     ])
     reviews.value = commentsData || []
     ratingStats.value = ratingsData || { average: 0, count: 0 }
@@ -275,7 +328,7 @@ async function submitReview() {
       name: form.value.nickname,
       email: undefined,
       text: form.value.comment,
-      rating: form.value.rating
+      rating: form.value.rating,
     }
     await commentAPI.submitComment(commentData)
     await loadData()
@@ -295,7 +348,6 @@ async function submitReview() {
 function selectRating(n) {
   form.value.rating = n
 }
-
 
 function toggleGameplay() {
   showGameplay.value = !showGameplay.value
