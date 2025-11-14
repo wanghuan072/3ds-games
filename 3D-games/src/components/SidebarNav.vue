@@ -153,8 +153,9 @@ const closeSidebar = () => {
 }
 
 .nav-wrapper {
+  position: -webkit-sticky; /* Safari 兼容 */
   position: sticky;
-  top: 96px; /* 头部高度 + 间距 */
+  top: 80px; /* 头部高度 */
   background: rgba(17, 24, 39, 0.9);
   border-radius: 12px;
   padding: 18px;
@@ -162,9 +163,9 @@ const closeSidebar = () => {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 20px 40px rgba(5, 5, 5, 0.35);
   backdrop-filter: blur(12px);
-  align-self: flex-start;
   height: fit-content;
-  max-height: calc(100vh - 96px);
+  max-height: calc(100vh - 80px);
+  will-change: transform;
 }
 
 .nav-header {

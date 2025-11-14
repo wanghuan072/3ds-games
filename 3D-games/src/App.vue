@@ -72,8 +72,10 @@ body {
 }
 
 .main-content {
+  flex: 1;
   padding-bottom: 32px;
   background: transparent;
+  min-height: 0;
 }
 
 /* 页面布局 - 左侧导航 + 右侧内容 */
