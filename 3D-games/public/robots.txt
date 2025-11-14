@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3dsgames.com/sitemap.xml
+
