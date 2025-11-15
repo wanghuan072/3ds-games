@@ -186,11 +186,55 @@ const router = createRouter({
         }
       }
     },
+    // 管理员路由
+    {
+      path: '/admin/login',
+      name: 'admin-login',
+      component: () => import('../views/admin/Login.vue'),
+      meta: {
+        seo: {
+          title: 'Admin Login | 3dsgames.com',
+          description: 'Administrator login page',
+          keywords: 'admin login'
+        }
+      }
+    },
+    {
+      path: '/admin/dashboard',
+      name: 'admin-dashboard',
+      component: () => import('../views/admin/CommentRatingManagement.vue'),
+      meta: {
+        requiresAuth: true,
+        seo: {
+          title: 'Admin Dashboard | 3dsgames.com',
+          description: 'Administrator dashboard',
+          keywords: 'admin dashboard'
+        }
+      }
+    },
   ],
 })
 
-// 全局路由守卫 - 处理SEO
+// 全局路由守卫 - 处理SEO和认证
 router.beforeEach((to, from, next) => {
+  // 管理员路由认证检查
+  if (to.meta.requiresAuth) {
+    const token = localStorage.getItem('adminToken')
+    if (!token) {
+      next({ name: 'admin-login' })
+      return
+    }
+  }
+
+  // 已登录用户访问登录页，重定向到管理后台
+  if (to.name === 'admin-login') {
+    const token = localStorage.getItem('adminToken')
+    if (token) {
+      next({ name: 'admin-dashboard' })
+      return
+    }
+  }
+
   // 设置canonical URL
   const canonicalUrl = buildCanonicalUrl(to.path)
   setCanonicalUrl(canonicalUrl)
