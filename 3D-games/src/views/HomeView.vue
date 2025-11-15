@@ -1,7 +1,6 @@
 <template>
-    <div class="app-container">
-        <main class="main-content">
-            <div class="page-layout">
+    <main class="main-content">
+        <div class="page-layout">
                 <!-- 左侧分类导航 -->
                 <SidebarNav />
 
@@ -129,7 +128,6 @@
                 </div>
             </div>
         </main>
-    </div>
 </template>
 
 <script setup>

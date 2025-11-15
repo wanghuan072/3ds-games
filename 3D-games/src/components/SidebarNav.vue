@@ -100,6 +100,10 @@ const closeSidebar = () => {
   width: 220px;
   flex-shrink: 0;
   align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  z-index: 5;
 }
 
 /* 移动端汉堡按钮 */
@@ -153,19 +157,17 @@ const closeSidebar = () => {
 }
 
 .nav-wrapper {
-  position: -webkit-sticky; /* Safari 兼容 */
-  position: sticky;
-  top: 80px; /* 头部高度 */
   background: rgba(17, 24, 39, 0.9);
   border-radius: 12px;
   padding: 18px;
   border: 1px solid rgba(248, 191, 36, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 20px 40px rgba(5, 5, 5, 0.35);
-  backdrop-filter: blur(12px);
-  height: fit-content;
-  max-height: calc(100vh - 80px);
-  will-change: transform;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav-header {
@@ -330,6 +332,7 @@ const closeSidebar = () => {
   .sidebar-nav {
     width: 0;
     flex-shrink: 0;
+    position: static;
   }
 
   .nav-wrapper {
@@ -342,6 +345,7 @@ const closeSidebar = () => {
   .sidebar-nav {
     width: 0;
     flex-shrink: 0;
+    position: static;
   }
 
   /* 显示移动端汉堡按钮 */

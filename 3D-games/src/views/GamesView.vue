@@ -1,37 +1,35 @@
 <template>
-  <div class="app-container">
-    <main class="main-content">
-      <div class="page-layout">
-        <SidebarNav />
-        <div class="content-area">
-          <section class="page-section">
-            <div class="page-wrapper">
-              <h1 class="title-h1">All Games</h1>
-              <p class="page-description">
-                Discover our complete collection of 3D games. Filter by category to find your
-                favorite games.
-              </p>
+  <main class="main-content">
+    <div class="page-layout">
+      <SidebarNav />
+      <div class="content-area">
+        <section class="page-section">
+          <div class="page-wrapper">
+            <h1 class="title-h1">All Games</h1>
+            <p class="page-description">
+              Discover our complete collection of 3D games. Filter by category to find your
+              favorite games.
+            </p>
 
-              <!-- 分类筛选栏 -->
-              <div class="categories-filter">
-                <button
-                  v-for="cat in categoryOptions"
-                  :key="cat.value || 'all'"
-                  :class="['category-btn', { active: selectedCategory === cat.value }]"
-                  @click="handleCategorySelect(cat.value)"
-                >
-                  {{ cat.name }}
-                </button>
-              </div>
-
-              <!-- 游戏列表 -->
-              <GameGrid :category="selectedCategory" :show-title="false" />
+            <!-- 分类筛选栏 -->
+            <div class="categories-filter">
+              <button
+                v-for="cat in categoryOptions"
+                :key="cat.value || 'all'"
+                :class="['category-btn', { active: selectedCategory === cat.value }]"
+                @click="handleCategorySelect(cat.value)"
+              >
+                {{ cat.name }}
+              </button>
             </div>
-          </section>
-        </div>
+
+            <!-- 游戏列表 -->
+            <GameGrid :category="selectedCategory" :show-title="false" />
+          </div>
+        </section>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 </template>
 
 <script setup>

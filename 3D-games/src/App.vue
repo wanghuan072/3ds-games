@@ -19,11 +19,10 @@ import AppFooter from '@/components/AppFooter.vue'
 }
 
 html {
-  font-size: 16px; /* 基础字体大小 */
+  font-size: 16px;
   scroll-behavior: smooth;
   width: 100%;
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 :root {
@@ -49,7 +48,7 @@ body {
   background: radial-gradient(circle at top, rgba(245, 158, 11, 0.12), transparent 45%),
     var(--color-bg-base);
   min-height: 100vh;
-  overflow-x: hidden; /* 防止水平滚动条 */
+  overflow-y: auto;
   width: 100%;
   max-width: 100vw;
   position: relative;
@@ -68,14 +67,12 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 .main-content {
-  flex: 1;
+  flex: 1 0 auto;
   padding-bottom: 32px;
   background: transparent;
-  min-height: 0;
 }
 
 /* 页面布局 - 左侧导航 + 右侧内容 */
@@ -187,8 +184,17 @@ body {
 
 /* 移动端 - 768px */
 @media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     line-height: 1.2;
+    overflow-x: hidden;
+  }
+
+  .app-container {
+    overflow-x: hidden;
   }
 
   .main-content {
