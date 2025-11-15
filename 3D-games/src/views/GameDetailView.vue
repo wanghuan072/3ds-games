@@ -232,7 +232,6 @@ import { useRoute } from 'vue-router'
 import SidebarNav from '@/components/SidebarNav.vue'
 import { games } from '@/data/games.js'
 import { commentAPI, ratingAPI } from '@/services/api.js'
-import { formatDate } from '@/utils/helpers.js'
 
 const route = useRoute()
 const loading = ref(true)
@@ -256,6 +255,18 @@ const averageRating = computed(() => {
   const avg = ratingStats.value.average
   return typeof avg === 'number' ? avg : 0
 })
+
+function formatDate(dateString) {
+  try {
+    return new Date(dateString).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+  } catch (e) {
+    return dateString
+  }
+}
 
 function getRatingCount(rating) {
   return ratingStats.value.ratings?.[String(rating)] || 0
