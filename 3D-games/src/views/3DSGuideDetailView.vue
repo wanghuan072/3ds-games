@@ -26,7 +26,12 @@
             <section class="game-header">
               <div class="game-header-content">
                 <div class="game-cover">
-                  <img :src="game.imageUrl" :alt="game.imageAlt || game.title" />
+                  <img 
+                    :src="game.imageUrl" 
+                    :alt="game.imageAlt || game.title"
+                    fetchpriority="high"
+                    loading="eager"
+                  />
                   <div class="cover-overlay">
                     <div class="rating-badge-large">
                       <span class="rating-icon">★</span>

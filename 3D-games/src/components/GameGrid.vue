@@ -10,7 +10,7 @@
 
     <div class="games-grid">
       <div
-        v-for="game in filteredGames"
+        v-for="(game, index) in filteredGames"
         :key="game.id"
         :class="['game-card', game.size === 'large' ? 'game-card-large' : 'game-card-small']"
         @click="navigateToGame(game)"
@@ -32,7 +32,13 @@
             >New</span
           >
         </div>
-        <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" />
+        <img 
+          :src="game.imageUrl" 
+          :alt="game.imageAlt" 
+          class="game-image"
+          :fetchpriority="index === 0 ? 'high' : undefined"
+          :loading="index === 0 ? 'eager' : 'lazy'"
+        />
         <h3 class="game-title">{{ game.title }}</h3>
       </div>
     </div>

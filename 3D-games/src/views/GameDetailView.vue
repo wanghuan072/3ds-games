@@ -27,7 +27,12 @@
                     <div class="preview-bg" :style="{ backgroundImage: `url(${game.imageUrl})` }">
                       <div class="preview-overlay">
                         <div class="icon">
-                          <img :src="game.imageUrl" :alt="game.imageAlt || game.title" />
+                          <img 
+                            :src="game.imageUrl" 
+                            :alt="game.imageAlt || game.title"
+                            fetchpriority="high"
+                            loading="eager"
+                          />
                         </div>
                         <button class="play">PLAY</button>
                       </div>

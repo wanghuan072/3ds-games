@@ -17,7 +17,7 @@
             <!-- 游戏网格 -->
             <div v-if="filteredGames.length > 0" class="games-grid">
               <div
-                v-for="game in filteredGames"
+                v-for="(game, index) in filteredGames"
                 :key="`${game.gameType}-${game.id}-${game.addressBar}`"
                 class="game-card"
                 @click="navigateToGame(game)"
@@ -26,7 +26,13 @@
                   <span v-if="game.isHot" class="badge badge-hot">Hot</span>
                   <span v-if="game.isNew" class="badge badge-new">New</span>
                 </div>
-                <img :src="game.imageUrl" :alt="game.imageAlt" class="game-image" />
+                <img 
+                  :src="game.imageUrl" 
+                  :alt="game.imageAlt" 
+                  class="game-image"
+                  :fetchpriority="index === 0 ? 'high' : undefined"
+                  :loading="index === 0 ? 'eager' : 'lazy'"
+                />
                 <h3 class="game-title">{{ game.title }}</h3>
               </div>
             </div>

@@ -80,6 +80,8 @@
                     :src="game.imageUrl"
                     :alt="game.imageAlt || game.title"
                     class="card-image"
+                    :fetchpriority="index === 0 ? 'high' : undefined"
+                    :loading="index === 0 ? 'eager' : 'lazy'"
                   />
                   <div class="card-gradient-overlay"></div>
                   <div class="card-overlay-content">
