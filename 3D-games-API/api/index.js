@@ -24,12 +24,29 @@ const allowedOrigins = [
   'http://localhost:5173',  // 本地开发前端
   'http://localhost:5174',  // Vite备用端口
   'http://localhost:3000',  // 本地开发后端（如果需要）
+  'https://3dsgames.com',   // 生产环境前端域名
+  'https://www.3dsgames.com', // 生产环境前端域名（带www）
   process.env.FRONTEND_URL  // 环境变量中的前端地址
 ].filter(Boolean); // 过滤掉undefined值
 
 // 开发环境允许所有来源，生产环境使用限制的域名
 const corsOptions = {
-  origin: process.env.NODE_ENV === 'production' ? allowedOrigins : true,
+  origin: function (origin, callback) {
+    // 允许无origin的请求（如移动应用、Postman等）
+    if (!origin) return callback(null, true);
+    
+    // 开发环境允许所有来源
+    if (process.env.NODE_ENV !== 'production') {
+      return callback(null, true);
+    }
+    
+    // 生产环境检查是否在允许列表中
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('不允许的CORS来源'));
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
@@ -246,15 +263,19 @@ app.use((error, req, res, next) => {
   });
 });
 
-// 启动服务器
-app.listen(PORT, () => {
-  console.log(`🚀 游戏评论评分API已启动`);
-  console.log(`📡 端口: ${PORT}`);
-  console.log(`🌐 项目前缀: ${PROJECT_PREFIX}`);
-  console.log(`🔗 健康检查: http://localhost:${PORT}/health`);
-  console.log(`👤 管理员登录: http://localhost:${PORT}/admin/login`);
-  console.log(`📊 反馈管理: http://localhost:${PORT}/admin/feedback`);
-});
+// Vercel serverless functions 会自动处理请求，不需要 app.listen()
+// 只在非 Vercel 环境（本地开发）时启动服务器
+if (process.env.VERCEL !== '1') {
+  app.listen(PORT, () => {
+    console.log(`🚀 游戏评论评分API已启动`);
+    console.log(`📡 端口: ${PORT}`);
+    console.log(`🌐 项目前缀: ${PROJECT_PREFIX}`);
+    console.log(`🔗 健康检查: http://localhost:${PORT}/health`);
+    console.log(`👤 管理员登录: http://localhost:${PORT}/admin/login`);
+    console.log(`📊 反馈管理: http://localhost:${PORT}/admin/feedback`);
+  });
+}
 
+// 导出 app 供 Vercel serverless functions 使用
 export default app;
 
