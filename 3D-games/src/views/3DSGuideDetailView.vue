@@ -87,7 +87,6 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import SidebarNav from '@/components/SidebarNav.vue'
 import { nintendo3DSGames } from '@/data/3dsGames.js'
-import { formatDate, formatTagName } from '@/utils/helpers.js'
 
 const route = useRoute()
 const loading = ref(true)
@@ -101,6 +100,30 @@ onMounted(async () => {
     loading.value = false
   }, 300)
 })
+
+function formatDate(dateString, locale = 'en-US', options = {}) {
+  try {
+    const defaultOptions = {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      ...options
+    }
+    return new Date(dateString).toLocaleDateString(locale, defaultOptions)
+  } catch (e) {
+    return dateString
+  }
+}
+
+function formatTagName(tag) {
+  const tagMap = {
+    featured: 'Featured',
+    popular: 'Popular',
+    new: 'New',
+    classic: 'Classic'
+  }
+  return tagMap[tag] || tag.charAt(0).toUpperCase() + tag.slice(1)
+}
 
 function formatGameDate(dateString) {
   return formatDate(dateString, 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })
