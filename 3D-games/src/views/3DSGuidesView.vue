@@ -147,11 +147,20 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import SidebarNav from '@/components/SidebarNav.vue'
 import { nintendo3DSGames } from '@/data/3dsGames.js'
-import { formatTagNameForList } from '@/utils/helpers.js'
 
 const router = useRouter()
 
 const allGames = ref(nintendo3DSGames)
+
+function formatTagNameForList(tag) {
+  const tagMap = {
+    featured: 'Featured',
+    popular: 'Hot',
+    new: 'New',
+    classic: 'Classic'
+  }
+  return tagMap[tag] || tag.charAt(0).toUpperCase() + tag.slice(1)
+}
 
 function navigateToGuide(addressBar) {
   router.push({ name: '3ds-game-detail', params: { addressBar } })
