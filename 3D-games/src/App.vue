@@ -61,7 +61,6 @@ body {
   min-height: 100vh;
   background: linear-gradient(180deg, rgba(17, 24, 39, 0.82), rgba(5, 5, 5, 0.95));
   color: var(--color-text-primary);
-  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   position: relative;
   display: flex;
   flex-direction: column;

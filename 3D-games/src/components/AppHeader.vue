@@ -2,7 +2,7 @@
   <header class="site-header">
     <div class="header-content">
       <div class="logo">
-        <img src="/images/logo.png" alt="3D Games" />
+        <img src="/images/logo.webp" alt="3D Games" />
         <span class="brand-name">3D Games</span>
       </div>
 

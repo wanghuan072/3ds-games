@@ -4,7 +4,7 @@
       <!-- 左侧品牌区域 -->
       <div class="footer-brand">
         <div class="brand-logo">
-          <img src="/images/logo.png" alt="3D Games" />
+          <img src="/images/logo.webp" alt="3D Games" />
           <span class="brand-name">3D Games</span>
         </div>
         <p class="brand-description">

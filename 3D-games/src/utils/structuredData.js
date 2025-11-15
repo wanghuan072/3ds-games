@@ -1,11 +1,11 @@
 import { SITE_DOMAIN, defaultSocial } from './seoConfig.js'
 
 /**
- * 确保URL是绝对路径
+ * 确保URL是绝对路径（从 seo.js 提取的统一函数）
  * @param {string} pathOrUrl - 路径或URL
  * @returns {string} 绝对URL
  */
-function ensureUrl(pathOrUrl) {
+function ensureAbsoluteUrl(pathOrUrl) {
   if (!pathOrUrl) return SITE_DOMAIN
   if (/^https?:\/\//i.test(pathOrUrl)) return pathOrUrl
   const normalizedDomain = SITE_DOMAIN.replace(/\/$/, '')
@@ -19,7 +19,7 @@ const organization = {
   url: SITE_DOMAIN,
   logo: {
     '@type': 'ImageObject',
-    url: `${SITE_DOMAIN}/images/logo.png`,
+    url: `${SITE_DOMAIN}/images/logo.webp`,
   },
   sameAs: [
     `https://twitter.com/${defaultSocial.twitterSite.replace('@', '')}`,
@@ -59,7 +59,7 @@ export function buildWebPageData({ title, description, url }) {
     '@type': 'WebPage',
     name: title,
     description,
-    url: ensureUrl(url),
+    url: ensureAbsoluteUrl(url),
     publisher: organization,
     inLanguage: 'en-US',
   }
@@ -67,14 +67,14 @@ export function buildWebPageData({ title, description, url }) {
 
 export function buildVideoGameData(game, url) {
   if (!game) return null
-  const canonical = ensureUrl(url || `/games/${game.addressBar}`)
+  const canonical = ensureAbsoluteUrl(url || `/games/${game.addressBar}`)
   return {
     '@context': 'https://schema.org',
     '@type': 'VideoGame',
     name: game.title,
     description: game.description,
     url: canonical,
-    image: ensureUrl(game.imageUrl || defaultSocial.image),
+    image: ensureAbsoluteUrl(game.imageUrl || defaultSocial.image),
     gameRelease: game.publishDate,
     genre: Array.isArray(game.categories) ? game.categories : undefined,
     inLanguage: 'en-US',
