@@ -1903,7 +1903,7 @@ export const games = [
       keywords: "super mario bros, mario classic game, platform adventure, bowser, mushroom kingdom, retro mario, princess toadstool"
     },
     addressBar: "super-mario-bros",
-    categories: ['mario'], // 引用 categoriesGames 中的 id
+    categories: ['mario','kids'], // 引用 categoriesGames 中的 id
     size: "small",
     isHot: true,
     isNew: true,
@@ -2164,7 +2164,7 @@ export const games = [
       keywords: "Temple Run 2, temple, run, endless runner, mobile game, adventure, performance, optimization, download, free"
     },
     addressBar: "temple-run-2",
-    categories: ['adventure'],
+    categories: ['adventure','kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2220,7 +2220,7 @@ export const games = [
       keywords: "snow, road, 3D racing, snow racing game, stunt game, icy tracks, racing adventure, online game"
     },
     addressBar: "snow-road-3d",
-    categories: ['adventure'],
+    categories: ['adventure','sports','kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2533,7 +2533,7 @@ export const games = [
       keywords: "ski frenzy, ski game, endless runner, avalanche, azgames, skiing, snowboard, snow, escape game, adventure game"
     },
     addressBar: "ski-frenzy",
-    categories: ['adventure'],
+    categories: ['adventure','sports','kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2604,7 +2604,7 @@ export const games = [
       keywords: "jetski, race, water race, stunt, boat, racing game, online game, azgames, free game, jetski game"
     },
     addressBar: "jetski-race",
-    categories: ['adventure'],
+    categories: ['adventure', 'sports'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2728,7 +2728,7 @@ export const games = [
       keywords: "stickman racing, racing game, parkour, skill game, online game, free game, challenging game"
     },
     addressBar: "stickman-racing",
-    categories: ['adventure'],
+    categories: ['adventure','kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2890,6 +2890,634 @@ export const games = [
 
   <p>Slope 3 is more than just a game; it's a test of skill, precision, and reflexes. With its vibrant neon visuals, challenging tracks, and addictive gameplay, Slope 3 offers an unparalleled experience for fans of endless runners. Take a deep breath, brace yourself, and prepare to roll your way to the top of the leaderboard!</p>
 </div>`,
+  },
+
+  {
+    id: 46,
+    title: "Dunk Dash",
+    iframeUrl: "https://game.azgame.io/dunk-dash/",
+    description: "Experience the thrill of Dunk Dash! A fast-paced basketball game where stylish slam dunks and quick matches define victory. Dribble, dunk, and score your way to the top in this astonishing 3D court action. Customize your players and dominate the game!",
+    tags: ["basketball","dunk","dash","slam dunk","3D sports game"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game46.webp",
+    imageAlt: "Action shot from Dunk Dash game, showing a player performing a slam dunk.",
+    seo: {
+      title: "Dunk Dash - Fast-Paced Basketball Game Online",
+      description: "Dunk Dash delivers adrenaline-pumping basketball action! Dribble, dunk, and score in fast matches with stunning 3D graphics. Customize your players and courts!",
+      keywords: "Dunk Dash, basketball game, slam dunk, fast-paced game, 3D basketball, sports game, dribble, score, customize players"
+    },
+    addressBar: "dunk-dash",
+    categories: ['sports'],
+    size: "large",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `
+    <h2 style="font-size: 1.5em; font-weight: bold;">Dunk Dash: Dribble, Dunk, and Dominate the Court!</h2>
+<p style="margin: 1em 0px;">
+    Step onto the court and experience the electrifying world of Dunk Dash, a fast-paced basketball game that's all about quick matches and gravity-defying slam dunks! Grab the ball, showcase your skillful dribbling, leap towards the hoop, and dunk your way to ultimate victory. Feel the rush of the crowd as you execute stylish dunks and become the undisputed champion of the court!
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">Fast-Paced and Chaotic Gameplay</h3>
+<p style="margin: 1em 0px;">
+    Dunk Dash plunges you into the heart of exhilarating basketball action. The objective is simple yet engaging: score as many baskets as possible by running and shooting, aiming to outscore your opponent. Unlike traditional basketball games that reward three-point shots, Dunk Dash emphasizes the thrill of the slam dunk. Dribble past your rivals and unleash cool, screen-shaking dunks to claim victory!
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">Master the Art of Dribbling and Dunking</h3>
+<p style="margin: 1em 0px;">
+    The key to success in Dunk Dash lies in your ability to dribble the ball effectively and execute flawless dunks. As soon as the match begins, seize the ball or snatch it from your opponent. Once you have possession, sprint towards the opposing team's basket, focusing on penetrating the painted area. Getting close to the rim is crucial. Continue running until you are directly under or just in front of the hoop. Your player will automatically jump and perform a spectacular dunk once you're within range. Watch the awe-inspiring slam and revel in the points you've earned!
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">
+    <img src="https://res.cloudinary.com/dnxfdv3fs/image/upload/v1763346837/cms-uploads/cms-1763346837520-206209829.webp" alt="Dunk Dash Game" width="50%" style="width: 50%;">
+</h3>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">Stay Alert and Defend Your Turf</h3>
+<p style="margin: 1em 0px;">
+    In Dunk Dash, the competition is fierce, and your opponent will stop at nothing to steal the ball from you. Expect them to chase you relentlessly and attempt to regain possession. If the ball is stolen, don't lose heart! Immediately sprint after your opponent, striving to catch up before they reach your basket. Employ sharp, swift swipes to outmaneuver them and reclaim the ball.
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">Game Controls: Simple and Intuitive</h3>
+<p style="margin: 1em 0px;">
+    Dunk Dash offers straightforward controls that allow you to focus on the action. Use the arrow keys to control your character's movements or simply slide your finger across the screen to move around the court.
+</p>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">Key Features That Set Dunk Dash Apart</h3>
+<ol>
+    <li data-list="bullet">
+        <span contenteditable="false"></span>
+        <strong>Astonishing Atmosphere:</strong> Immerse yourself in fast-paced basketball gameplay set in a visually stunning environment.
+    </li>
+    <li data-list="bullet">
+        <span contenteditable="false"></span>
+        <strong>Unleash Cool Slam Dunks:</strong> Execute awe-inspiring, screen-shaking slam dunks that will leave your opponents in disbelief.
+    </li>
+    <li data-list="bullet">
+        <span contenteditable="false"></span>
+        <strong>Stunning 3D Graphics:</strong> Experience the game with breathtaking 3D visuals and true-to-life court action.
+    </li>
+    <li data-list="bullet">
+        <span contenteditable="false"></span>
+        <strong>Customize Your Style:</strong> Personalize your players, balls, and courts to reflect your unique style and personality.
+    </li>
+</ol>
+
+<h3 style="font-size: 1.17em; font-weight: bold;">FAQ</h3>
+<ol>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>How do I score in Dunk Dash?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Your main objective is to score by running and shooting baskets. Focus on performing frequent slam dunks for maximum points.
+    </li>
+
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>What are the game controls?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Use the arrow keys to control your character's movements, or slide your finger across the screen to move.
+    </li>
+
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>Can my opponent steal the ball?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Yes, your opponent can steal the ball from you, so stay alert and protect your possession.
+    </li>
+
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>How do I perform a dunk?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Dribble toward the basket and get close to the rim. Your player will automatically jump and dunk when close enough.
+    </li>
+
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>Is there player customization in Dunk Dash?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Yes, you can customize your players, balls, and courts to match your style.
+    </li>
+
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        <strong>What kind of graphics does the game have?</strong>
+    </li>
+    <li data-list="ordered">
+        <span contenteditable="false"></span>
+        Dunk Dash features stunning 3D graphics and true-to-life court action.
+    </li>
+</ol>
+
+<p style="margin: 1em 0px;">
+    Dunk Dash is more than just a basketball game; it's an adrenaline-fueled experience that combines skill, strategy, and style. Step onto the court, showcase your talents, and become the ultimate Dunk Dash champion!
+</p>
+
+    `,
+  },
+
+  {
+    id: 47,
+    title: "Hoop Legends",
+    iframeUrl: "https://game.azgame.io/hoop-legends/",
+    description: "Experience the thrill of basketball with Hoop Legends! This realistic 3D game offers immersive visuals, lifelike gameplay, and extensive customization. Dive into various modes, unlock unique courts, and dominate the court. It's hooping time on AZgames.io!",
+    tags: ["basketball game","3D sports","hoop legends","online basketball","azgames"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game47.webp",
+    imageAlt: "Action shot from the Hoop Legends basketball game, featuring a player shooting a hoop.",
+    seo: {
+      title: "Hoop Legends - Realistic 3D Basketball Game Online",
+      description: "Play Hoop Legends, a realistic 3D basketball game with immersive graphics, various game modes, and customization. Shoot hoops and become a court legend now!",
+      keywords: "hoop legends, basketball game, 3D basketball, sports game, online game, azgames, realistic graphics, basketball, legends"
+    },
+    addressBar: "hoop-legends",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Hoop Legends</h2>
+    <p>Step onto the virtual court and immerse yourself in the exhilarating world of Hoop Legends! This isn't just another basketball game; it's a meticulously crafted 3D experience designed to bring the thrill of competitive hooping directly to your fingertips. Forget complex strategies and drawn-out plays; Hoop Legends focuses on the core essence of basketball: sinking those crucial shots and dominating the scoreboard with style.</p>
+  
+    <h3>Immersive Visuals & Lifelike Experience</h3>
+    <p>What truly sets Hoop Legends apart is its dedication to realism. The game boasts stunning 3D graphics and fluid animations that make every shot feel authentic and satisfying. Watch as the ball arcs through the air, feel the anticipation as it approaches the hoop, and celebrate the swish of a perfectly executed basket. It’s more than just a game; it’s a virtual basketball experience crafted for ultimate immersion.</p>
+  
+    <img src="/images/games/game47-01.webp" alt="Hoop Legends Game" width="50%" style="width: 50%;">
+    <h3>Gameplay Highlights: A Deep Dive</h3>
+    <p>Hoop Legends delivers a streamlined yet engaging gameplay experience. While it forgoes intricate passing and defensive mechanics, the game compensates with a laser focus on shooting and scoring. This ensures that the action remains fast-paced and relentlessly exciting. Get ready for a barrage of baskets and nail-biting finishes!</p>
+  
+    <h3>Modes to Master and Courts to Conquer</h3>
+    <p>The variety of game modes will keep you endlessly entertained. Whether you prefer solo challenges, intense time-based shooting drills, or head-to-head competitions, Hoop Legends has something for every basketball enthusiast. Explore these thrilling game modes:</p>
+    <ul>
+      <li><strong>Single-Player Challenges:</strong> Hone your skills and push your limits in a series of increasingly difficult challenges.</li>
+      <li><strong>Time-Based Shooting:</strong> Test your speed and accuracy by scoring as many baskets as possible within a limited time.</li>
+      <li><strong>Head-to-Head Competition:</strong> Face off against a virtual opponent and prove your dominance on the court.</li>
+    </ul>
+  
+    <h3>Unleash Your Style: Customization Options</h3>
+    <p>Express your individuality with a wide array of customization options. Unlock new uniforms, basketball skins, and even entire courts using the MP you earn through skillful play. These aren't just cosmetic upgrades; some items offer subtle performance boosts, giving you a competitive edge. Choose your favorite aesthetic and become a truly unique Hoop Legend.</p>
+    <ul>
+      <li><strong>Uniforms:</strong> Stand out with unique and stylish uniforms.</li>
+      <li><strong>Basketball Skins:</strong> Customize the look of your ball.</li>
+      <li><strong>Unlockable Courts:</strong> Play in a variety of visually appealing environments.</li>
+    </ul>
+  
+    <h3>Intuitive Controls: Shoot Like a Pro</h3>
+    <p>Mastering Hoop Legends is easy thanks to its simple and intuitive controls. Simply drag your mouse to aim your shot and release to launch the ball towards the basket. Precision is key, so practice your technique and become a sharpshooter in no time. Every point counts, so aim carefully!</p>
+  
+    <h3>How to Play: Become a Court Legend</h3>
+    <ol>
+      <li><strong>Choose Your Mode:</strong> Select the game mode that best suits your play style.</li>
+      <li><strong>Aim and Shoot:</strong> Drag your mouse to aim, then release to shoot the ball.</li>
+      <li><strong>Score Points:</strong> Successful shots earn you points.</li>
+      <li><strong>Earn MP:</strong> Accumulate MP to unlock new items.</li>
+    </ol>
+  
+    <h3>FAQ: Your Questions Answered</h3>
+    <ol>
+      <li><strong>What is Hoop Legends?</strong><br>Hoop Legends is a realistic 3D basketball game focused on shooting and scoring, featuring various game modes and customization options.</li>
+      <li><strong>How do I shoot the ball?</strong><br>Simply swipe the left mouse button to aim your shot and release to throw the ball towards the basket.</li>
+      <li><strong>What can I unlock with MP?</strong><br>With earned MP, you can unlock new balls, courts, and uniforms, some of which offer small performance boosts.</li>
+      <li><strong>What are the game modes available?</strong><br>The game offers single-player challenges, time-based shooting, and head-to-head competition.</li>
+      <li><strong>Are there any defensive controls?</strong><br>Hoop Legends focuses primarily on the offensive aspects of basketball, emphasizing shooting and scoring over complex defensive plays.</li>
+      <li><strong>Where can I play Hoop Legends?</strong><br>You can play Hoop Legends now on AZgames.io.</li>
+    </ol>
+  
+    <p>Are you ready to lace up your virtual sneakers, step onto the court, and carve your name into the annals of Hoop Legends? With its stunning visuals, intuitive controls, and addictive gameplay, this is one basketball experience you won't want to miss. Dominate the competition, unlock incredible rewards, and become a true court legend!</p>
+  </div>`,
+  },
+
+  {
+    id: 48,
+    title: "Arcade Volley",
+    iframeUrl: "https://game.azgame.io/arcade-volley/",
+    description: "Dive into the fun of Arcade Volley! Enjoy thrilling, fast-paced 2D volleyball matches with simple controls, diverse characters, ball designs, and vibrant court locations. Master timing and positioning for unstoppable spikes and big wins!",
+    tags: ["arcade","volley","volleyball game","sports game","2D arcade"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game48.webp",
+    imageAlt: "Arcade Volley screenshot featuring characters playing beach volleyball.",
+    seo: {
+      title: "Arcade Volley - Thrilling Online Volley Action!",
+      description: "Experience the excitement of Arcade Volley! Play quick, competitive volleyball matches in various locations. Master timing and positioning to conquer opponents. Play now!",
+      keywords: "arcade volley, volleyball game, online game, sports game, fast-paced, 2D arcade, casual gaming, Azgames"
+    },
+    addressBar: "arcade-volley",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Arcade Volley: A Fast-Paced Volleyball Experience</h2>
+    <p>Ready to heat up the court and dominate with forehand volleys that are truly unstoppable? Arcade Volley delivers thrilling, fast-paced 2D arcade-style volleyball matches across a vibrant array of court locations. Prepare to jump in, face off against your rivals, and rack up the points in this ultimate test of timing and precision. If you’re craving that fun summer vibe, look no further—this is your game! Head over to Azgames.io and play today!</p>
+    
+    <h3>Experience the Thrill of Quick Volleyball Matches</h3>
+    <p>Arcade Volley plunges you into the heart of short, competitive matches set against different scenic backdrops. With a wide variety of characters, ball designs, and court locations to choose from, every match promises a fresh and exciting experience. The game's simple yet engaging mechanics make it easy to pick up and play, but challenging enough to keep you coming back for more.</p>
+  
+    <h3>Simple Controls, Endless Fun</h3>
+    <p>Forget about complex controls and intricate maneuvers. Arcade Volley is all about mastering timing and positioning. Perfect for quick matches and casual gaming sessions, it offers a fun and challenging experience that will have you saying, “Just one more try!” Keep practicing to enhance your skills, compete in tournaments, earn those coveted awards, and conquer ever-increasing difficulty levels.</p>
+  
+    <h3>How to Dominate the Court in Arcade Volley</h3>
+    <p>Just like in other sports games, your primary objective is to seize every opportunity to score as many points as possible and secure victory. Jump and skillfully hit the ball over the net, making sure it lands squarely on your opponent's side of the court to earn points. Sounds simple enough? It requires impeccable timing to unleash those powerful, game-changing spikes!</p>
+  
+    <img src="/images/games/game48-01.webp" alt="Arcade Volley Game" width="50%" style="width: 50%;">
+    <h3>Key Gameplay Elements</h3>
+    <ul>
+      <li><strong>Focus on the Ball:</strong> Keep your eyes glued to the ball throughout the match. Track its movement carefully as you control your character on your side of the net.</li>
+      <li><strong>Timing and Precision:</strong> Use quick reflexes and perfectly timed movements to position yourself and jump right under the ball, ensuring the ideal hit.</li>
+      <li><strong>Rally and Score:</strong> Engage in back-and-forth rallies until either you or your opponent fails to return the ball. The first player to reach the predetermined number of points emerges as the victor.</li>
+    </ul>
+  
+    <h3>Master the Controls</h3>
+    <p>Use these simple controls to master the game:</p>
+    <ul>
+      <li><strong>A/D:</strong> Move left/right</li>
+      <li><strong>W:</strong> Jump</li>
+      <li><strong>W:</strong> Attack (in air)</li>
+    </ul>
+    
+    <h3>Key Game Features</h3>
+    <ul>
+      <li>Fun, fast-paced beach volleyball matches focused on timing and positioning, not complex mechanics.</li>
+      <li>Simple controls using only a few keys for moving, jumping, and hitting the ball.</li>
+      <li>A variety of characters, ball designs, and court locations to choose from for a personalized experience.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Arcade Volley?</strong><br>Arcade Volley is a fun, fast-paced 2D arcade-style volleyball game.</li>
+      <li><strong>What is the main goal in Arcade Volley?</strong><br>The main goal is to score as many points as possible by hitting the ball over the net and landing it on the opponent's side of the court.</li>
+      <li><strong>What are the controls for Arcade Volley?</strong><br>The controls are simple: A/D to move left/right, W to jump, and W to attack while in the air.</li>
+      <li><strong>Does Arcade Volley have different characters and locations?</strong><br>Yes, the game features a bunch of different characters, ball designs, and court locations to pick from.</li>
+      <li><strong>Is Arcade Volley difficult to learn?</strong><br>No, the game is easy to play and control, focusing on timing and positioning rather than complex mechanics.</li>
+      <li><strong>Where can I play Arcade Volley?</strong><br>You can play Arcade Volley on Azgames.io.</li>
+    </ol>
+    
+    <p>Get ready to jump, spike, and score your way to victory in Arcade Volley! With its simple controls, fast-paced gameplay, and a variety of customization options, this game is perfect for both casual gamers and competitive players. Dive into the action and experience the thrill of beach volleyball like never before!</p>
+  </div>`,
+  },
+
+  {
+    id: 49,
+    title: "Billiards Master",
+    iframeUrl: "https://game.azgame.io/billiards-master/",
+    description: "Experience the thrill of realistic billiards with Billiards Master! Master multiple modes like 8-ball, 9-ball, and Snooker. Hone your skills in Time Trial and Practice modes. Enjoy sleek 3D visuals and authentic physics for the ultimate cue sports simulation.",
+    tags: ["billiards","pool","snooker","cue sports","simulation"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game49.webp",
+    imageAlt: "Billiards Master gameplay featuring a realistic pool table and cue stick.",
+    seo: {
+      title: "Billiards Master - Realistic Pool & Snooker Simulation",
+      description: "Play Billiards Master for a realistic pool experience with multiple modes, 3D visuals, and authentic physics. Become the true billiards master!",
+      keywords: "billiards, pool, snooker, billiards game, pool game, 8 ball, 9 ball, simulation, sports game, realistic billiards"
+    },
+    addressBar: "billiards-master",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Billiards Master: Experience the Ultimate Pool Simulation</h2>
+    <p>Step up to the table and immerse yourself in the captivating world of <em>Billiards Master</em>, a highly realistic billiards simulation designed to provide the most authentic cue sports experience possible. Whether you're a seasoned pro or a casual player, Billiards Master offers a diverse range of modes and difficulty levels to challenge and entertain you.</p>
+  
+    <h3>Realistic Gameplay and Stunning Visuals</h3>
+    <p>Billiards Master boasts sleek 3D visuals and relaxing music, creating an immersive atmosphere that draws you into the game. The game's authentic ball physics precisely mimic real-life pool tables, ensuring that every shot feels natural and responsive. Prepare to be amazed by the level of detail and realism in this must-play billiards experience.</p>
+  
+    <h3>Dive into Multiple Game Modes</h3>
+    <p>Explore a variety of game modes to test your skills and strategic thinking:
+      <ul>
+        <li><strong>9 Ball:</strong> A fast-paced mode where you must strike the lowest-numbered ball first on each shot, ultimately pocketing the 9 ball to win.</li>
+        <li><strong>8 Ball:</strong> A classic mode where you pocket all your assigned group (solids or stripes) before sinking the black 8-ball.</li>
+        <li><strong>UK 8 Ball:</strong> A variation of 8 Ball with slightly different rules and challenges.</li>
+        <li><strong>Snooker:</strong> A more complex game with a larger table and a wider range of balls, requiring precision and tactical prowess.</li>
+        <li><strong>Matrix Mode:</strong> Test your precision and strategy in this unique mode.</li>
+        <li><strong>Time Trial:</strong> Pocket as many balls as you can within a limited time frame, putting your speed and accuracy to the test.</li>
+        <li><strong>Practice Mode:</strong> Hone your skills without pressure, practicing your shots and perfecting your technique.</li>
+      </ul>
+    </p>
+    
+    <img src="/images/games/game49-01.webp" alt="Billiards Master Game" width="50%" style="width: 50%;">
+    <h3>Mastering Your Shots: Aiming and Power</h3>
+    <p>The intuitive controls make it easy to aim and control your shots like a true <em>billiards master</em>:
+      <ul>
+        <li><strong>Aiming:</strong> Drag your finger or mouse to rotate the camera and precisely aim the cue stick.</li>
+        <li><strong>Set Cue Power:</strong> Adjust the power slider to control the strength of your shot.</li>
+        <li><strong>Shoot:</strong> Once you've perfected your aim and power, release the mouse to execute the shot.</li>
+      </ul>
+    </p>
+  
+    <h3>Tips for Becoming a Billiards Master</h3>
+    <p>Success in Billiards Master requires a combination of skill, strategy, and precision. Here are some tips to help you elevate your game:</p>
+    <ol>
+      <li><strong>Master the Angle:</strong> Precisely aiming the cue stick is key. Take your time to line up each shot perfectly.</li>
+      <li><strong>Control Your Power:</strong> Use the power slider strategically. A light touch can be just as effective as a powerful strike.</li>
+      <li><strong>Plan Ahead:</strong> Think several moves in advance. Anticipate where the balls will land and set up your next shot.</li>
+      <li><strong>Practice Regularly:</strong> The more you play, the better you'll become at judging angles, power, and ball placement.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What are the different game modes in Billiards Master?</strong><br>Billiards Master features several modes, including 9 Ball, 8 Ball, UK 8 Ball, Snooker, Matrix Mode, Time Trial, and Practice Mode. Each mode has its unique rules and challenges.</li>
+      <li><strong>How do I aim in Billiards Master?</strong><br>You can aim by dragging your finger or mouse to rotate the camera and position the cue stick for the perfect shot.</li>
+      <li><strong>How do I control the shot strength?</strong><br>Adjust the power slider to control the amount of force applied to the cue ball. Experiment with different power levels to master finesse and power shots.</li>
+      <li><strong>What is the objective of 8-ball mode?</strong><br>In 8-ball, you must first pocket all the balls in your assigned group (either solids or stripes), and then sink the black 8-ball to win the game.</li>
+      <li><strong>What is the objective of 9-ball mode?</strong><br>In 9-ball, the cue ball must contact the lowest-numbered ball on the table with each shot. You win the game by pocketing the 9 ball.</li>
+      <li><strong>What is Practice Mode for?</strong><br>Practice Mode allows you to hone your skills and practice shots without any opponents or rules. It’s an excellent way to warm up or refine your technique.</li>
+    </ol>
+  
+    <p>Ready to become the ultimate <em>Billiards Master</em>? Download the game now and experience the most realistic and immersive cue sports simulation available! With its stunning visuals, authentic physics, and diverse game modes, Billiards Master is guaranteed to provide hours of challenging and rewarding gameplay.</p>
+  </div>`,
+  },
+
+  {
+    id: 50,
+    title: "Wacky Flip",
+    iframeUrl: "https://game.azgame.io/wacky-flip/",
+    description: "Experience the thrill of Wacky Flip! Master parkour, gymnastics, and ragdoll physics in this skill-based simulator. Perform extreme flips and tricks in urban landscapes and become the ultimate backflip athlete. Play free on Azgames.io!",
+    tags: ["wacky flip","parkour game","gymnastics simulator","ragdoll physics","backflip challenge"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game50.webp",
+    imageAlt: "A Wacky Flip character performing a backflip against an urban background.",
+    seo: {
+      title: "Wacky Flip - Ultimate Backflip Simulator - Play Free Online!",
+      description: "Perform wacky flips and tricks in Wacky Flip, a skill-based parkour and gymnastics simulator. Master perfect timing and unlock new skills. Play now on Azgames.io!",
+      keywords: "wacky flip, backflip simulator, parkour game, gymnastics game, ragdoll physics, stunt game, azgames.io"
+    },
+    addressBar: "wacky-flip",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Wacky Flip: Unleash Your Inner Acrobat!</h2>
+    <p>Dive into the exhilarating world of Wacky Flip, a unique simulator where parkour, gymnastics, and hilarious ragdoll physics collide! Prepare for heart-stopping stunt-based gameplay as you navigate diverse urban environments, executing extreme flips and tricks with style. Become the ultimate backflip athlete and show off your agility and precision – all for free on Azgames.io!</p>
+  
+    <img src="/images/games/game50-01.webp" alt="Wacky Flip Game" width="50%" style="width: 50%;">
+    <h3>Master the Art of the Flip</h3>
+    <p>In Wacky Flip, your mission is to guide your backflip athlete through a series of increasingly challenging platforms. Each successful flip and smooth landing unlocks new challenges, demanding greater skill and accuracy. The game's satisfying physics engine makes every jump and landing feel uniquely rewarding, adding to the addictive gameplay loop.</p>
+  
+    <h3>Explore Diverse Urban Environments</h3>
+    <p>The game boasts 8 distinct levels, each set in a unique urban environment brimming with its own set of obstacles and challenges. From the familiar grounds of 'The Court' and 'Frontyard' to the more demanding 'The Site' and 'The Playground', each location is designed to test your flipping prowess. Prepare for progressively difficult challenges across levels like 'The Court 2', 'Frontyard 2', 'The Site 2', and 'The Playground 2'.</p>
+  
+    <h3>Level Progression: A Flip-Filled Journey</h3>
+    <p>Each of the 8 levels consists of 10 individual flip challenges. To unlock the next challenge within a level, you must successfully complete the current one. This ensures a gradual learning curve, allowing you to hone your skills before tackling more complex maneuvers.</p>
+  
+    <h3>How to Play: Perfect Timing is Your Key to Success</h3>
+    <p>The game starts with simple jumps on the basketball court, providing a gentle introduction to the core mechanics. While these initial challenges may seem straightforward, they are crucial for mastering essential landing techniques. Pay close attention to timing and control as you progress through the game.</p>
+  
+    <h3>Commanding Your Backflip Athlete</h3>
+    <p>Here's a breakdown of the controls:</p>
+    <ul>
+      <li><strong>Crouch & Jump:</strong> Touch/Click and hold to start your crouch, holding for the perfect timing. Release to jump.</li>
+      <li><strong>Flip:</strong> Touch/Click and hold during your jump to initiate the flip, holding as needed to complete the rotation.</li>
+      <li><strong>Landing:</strong> Release just before landing to prepare for a smooth touchdown and complete the jump.</li>
+    </ul>
+  
+    <h3>Unlock a Variety of Skills</h3>
+    <p>As you advance through Wacky Flip, you'll unlock a diverse range of skills to enhance your acrobatic repertoire. Master techniques like Pike, Scissor, Knee Tuck, and more! Experiment with multiple flips and trick combinations to maximize your score and impress your audience.</p>
+  
+    <h3>Tips and Tricks for High Scores</h3>
+    <p>Consecutive successful jumps and combo multiple flips will significantly increase your multiplier, enabling you to achieve your best scores. Remember, each level presents new obstacles and varying heights, demanding not only perfect timing and control but also strategic planning of your flips.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is Wacky Flip?</strong><br>Wacky Flip is a skill-based simulator game that combines parkour, gymnastics, and ragdoll physics to create thrilling stunt-based gameplay.</li>
+      <li><strong>Where can I play Wacky Flip?</strong><br>You can play Wacky Flip for free on Azgames.io.</li>
+      <li><strong>How many levels are in Wacky Flip?</strong><br>The game includes 8 levels, each set in a unique environment with its own challenges.</li>
+      <li><strong>How many challenges are in each level?</strong><br>Every level contains 10 flip challenges.</li>
+      <li><strong>How do I unlock new challenges?</strong><br>You can only unlock the next challenge by completing the current one.</li>
+      <li><strong>What skills can I unlock in Wacky Flip?</strong><br>As you advance, you will unlock more skills, such as Pike, Scissor, Knee Tuck, and more.</li>
+    </ol>
+  
+    <p>Ready to become the ultimate backflip athlete? Jump into Wacky Flip today and experience the addictive gameplay, challenging levels, and hilarious ragdoll physics. Perfect your timing, unlock new skills, and conquer the urban landscape, one flip at a time!</p>
+  </div>`,
+  },
+
+  {
+    id: 51,
+    title: "Icy Dash",
+    iframeUrl: "https://game.azgame.io/icy-dash/",
+    description: "Shred the slopes in Icy Dash! Race downhill as a stickman, dodging obstacles, performing sick tricks, and collecting coins to upgrade your gear. Compete to be the fastest and most stylish rider on the mountain! Play now on Azgames.io!",
+    tags: ["icy dash","snowboarding game","stickman racing","downhill race","trick game"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game51.webp",
+    imageAlt: "A stickman snowboarding down a snowy mountain in Icy Dash, performing a trick.",
+    seo: {
+      title: "Icy Dash - High-Speed Snowboarding Adventure! - Play Free Online",
+      description: "Experience the thrill of Icy Dash! Race down icy slopes, dodge obstacles, perform tricks, collect coins, and upgrade your stickman. Compete for the fastest time!",
+      keywords: "icy dash, snowboarding, stickman, racing game, tricks, downhill, azgames, free online game, winter sports"
+    },
+    addressBar: "icy-dash",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Icy Dash</h2>
+    <p>Get ready to carve your way down the mountain in Icy Dash! This adrenaline-pumping snowboarding game puts you in control of a nimble stickman, racing against opponents through treacherous, obstacle-filled slopes. It's not just about speed; it's about style! Pull off daring tricks, collect valuable coins, and upgrade your character to dominate the leaderboard.</p>
+  
+    <img src="/images/games/game51-01.webp" alt="Icy Dash Game" width="50%" style="width: 50%;">
+    <h3>Race to the Finish Line</h3>
+    <p>In Icy Dash, your primary objective is to outrace other stickman competitors and be the first to cross the finish line. The snowy mountain slopes are your arena, but they're also riddled with hazards. Skillfully navigate the treacherous terrain, avoiding snowmen, trees, and other obstacles that could send you crashing. A smooth run is a fast run!</p>
+  
+    <h3>Master the Art of Tricks</h3>
+    <p>Don't just race; impress! Use jumps strategically to execute flips, spins, and other gravity-defying stunts. Perfect timing is crucial, as a mistimed trick can lead to a disastrous collision with the environment. Successfully landing tricks not only earns you points but also provides a temporary speed boost, giving you a competitive edge.</p>
+  
+    <h3>Collect Coins and Upgrade Your Stickman</h3>
+    <p>Throughout each race, keep an eye out for glittering coins scattered along the track. Collecting these coins is essential for upgrading your stickman's abilities and unlocking new gear. Enhance your speed, agility, and trick performance to become an unstoppable force on the slopes. The more coins you collect, the more competitive you become!</p>
+  
+    <h3>How to Play</h3>
+    <p>The controls are simple yet require skillful execution. Steer your stickman smoothly to stay on course, avoiding obstacles while maintaining maximum speed. Use the jumps to perform tricks and gain a burst of acceleration. Timing and precision are key to mastering Icy Dash.</p>
+  
+    <h3>Tips for Success</h3>
+    <ul>
+      <li><strong>Focus on Smooth Steering:</strong> Avoid jerky movements that can lead to crashes. Smooth, deliberate steering is crucial for navigating the slopes.</li>
+      <li><strong>Master Trick Timing:</strong> Experiment with different jump timings to perfect your tricks. Practice makes perfect!</li>
+      <li><strong>Prioritize Coin Collection:</strong> Don't miss opportunities to grab coins, as they are essential for upgrades.</li>
+      <li><strong>Learn the Tracks:</strong> Familiarize yourself with the layout of each track to anticipate obstacles and plan your routes.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the goal of Icy Dash?</strong><br>The goal is to race against other players down snowy mountain slopes, avoid obstacles, perform tricks, and be the first to reach the finish line.</li>
+      <li><strong>How do I perform tricks in Icy Dash?</strong><br>Use jumps strategically to perform flips and stunts. Perfect timing is crucial, as messing up a trick can cause you to crash.</li>
+      <li><strong>Why should I collect coins?</strong><br>Collect coins during races to upgrade your character and unlock new gear. This will enhance your stickman’s performance and make you more competitive.</li>
+      <li><strong>What kind of obstacles will I encounter?</strong><br>You will encounter hazards like snowmen, trees, and other obstacles that you need to avoid while racing.</li>
+      <li><strong>Where can I play Icy Dash?</strong><br>You can enjoy Icy Dash on Azgames.io today!</li>
+    </ol>
+  
+    <p>Icy Dash offers a thrilling blend of speed, skill, and style. So, grab your board, hit the slopes, and show the world what you're made of! Compete against your opponents, achieve extreme challenges, and be the first to complete the track. Good luck, and have fun!</p>
+  </div>`,
+  },
+
+  {
+    id: 52,
+    title: "Head Basketball",
+    iframeUrl: "https://azgames.io/head-basketball.embed",
+    description: "Dunk, dash, and dominate in Head Basketball! Experience thrilling 1v1 or 2v2 matches with unique, big-headed characters. Choose from solo challenges, team play, or quick matches. Master special moves and aim for mega dunks to outscore your opponents before time runs out. Play now and become the ultimate basketball head!",
+    tags: ["head basketball","sports game","1v1","2v2","basketball game"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game52.webp",
+    imageAlt: "Head Basketball game featuring big-headed characters in a basketball match.",
+    seo: {
+      title: "Head Basketball - Play Free 1v1 & 2v2 Sports Game Online",
+      description: "Play Head Basketball, a fun sports game with unique characters! Enjoy 1v1 and 2v2 matches, solo challenges, and team play. Score mega dunks and defeat your opponents!",
+      keywords: "head basketball, basketball game, sports game, 1v1 basketball, 2v2 basketball, online games, big head basketball, mega dunks"
+    },
+    addressBar: "head-basketball",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Head Basketball</h2>
+    <p>Step onto the court with <b>Head Basketball</b>, a hilariously engaging sports game where oversized heads and incredible basketball skills collide! Prepare for fast-paced 1v1 and 2v2 matches that will test your reflexes, strategy, and dunking abilities. Whether you prefer solo challenges or teaming up with friends, Head Basketball offers a variety of exciting modes to keep you entertained for hours. Get ready to run, jump, dash, aim, shoot, dunk, and dominate the court with your unique big-headed character! How many points can you rack up?</p>
+  
+    <h3>Game Modes</h3>
+    <p>Head Basketball features three distinct game modes, each offering a unique experience:</p>
+    <ul>
+      <li><strong>1 Player:</strong> Test your skills in solo tournaments or random matches. Hone your abilities with training sessions and compete for the coveted trophy in the tournament mode. This mode is perfect for practicing your moves and developing your strategies before taking on human opponents.</li>
+      <li><strong>2 Players:</strong> Grab a friend and battle it out on the same PC! Choose to team up and conquer the opposition together, or go head-to-head in a thrilling 1v1 showdown. This mode is fantastic for local multiplayer fun and friendly competition.</li>
+      <li><strong>Quick Match:</strong> Jump straight into the action with a random 1v1 match against an NPC. This mode is ideal for a quick burst of gameplay or for warming up before a more serious match.</li>
+    </ul>
+  
+    <h3>How to Play Head Basketball</h3>
+    <p>The objective is simple: outscore your opponent within the time limit. But mastering the game takes skill and strategy. Here's how to get started:</p>
+    <ol>
+      <li><strong>Choose Your Mode:</strong> Select the game mode that suits your preference and prepare for the challenge ahead.</li>
+      <li><strong>Score and Defend:</strong> Aim to score as many baskets as possible while strategically defending your hoop. Time your shots carefully to avoid blocks from your opponent.</li>
+      <li><strong>Special Moves:</strong> Utilize special moves like dash, jumping + shooting, and mega dunks to gain an edge. Mega dunks guarantee points and can turn the tide of the match.</li>
+      <li><strong>Effective Defense:</strong> Timing is crucial for defense. Jump at the right moments to block your opponent's shots and prevent them from scoring.</li>
+      <li><strong>Watch the Timer:</strong> Every match has a fixed time limit. Score more points than your opponent before the timer runs out. If the score is tied, the game may enter overtime to determine the winner.</li>
+    </ol>
+  
+    <h3>Game Controls</h3>
+    <p>Master the controls to unleash your basketball prowess:</p>
+    <ul>
+      <li><strong>Player One:</strong>
+        <ul>
+          <li>Move: WASD keys</li>
+          <li>Shoot/Action: B</li>
+          <li>Pump: S</li>
+          <li>Super-Shot: V</li>
+          <li>Dash: D (twice)</li>
+        </ul>
+      </li>
+      <li><strong>Player Two:</strong>
+        <ul>
+          <li>Move: Arrow keys</li>
+          <li>Shoot/Action: L</li>
+          <li>Pump: DOWN Arrow</li>
+          <li>Super-Shot: K</li>
+          <li>Dash: LEFT Arrow (twice)</li>
+        </ul>
+      </li>
+    </ul>
+  
+    <h3>Tips for Success</h3>
+    <ul>
+      <li><strong>Practice Your Timing:</strong> Accurate timing is essential for both shooting and defending.</li>
+      <li><strong>Master Special Moves:</strong> Learn and utilize special moves to gain an advantage over your opponents.</li>
+      <li><strong>Strategic Defense:</strong> Anticipate your opponent's moves and time your jumps to block their shots.</li>
+      <li><strong>Conserve Your Energy:</strong> Dashing and jumping consume energy, so use them wisely.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What are the different game modes in Head Basketball?</strong><br>Head Basketball offers three modes: 1 Player, 2 Players, and Quick Match. Each mode provides a different way to enjoy the game, from solo challenges to local multiplayer battles.</li>
+      <li><strong>How do I perform a mega dunk?</strong><br>The controls to activate mega dunk are different for each player. Player one should use 'V' key and player two should use 'K' key. Timely and strategically using mega dunks can help to score a basket with no chance of failure.</li>
+      <li><strong>Can I play Head Basketball with my friend on the same computer?</strong><br>Yes, Head Basketball offers a 2 Players mode where you and your friend can play together on the same PC. You can choose to be on the same team or compete against each other.</li>
+      <li><strong>What is the objective of the game?</strong><br>The objective of Head Basketball is to outscore your opponent within the time limit. Score more points than your opponent before the timer runs out to win the match.</li>
+      <li><strong>What happens if the score is tied when the timer runs out?</strong><br>If the score is tied when the timer reaches zero, the game may enter overtime to determine the winner. Keep playing until one player outscores the other.</li>
+      <li><strong>Are there training sessions available?</strong><br>Yes, in the 1 Player mode, you can access training sessions to sharpen your skills and practice your moves before competing in tournaments or random matches.</li>
+    </ol>
+  
+    <p>So, lace up your virtual shoes, get ready to jump, and prepare for some high-flying basketball action with <b>Head Basketball</b>! With its simple controls, engaging gameplay, and variety of modes, Head Basketball is sure to provide hours of fun for players of all skill levels. Jump into the game today!</p>
+  </div>`,
+  },
+
+  {
+    id: 53,
+    title: "Subway Surfers",
+    iframeUrl: "https://azgames.io/subway-surfers.embed",
+    description: "Dash through vibrant subway tracks as Jake in Subway Surfers! Evade the Inspector, unlock power-ups like Jetpacks and Coin Magnets, and complete daily challenges for rewards. Master the controls and become the ultimate surfer!",
+    tags: ["endless running","subway surfers","obstacle course","mobile game","arcade"],
+    publishDate: "2025-11-17",
+    imageUrl: "/images/games/game53.webp",
+    imageAlt: "Subway Surfers screenshot featuring Jake running on train tracks.",
+    seo: {
+      title: "Subway Surfers - Endless Running Adventure on Train Tracks",
+      description: "Experience the thrill of Subway Surfers! Run, jump, and dodge trains as Jake, collect bonuses, and unlock special powers. Download now for endless fun!",
+      keywords: "subway surfers, endless running, train tracks, obstacle course, mobile game, jetpack, coin magnet, inspector"
+    },
+    addressBar: "subway-surfers",
+    categories: ['kids'],
+    size: "large",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Subway Surfers</h2>
+    <p>Subway Surfers is an exhilarating endless running game that throws you into a vibrant world of train tracks, daring escapes, and high-speed chases. Get ready to test your reflexes and agility as you navigate treacherous obstacles and outsmart the cranky Inspector and his loyal dog!</p>
+    
+    <img src="/images/games/game53-01.webp" alt="Subway Surfers Game" width="50%" style="width: 50%;">
+    <h3>The Thrill of the Chase</h3>
+    <p>You'll step into the shoes of Jake, a spirited subway surfer with a knack for getting into (and out of) trouble. Your mission? To navigate the bustling train tracks, dodging oncoming trains, leaping over barriers, and collecting valuable bonuses along the way. The Inspector and his dog are hot on your heels, so you'll need to be quick on your feet and even quicker with your reflexes to stay ahead of the law!</p>
+    
+    <h3>Mastering the Controls</h3>
+    <p>Subway Surfers offers intuitive and responsive controls, making it easy to pick up and play, but challenging to master. Here's a breakdown of the essential commands:</p>
+    <ul>
+      <li><strong>Up arrow/W key:</strong> Jump up to avoid low barriers and obstacles.</li>
+      <li><strong>Down arrow/S key:</strong> Scroll downwards to roll under high barriers.</li>
+      <li><strong>Right arrow/D key:</strong> Move right to change lanes and dodge obstacles.</li>
+      <li><strong>Left arrow/A key:</strong> Move left to change lanes and dodge obstacles.</li>
+    </ul>
+  
+    <h3>Power-Ups and Perks</h3>
+    <p>As you progress through the game, you'll have the opportunity to unlock powerful items that grant you special abilities and advantages. Use them wisely to maximize your score and extend your run:</p>
+    <ul>
+      <li><strong>Jetpack:</strong> Soar through the sky, collecting coins and avoiding obstacles below.</li>
+      <li><strong>Coin Magnet:</strong> Attract all nearby coins, making it easier to amass a fortune.</li>
+      <li><strong>2x Multiplier:</strong> Double your score for a limited time, boosting your overall rank.</li>
+      <li><strong>Super Sneakers:</strong> Jump higher than ever before, allowing you to clear larger gaps and reach new heights.</li>
+    </ul>
+  
+    <h3>Tips and Tricks for Subway Surfers Success</h3>
+    <p>To become a true Subway Surfers master, consider these strategic tips:</p>
+    <ol>
+      <li><strong>Strategic Power-Up Usage:</strong> Deploy your Power-Ups wisely to maximize their effectiveness. For instance, save the Jetpack for particularly challenging sections of the track.</li>
+      <li><strong>Daily Task Completion:</strong> Take advantage of daily tasks to accumulate coins and special items. These rewards can provide a significant boost to your gameplay.</li>
+      <li><strong>Route Optimization:</strong> Opt for less risky routes, especially when starting out. Staying in the middle tracks can offer more time to react to incoming obstacles.</li>
+      <li><strong>Concentration is Key:</strong> Maintain laser-like focus to anticipate and avoid unexpected obstacles. A split-second of distraction can lead to a game over.</li>
+      <li><strong>Consistent Training:</strong> Dedicate time to regular practice to refine your skills and accumulate experience. The more you play, the better you'll become at navigating the ever-changing train tracks.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Subway Surfers?</strong><br>The main objective is to run as far as possible on the train tracks while avoiding obstacles and escaping the Inspector and his dog.</li>
+      <li><strong>What are the different ways to control the character in the game?</strong><br>You can control Jake by using the up arrow/W key to jump, the down arrow/S key to scroll, and the left/A and right/D arrows to move left and right, respectively.</li>
+      <li><strong>What are the benefits of using Power-Ups?</strong><br>Power-Ups like the Jetpack, Coin Magnet, 2x Multiplier, and Super Sneakers give you special abilities to help you collect more coins, increase your score, and avoid obstacles more easily.</li>
+      <li><strong>How can I earn rewards in the game?</strong><br>You can earn rewards by completing daily tasks, which give you attractive prizes like coins and special items.</li>
+      <li><strong>What is the best strategy to avoid obstacles?</strong><br>Try to stay in the middle of the tracks, concentrate 100% to avoid unexpected obstacles, and use your reflexes to jump or roll over barriers.</li>
+    </ol>
+  
+    <p>Subway Surfers delivers a compelling blend of fast-paced action, vibrant visuals, and addictive gameplay that will keep you hooked for hours. So, lace up your running shoes, hop onto the tracks, and prepare for the ultimate endless running adventure!</p>
+  </div>`,
   }
 
 
@@ -2994,6 +3622,19 @@ export const categoriesGames = [
     seo: {
       title: "Play Free 3D Sports Games Online | Fast Competitive 3D Sports - 3dsgames.com",
       description: "Discover free online 3D Sports games—fast, competitive browser experiences for every player. Play instantly, take on challenges, and climb leaderboards.",
+      keywords: "3DS games, 3D games, H5 games, H5 3D games, web-based 3D games, free H5 games, 3DS strategy guides, 3DS recommendations, Nintendo 3DS, online 3D games"
+    },
+  },
+  {
+    id: 'kids', // 内部标识符，被游戏的 categories 字段引用
+    name: '3D Kids game', // 显示名称
+    title: '3D Kids game', // 页面 H1 标题
+    addressBar: '3d-kids-games', // 地址栏
+    description: 'Discover a colorful collection of online 3D Kids games, offering fun adventures, simple challenges, and creative interactive experiences designed for young players.',
+    icon: '<svg t="1763350654581" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="88731"><path d="M258.416 103.404C254.52 149.66 206.316 156.96 206.316 156.96c41.388 1.952 51.7 56.24 51.7 56.24 0.884-38.708 53.284-56.808 53.284-56.808-39.252-2.352-52.884-52.988-52.884-52.988z" fill="#D7E057" p-id="88732"></path><path d="M311.66 150.404c-34.42-2.064-47.328-48.1-47.456-48.568a6.024 6.024 0 0 0-6.332-4.408 6 6 0 0 0-5.436 5.468c-3.44 40.864-45.252 47.856-47.016 48.128a6 6 0 0 0 0.616 11.928c36.112 1.704 45.996 50.876 46.092 51.376a6 6 0 0 0 11.896-0.992c0.78-34.036 48.768-51.108 49.252-51.276a6 6 0 0 0-1.616-11.656zM257.396 191.784c-5.424-12.524-14.836-27.632-30.348-35.508 11.724-5.62 25.636-15.652 32.808-33.092 6.204 12.284 16.8 27.524 33.336 34.892-12.028 6.56-27.688 17.624-35.796 33.708z" fill="#3A312A" p-id="88733"></path><path d="M171.62 171.328c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.376 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88734"></path><path d="M209.388 202.816c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.892-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.604-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.956-21.46 19.884z" fill="#3A312A" p-id="88735"></path><path d="M171.62 64.696c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.38 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88736"></path><path d="M209.388 96.188c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.896-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.608-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.952-21.46 19.884z" fill="#3A312A" p-id="88737"></path><path d="M510.868 444.704L336.64 270.476c-14.524-14.52-38.068-14.52-52.588 0-14.524 14.524-14.524 38.072 0 52.592l174.228 174.228a37.08 37.08 0 0 0 26.296 10.892 37.192 37.192 0 0 0 26.292-63.484z" fill="#FCE8CB" p-id="88738"></path><path d="M515.108 440.46L340.88 266.236c-16.832-16.832-44.236-16.84-61.072 0-8.156 8.156-12.652 19.004-12.652 30.54s4.496 22.384 12.652 30.54l174.228 174.228c8.16 8.156 19.004 12.648 30.536 12.648s22.376-4.492 30.536-12.648c8.156-8.156 12.648-19.004 12.648-30.54s-4.492-22.388-12.648-30.544z m-8.484 52.596a30.98 30.98 0 0 1-22.052 9.132 30.996 30.996 0 0 1-22.052-9.132L288.292 318.828c-5.892-5.892-9.136-13.724-9.136-22.056s3.248-16.164 9.136-22.056a31.08 31.08 0 0 1 22.052-9.116c7.984 0 15.972 3.04 22.052 9.116l174.228 174.228c12.16 12.16 12.16 31.952 0 44.112z" fill="#3A312A" p-id="88739"></path><path d="M878.34 270.476c-14.52-14.52-38.064-14.52-52.592 0l-174.228 174.228a37.188 37.188 0 0 0 0 52.592 37.08 37.08 0 0 0 26.296 10.892 37.084 37.084 0 0 0 26.296-10.892l64.432-64.432 39.352-39.352 70.444-70.444c14.52-14.52 14.52-38.068 0-52.592z" fill="#FCE8CB" p-id="88740"></path><path d="M882.584 266.236c-16.836-16.836-44.236-16.836-61.08 0l-174.232 174.228c-8.156 8.156-12.648 19.004-12.648 30.54s4.492 22.384 12.648 30.54a42.92 42.92 0 0 0 30.54 12.648c11.528 0 22.376-4.492 30.54-12.648l64.432-64.432a6 6 0 1 0-8.484-8.484l-64.432 64.428a31.008 31.008 0 0 1-22.056 9.136 31.012 31.012 0 0 1-22.056-9.132c-12.16-12.16-12.16-31.948 0-44.108l174.232-174.224c12.16-12.156 31.948-12.16 44.108-0.004 12.156 12.16 12.156 31.948 0 44.108l-70.444 70.44a6 6 0 1 0 8.484 8.484l70.444-70.44c16.836-16.844 16.836-44.24 0.004-61.08z" fill="#3A312A" p-id="88741"></path><path d="M445.872 124.092m-59.396 0a59.396 59.396 0 1 0 118.792 0 59.396 59.396 0 1 0-118.792 0Z" fill="#87796F" p-id="88742"></path><path d="M445.872 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396s65.396-29.336 65.396-65.396c0-36.064-29.336-65.4-65.396-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.396 23.952 53.396 53.4c0 29.444-23.952 53.396-53.396 53.396z" fill="#3A312A" p-id="88743"></path><path d="M657.893553 133.590379a59.396 59.396 0 1 0 117.259579-19.019212 59.396 59.396 0 1 0-117.259579 19.019212Z" fill="#87796F" p-id="88744"></path><path d="M716.512 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396 36.064 0 65.4-29.336 65.4-65.396 0-36.064-29.336-65.4-65.4-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.4 23.952 53.4 53.4c0 29.444-23.956 53.396-53.4 53.396z" fill="#3A312A" p-id="88745"></path><path d="M551.24 748.52h-68.2c-3.76 0-7.28-1-10.32-2.76v158.4h-25.8a27.588 27.588 0 0 0-19.48 47.08 27.452 27.452 0 0 0 19.48 8.08h68.92v-0.16c22-0.96 39.52-19 39.52-41.24v-169.84a20 20 0 0 1-4.12 0.44z" fill="#FCE8CB" p-id="88746"></path><path d="M559.132 743.416a6.008 6.008 0 0 0-5.024-1.204 13.892 13.892 0 0 1-2.872 0.308h-68.2a14.592 14.592 0 0 1-7.308-1.952 5.988 5.988 0 0 0-6.004-0.008 6.012 6.012 0 0 0-3.004 5.2v152.404h-19.8c-18.508 0-33.56 15.056-33.56 33.56a33.4 33.4 0 0 0 9.836 23.764 33.332 33.332 0 0 0 23.724 9.836h68.92c0.576 0 1.136-0.084 1.668-0.248a47.2 47.2 0 0 0 43.852-47.152V748.08c0-1.816-0.816-3.524-2.228-4.664z m-9.772 174.504a35.232 35.232 0 0 1-33.78 35.244 6.088 6.088 0 0 0-1.092 0.156H446.92a21.432 21.432 0 0 1-15.24-6.32 21.584 21.584 0 0 1 15.236-36.84h25.8a6 6 0 0 0 6-6v-149.992c1.42 0.236 2.864 0.352 4.32 0.352h66.32v163.4z" fill="#3A312A" p-id="88747"></path><path d="M796.4 787.8l-29.04-39.84c-1.24 0.36-2.52 0.56-3.92 0.56h-97.96l16.28 22.32h-85.4c-21.12 0-38.48 15.8-41 36.2-0.16 1.2-0.24 2.44-0.28 3.68h-0.04v68.92c0 1.32 0.08 2.64 0.32 3.92a27.516 27.516 0 0 0 27.24 23.68c15.24 0 27.6-12.36 27.6-27.6v-26.2h152.8c15.56 0 29.76-8.72 36.84-22.56 7.04-13.88 5.72-30.52-3.44-43.08z" fill="#FCE8CB" p-id="88748"></path><path d="M801.248 784.264l-29.04-39.84a6.016 6.016 0 0 0-6.52-2.228c-0.752 0.22-1.468 0.32-2.248 0.32h-97.96a6 6 0 0 0-4.848 9.532l9.324 12.784h-73.6c-23.848 0-44.036 17.824-46.948 41.408-0.152 1.16-0.244 2.348-0.3 3.544a5.892 5.892 0 0 0-0.072 0.928v68.92c0 1.856 0.136 3.496 0.38 4.752 2.304 16.448 16.572 28.852 33.184 28.852 18.528 0 33.596-15.076 33.596-33.6v-20.2h146.8a47.2 47.2 0 0 0 42.18-25.828l0.012-0.02a47.136 47.136 0 0 0-3.94-49.324z m-6.752 43.888a35.248 35.248 0 0 1-31.496 19.288h-152.8a6 6 0 0 0-6 6v26.2c0 11.912-9.688 21.6-21.596 21.6-10.664 0-19.82-7.96-21.344-18.784a15.348 15.348 0 0 1-0.22-2.816v-68.236c0.02-0.16 0.032-0.316 0.036-0.48 0.036-1.04 0.096-2.084 0.24-3.152 2.18-17.632 17.248-30.932 35.048-30.932h85.404a6 6 0 0 0 4.848-9.532l-9.324-12.784h86.156c0.416 0 0.836-0.012 1.248-0.04l26.864 36.856a35.208 35.208 0 0 1 2.936 36.812z" fill="#3A312A" p-id="88749"></path><path d="M774.56 726.6L688.08 608c-0.32 0.04-0.68 0.04-1 0.04h-211.76a13.96 13.96 0 0 1-11.96-6.76c-0.64 3.28-0.96 6.68-0.96 10.12v116.48a20.64 20.64 0 0 0 20.64 20.64h68.2c11.4 0 20.68-9.24 20.68-20.64v-81.24c0-2.88 3.64-4.12 5.36-1.8l73.64 98c2.56 3.6 6.72 5.68 11.12 5.68h101.4c11.28 0 17.76-12.8 11.12-21.92z" fill="#F16C7A" p-id="88750"></path><path d="M779.408 723.064l-86.48-118.596c-1.284-1.76-3.688-2.708-5.848-2.424h-211.76a7.928 7.928 0 0 1-6.828-3.864 5.996 5.996 0 0 0-11.024 1.956 58.864 58.864 0 0 0-1.072 11.264v116.48a26.668 26.668 0 0 0 26.64 26.64h68.2c14.712 0 26.68-11.948 26.68-26.64v-72.204l68.108 90.64a19.66 19.66 0 0 0 16.012 8.204h101.404a19.664 19.664 0 0 0 17.612-10.796 19.732 19.732 0 0 0-1.644-20.66z m-9.048 15.212a7.624 7.624 0 0 1-6.916 4.244H662.04a7.712 7.712 0 0 1-6.324-3.284l-73.616-97.972a8.96 8.96 0 0 0-10.008-3.176 8.992 8.992 0 0 0-6.172 8.556v81.24a14.672 14.672 0 0 1-14.68 14.64h-68.2a14.656 14.656 0 0 1-14.64-14.64v-115.092a19.832 19.832 0 0 0 6.92 1.252h209.736l84.652 116.088c1.768 2.428 2.016 5.472 0.652 8.144z" fill="#3A312A" p-id="88751"></path><path d="M581.192 392.496c-66.18 0-119.824 53.648-119.824 119.824v81.776a13.944 13.944 0 0 0 13.944 13.944h211.76a13.944 13.944 0 0 0 13.944-13.944V512.32c0-66.18-53.644-119.824-119.824-119.824z" fill="#D7E057" p-id="88752"></path><path d="M581.192 386.492c-69.38 0-125.828 56.444-125.828 125.828v10.66a6 6 0 1 0 12 0v-10.66c0-62.764 51.06-113.828 113.828-113.828 62.76 0 113.824 51.064 113.824 113.828v81.776a7.952 7.952 0 0 1-7.94 7.944h-211.764a7.952 7.952 0 0 1-7.944-7.944v-15.084a6 6 0 1 0-12 0v15.084a19.968 19.968 0 0 0 19.944 19.944h211.764a19.964 19.964 0 0 0 19.94-19.944V512.32c0-69.384-56.444-125.828-125.824-125.828z" fill="#3A312A" p-id="88753"></path><path d="M546.162425 415.230706a152.588 152.588 0 1 0 70.133088-297.007981 152.588 152.588 0 1 0-70.133088 297.007981Z" fill="#FCE8CB" p-id="88754"></path><path d="M581.192 108.088c-87.444 0-158.588 71.144-158.588 158.588 0 42.36 16.496 82.184 46.448 112.136 29.956 29.956 69.78 46.452 112.14 46.448h0.008c42.356 0 82.18-16.496 112.132-46.448s46.448-69.776 46.448-112.136c0-87.44-71.144-158.588-158.588-158.588z m103.656 262.244c-27.688 27.688-64.5 42.932-103.656 42.932s-75.964-15.248-103.652-42.932c-27.688-27.688-42.936-64.496-42.936-103.652 0-80.828 65.76-146.588 146.588-146.588 80.828 0 146.588 65.76 146.588 146.588 0 39.156-15.244 75.964-42.932 103.652z" fill="#3A312A" p-id="88755"></path><path d="M536.24 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856zM626.14 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856z" fill="#3A312A" p-id="88756"></path><path d="M511.408 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16zM650.98 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16z" fill="#F5978A" p-id="88757"></path><path d="M618.416 312.772a5.984 5.984 0 0 0-7.724 3.512c-2.328 6.216-11.488 17.964-29.5 17.964-14.272 0-23.712-5.86-29.7-18.436a6.004 6.004 0 0 0-10.836 5.156c7.984 16.776 21.624 25.28 40.536 25.28 21.364 0 36.092-13.352 40.736-25.752a6 6 0 0 0-3.512-7.724z" fill="#3A312A" p-id="88758"></path><path d="M581.192 78.124c-94.208 0-170.564 76.356-170.564 170.564 0 91.768 28.924 104.704 28.924 28.924 0-4.84 0.248-9.624 0.72-14.336 63.424-28.348 124.968-63.168 174.92-109.788 1.196 2.948 2.464 5.864 3.848 8.74 7.032 14.576 16.508 27.876 26.672 40.484 22.052 27.376 48.044 52.06 77.048 71.924 0.02 0.992 0.076 1.976 0.076 2.976 0 75.78 28.924 62.848 28.924-28.924-0.004-94.204-76.36-170.564-170.568-170.564z" fill="#87796F" p-id="88759"></path><path d="M581.192 72.124c-97.356 0-176.564 79.208-176.564 176.568 0 40.74 6.08 84.268 23.148 84.268 6.376 0 11.096-5.62 14.024-16.7 2.452-9.28 3.752-22.644 3.752-38.648 0-3.412 0.132-6.864 0.392-10.304 69.588-31.392 124.38-65.396 167.1-103.724l0.596 1.252c6.268 13 14.976 26.232 27.404 41.64 22.528 27.964 48.016 51.96 75.796 71.36 0.012 15.904 1.308 29.188 3.752 38.424 2.928 11.08 7.648 16.7 14.028 16.7 17.064 0 23.144-43.532 23.144-84.268-0.008-97.36-79.212-176.568-176.572-176.568zM734.8 320.132c-2.176-3.576-5.964-15.392-5.964-42.52 0-0.704-0.024-1.408-0.048-2.104l-0.032-1.012a6.016 6.016 0 0 0-2.608-4.808c-27.796-19.04-53.288-42.84-75.764-70.744-11.836-14.68-20.08-27.172-25.936-39.32a139.588 139.588 0 0 1-3.692-8.388 6.008 6.008 0 0 0-9.652-2.136c-43.244 40.352-99.924 75.908-173.276 108.7a5.992 5.992 0 0 0-3.52 4.88 150.932 150.932 0 0 0-0.752 14.932c0 27.128-3.788 38.944-5.968 42.52-4.056-5.128-10.956-26.848-10.956-71.44 0-90.744 73.824-164.568 164.564-164.568 90.744 0 164.568 73.824 164.568 164.568-0.008 44.592-6.904 66.312-10.964 71.44z" fill="#3A312A" p-id="88760"></path><path d="M769.724 730.16l-84.64-116.12h-33.36l84.64 116.12c1.76 2.4 2 5.44 0.64 8.12-1.36 2.64-3.96 4.24-6.92 4.24h33.32c3 0 5.6-1.6 6.96-4.24 1.36-2.68 1.12-5.72-0.64-8.12z" fill="#CE4E61" p-id="88761"></path><path d="M639.004 414.32a159.8 159.8 0 0 1-22.92 7c27.64 20.76 45.56 53.8 45.56 91v81.76c0 4.4-3.56 7.96-7.92 7.96h33.36c4.36 0 7.92-3.56 7.92-7.96v-81.76c0-41.68-22.52-78.16-56-98z" fill="#B9BC39" p-id="88762"></path><path d="M581.204 84.12c-4.08 0-8.08 0.16-12.08 0.44 85.12 6.2 152.48 77.48 152.48 164.12 0 6.28-0.12 12.12-0.4 17.52 1.64 1.2 3.32 2.36 4.96 3.48 1.6 1.12 2.56 2.92 2.6 4.84l0.04 1.08c0 0.68 0.04 1.32 0.04 2 0 27.16 3.76 38.96 5.96 42.52 4.04-5.12 10.96-26.84 10.96-71.44 0-90.72-73.84-164.56-164.56-164.56z" fill="#6B5B51" p-id="88763"></path></svg>',
+    seo: {
+      title: "Play 3D Kids Games Online | Fun & Safe 3D Kids Games - 3dsgames.com",
+      description: "Explore fun, safe, and easy-to-play 3D Kids games online. Enjoy creative adventures, simple challenges, and interactive experiences designed for young players.",
       keywords: "3DS games, 3D games, H5 games, H5 3D games, web-based 3D games, free H5 games, 3DS strategy guides, 3DS recommendations, Nintendo 3DS, online 3D games"
     },
   },

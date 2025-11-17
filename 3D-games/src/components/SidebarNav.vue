@@ -320,7 +320,7 @@ const closeSidebar = () => {
 .nav-item {
   display: flex;
   align-items: center;
-  padding: 5px 10px;
+  padding: 8px 10px;
   border-radius: 8px;
   text-decoration: none;
   color: var(--color-text-secondary);

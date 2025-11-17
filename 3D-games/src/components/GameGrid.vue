@@ -151,6 +151,17 @@ const filteredGames = computed(() => {
     })
   }
 
+  // 首页排序：将 size 为 large 的游戏排在分类的第一个位置
+  if (props.isHome === true) {
+    filtered = [...filtered].sort((a, b) => {
+      // size 为 large 的游戏排在前面
+      if (a.size === 'large' && b.size !== 'large') return -1
+      if (a.size !== 'large' && b.size === 'large') return 1
+      // 其他游戏保持原有顺序
+      return 0
+    })
+  }
+
   // 限制显示数量
   if (props.maxItems) {
     filtered = filtered.slice(0, props.maxItems)
