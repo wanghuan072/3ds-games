@@ -23,7 +23,12 @@
             active-class="active"
             @click="closeSidebar"
           >
-            <span class="nav-text">Hot Games</span>
+            <div class="nav-text">
+              <span class="icon">
+                <svg t="1763342401647" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9361" width="200" height="200"><path d="M511.99 914.286c-157.45-0.014-298.94-90.866-356.956-229.21-58.018-138.342-20.804-296.14 93.884-398.1 16.434-14.62 39.35-28.006 64.358-43.226 16.286-9.912 67.054 19.448 74.564 67.836 124.16-15.07 195.008-72.17 124.15-220.158 204.606 7.372 408.68 287.3 102.404 459.914 51.2 0 128.002 0 256.006-119.528 13.824 37.406 25.6 77.62 25.6 119.528 0 200.448-171.926 362.944-384.01 362.944z" fill="#FE544A" p-id="9362"></path></svg>
+              </span>
+              Hot Games
+            </div>
           </router-link>
           <router-link
             :to="{ name: 'new-games' }"
@@ -31,7 +36,12 @@
             active-class="active"
             @click="closeSidebar"
           >
-            <span class="nav-text">New Games</span>
+            <div class="nav-text">
+              <span class="icon">
+                <svg t="1763342690516" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="19407" width="200" height="200"><path d="M965.76 576l-74.56-78.08a107.2 107.2 0 0 1-19.84-105.6l40.96-99.84a40.96 40.96 0 0 0-39.68-60.8l-107.84-0.64a107.2 107.2 0 0 1-88.64-60.48l-41.6-99.52a40.96 40.96 0 0 0-71.04-14.72l-78.08 74.24a107.2 107.2 0 0 1-105.6 19.84L280 109.76a40.96 40.96 0 0 0-60.8 39.68L216.96 256a107.2 107.2 0 0 1-60.48 88.64l-99.52 41.6a40.96 40.96 0 0 0-14.72 71.04l74.56 78.08a107.52 107.52 0 0 1 19.84 105.6L96 741.76a40.96 40.96 0 0 0 39.68 60.8l107.84 2.56A107.2 107.2 0 0 1 331.84 864l41.6 99.52a40.96 40.96 0 0 0 71.04 14.72l78.08-74.56a107.2 107.2 0 0 1 105.6-19.84l99.84 40.96a40.96 40.96 0 0 0 60.8-39.68l2.56-107.84a107.2 107.2 0 0 1 60.48-88.64l99.52-41.6a40.96 40.96 0 0 0 14.4-71.04z m-309.44 128c-18.56 3.2-43.2 0-79.36-34.56-25.28-24.96-102.72-118.08-154.88-181.12l37.76 187.52a73.92 73.92 0 0 1-1.92 39.68 51.84 51.84 0 0 1-65.6 29.12A64 64 0 0 1 352 686.72l-50.56-288A59.52 59.52 0 0 1 311.68 352a64 64 0 0 1 43.52-21.76A55.36 55.36 0 0 1 416 352c26.24 29.76 52.16 59.84 77.76 89.92 32 36.8 61.12 73.92 91.52 110.72l-39.04-195.52a64 64 0 0 1 3.2-37.12 48.64 48.64 0 0 1 39.04-32 52.8 52.8 0 0 1 40.96 9.28 71.36 71.36 0 0 1 24.64 47.04L704 630.72A55.68 55.68 0 0 1 656.32 704z" fill="#ff554d" p-id="19408"></path></svg>
+              </span>
+              New Games
+            </div>
           </router-link>
           <router-link
             :to="{ name: '3ds-games' }"
@@ -39,7 +49,12 @@
             active-class="active"
             @click="closeSidebar"
           >
-            <span class="nav-text">3DS Games</span>
+            <div class="nav-text">
+              <span class="icon">
+                <svg t="1763342721139" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="20601" width="200" height="200"><path d="M878.216 480.486c-80.717 0-145.786 63.39-145.786 142.026 0 78.634 65.07 142.026 145.786 142.026S1024 701.146 1024 622.512c-0.824-78.636-65.89-142.026-145.784-142.026z m68.361-85.86C890.57 189.212 704.426 51.197 482.044 51.197c-221.56 0-408.526 137.211-465.358 342.628C-40.146 599.241 51.279 807.064 244.01 911.38c192.733 105.112 425.825 73.017 580.668-78.638l-343.46-321.763 465.358-116.352zM406.27 261.428c0-48.948 40.357-89.067 88.951-89.067 49.42 0 88.955 40.12 88.955 89.067 0 48.949-40.36 89.068-88.955 89.068-48.594-0.801-88.951-40.12-88.951-89.068z" fill="#F46267" p-id="20602"></path></svg>
+              </span>
+              3DS Games
+            </div>
           </router-link>
         </nav>
       </div>
@@ -63,7 +78,10 @@
           active-class="active"
           @click="closeSidebar"
         >
-          <span class="nav-text">{{ category.name }}</span>
+          <div class="nav-text">
+            <span class="icon" v-html="category.icon"></span>
+            {{ category.name }}
+          </div>
         </router-link>
       </nav>
     </div>
@@ -97,7 +115,7 @@ const closeSidebar = () => {
 <style scoped>
 /* 左侧导航栏 */
 .sidebar-nav {
-  width: 220px;
+  width: 230px;
   flex-shrink: 0;
   align-self: flex-start;
   position: -webkit-sticky;
@@ -284,6 +302,13 @@ const closeSidebar = () => {
   font-size: 14.4px;
   font-weight: 600;
   letter-spacing: 0.25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.shortcut-link .nav-text .icon {
+  width: 20px;
+  height: 20px;
 }
 
 .category-nav {
@@ -295,7 +320,7 @@ const closeSidebar = () => {
 .nav-item {
   display: flex;
   align-items: center;
-  padding: 8px 12px;
+  padding: 5px 10px;
   border-radius: 8px;
   text-decoration: none;
   color: var(--color-text-secondary);
@@ -320,6 +345,13 @@ const closeSidebar = () => {
 
 .nav-text {
   font-size: 15.2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-text .icon {
+  width: 20px;
+  height: 20px;
 }
 
 /* 移动端遮罩层 */
