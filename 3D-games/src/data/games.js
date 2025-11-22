@@ -239,7 +239,7 @@ export const games = [
       keywords: "ramp xtreme, stunt bike game, physics driving, 3d ramp challenge, bike flips, extreme stunts, stunt racing"
     },
     addressBar: "ramp-xtreme",
-    categories: ['car'], // 引用 categoriesGames 中的 id
+    categories: ['car', 'kids'], // 引用 categoriesGames 中的 id
     size: "small",
     isHot: true,
     isNew: true,
@@ -1903,7 +1903,7 @@ export const games = [
       keywords: "super mario bros, mario classic game, platform adventure, bowser, mushroom kingdom, retro mario, princess toadstool"
     },
     addressBar: "super-mario-bros",
-    categories: ['mario','kids'], // 引用 categoriesGames 中的 id
+    categories: ['mario', 'kids'], // 引用 categoriesGames 中的 id
     size: "small",
     isHot: true,
     isNew: true,
@@ -2164,7 +2164,7 @@ export const games = [
       keywords: "Temple Run 2, temple, run, endless runner, mobile game, adventure, performance, optimization, download, free"
     },
     addressBar: "temple-run-2",
-    categories: ['adventure','kids'],
+    categories: ['adventure', 'kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2220,7 +2220,7 @@ export const games = [
       keywords: "snow, road, 3D racing, snow racing game, stunt game, icy tracks, racing adventure, online game"
     },
     addressBar: "snow-road-3d",
-    categories: ['adventure','sports','kids'],
+    categories: ['adventure', 'sports', 'kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2472,7 +2472,7 @@ export const games = [
       keywords: "Wing Smash, arcade game, flight runner, airplane, endless game, azgames, online game, 3D graphics, boss battles"
     },
     addressBar: "wing-smash",
-    categories: ['adventure'],
+    categories: ['adventure', 'kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2533,7 +2533,7 @@ export const games = [
       keywords: "ski frenzy, ski game, endless runner, avalanche, azgames, skiing, snowboard, snow, escape game, adventure game"
     },
     addressBar: "ski-frenzy",
-    categories: ['adventure','sports','kids'],
+    categories: ['adventure', 'sports', 'kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2728,7 +2728,7 @@ export const games = [
       keywords: "stickman racing, racing game, parkour, skill game, online game, free game, challenging game"
     },
     addressBar: "stickman-racing",
-    categories: ['adventure','kids'],
+    categories: ['adventure', 'kids'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2897,7 +2897,7 @@ export const games = [
     title: "Dunk Dash",
     iframeUrl: "https://game.azgame.io/dunk-dash/",
     description: "Experience the thrill of Dunk Dash! A fast-paced basketball game where stylish slam dunks and quick matches define victory. Dribble, dunk, and score your way to the top in this astonishing 3D court action. Customize your players and dominate the game!",
-    tags: ["basketball","dunk","dash","slam dunk","3D sports game"],
+    tags: ["basketball", "dunk", "dash", "slam dunk", "3D sports game"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game46.webp",
     imageAlt: "Action shot from Dunk Dash game, showing a player performing a slam dunk.",
@@ -3031,7 +3031,7 @@ export const games = [
     title: "Hoop Legends",
     iframeUrl: "https://game.azgame.io/hoop-legends/",
     description: "Experience the thrill of basketball with Hoop Legends! This realistic 3D game offers immersive visuals, lifelike gameplay, and extensive customization. Dive into various modes, unlock unique courts, and dominate the court. It's hooping time on AZgames.io!",
-    tags: ["basketball game","3D sports","hoop legends","online basketball","azgames"],
+    tags: ["basketball game", "3D sports", "hoop legends", "online basketball", "azgames"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game47.webp",
     imageAlt: "Action shot from the Hoop Legends basketball game, featuring a player shooting a hoop.",
@@ -3103,7 +3103,7 @@ export const games = [
     title: "Arcade Volley",
     iframeUrl: "https://game.azgame.io/arcade-volley/",
     description: "Dive into the fun of Arcade Volley! Enjoy thrilling, fast-paced 2D volleyball matches with simple controls, diverse characters, ball designs, and vibrant court locations. Master timing and positioning for unstoppable spikes and big wins!",
-    tags: ["arcade","volley","volleyball game","sports game","2D arcade"],
+    tags: ["arcade", "volley", "volleyball game", "sports game", "2D arcade"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game48.webp",
     imageAlt: "Arcade Volley screenshot featuring characters playing beach volleyball.",
@@ -3173,7 +3173,7 @@ export const games = [
     title: "Billiards Master",
     iframeUrl: "https://game.azgame.io/billiards-master/",
     description: "Experience the thrill of realistic billiards with Billiards Master! Master multiple modes like 8-ball, 9-ball, and Snooker. Hone your skills in Time Trial and Practice modes. Enjoy sleek 3D visuals and authentic physics for the ultimate cue sports simulation.",
-    tags: ["billiards","pool","snooker","cue sports","simulation"],
+    tags: ["billiards", "pool", "snooker", "cue sports", "simulation"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game49.webp",
     imageAlt: "Billiards Master gameplay featuring a realistic pool table and cue stick.",
@@ -3246,7 +3246,7 @@ export const games = [
     title: "Wacky Flip",
     iframeUrl: "https://game.azgame.io/wacky-flip/",
     description: "Experience the thrill of Wacky Flip! Master parkour, gymnastics, and ragdoll physics in this skill-based simulator. Perform extreme flips and tricks in urban landscapes and become the ultimate backflip athlete. Play free on Azgames.io!",
-    tags: ["wacky flip","parkour game","gymnastics simulator","ragdoll physics","backflip challenge"],
+    tags: ["wacky flip", "parkour game", "gymnastics simulator", "ragdoll physics", "backflip challenge"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game50.webp",
     imageAlt: "A Wacky Flip character performing a backflip against an urban background.",
@@ -3311,7 +3311,7 @@ export const games = [
     title: "Icy Dash",
     iframeUrl: "https://game.azgame.io/icy-dash/",
     description: "Shred the slopes in Icy Dash! Race downhill as a stickman, dodging obstacles, performing sick tricks, and collecting coins to upgrade your gear. Compete to be the fastest and most stylish rider on the mountain! Play now on Azgames.io!",
-    tags: ["icy dash","snowboarding game","stickman racing","downhill race","trick game"],
+    tags: ["icy dash", "snowboarding game", "stickman racing", "downhill race", "trick game"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game51.webp",
     imageAlt: "A stickman snowboarding down a snowy mountain in Icy Dash, performing a trick.",
@@ -3369,7 +3369,7 @@ export const games = [
     title: "Head Basketball",
     iframeUrl: "https://azgames.io/head-basketball.embed",
     description: "Dunk, dash, and dominate in Head Basketball! Experience thrilling 1v1 or 2v2 matches with unique, big-headed characters. Choose from solo challenges, team play, or quick matches. Master special moves and aim for mega dunks to outscore your opponents before time runs out. Play now and become the ultimate basketball head!",
-    tags: ["head basketball","sports game","1v1","2v2","basketball game"],
+    tags: ["head basketball", "sports game", "1v1", "2v2", "basketball game"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game52.webp",
     imageAlt: "Head Basketball game featuring big-headed characters in a basketball match.",
@@ -3456,7 +3456,7 @@ export const games = [
     title: "Subway Surfers",
     iframeUrl: "https://azgames.io/subway-surfers.embed",
     description: "Dash through vibrant subway tracks as Jake in Subway Surfers! Evade the Inspector, unlock power-ups like Jetpacks and Coin Magnets, and complete daily challenges for rewards. Master the controls and become the ultimate surfer!",
-    tags: ["endless running","subway surfers","obstacle course","mobile game","arcade"],
+    tags: ["endless running", "subway surfers", "obstacle course", "mobile game", "arcade"],
     publishDate: "2025-11-17",
     imageUrl: "/images/games/game53.webp",
     imageAlt: "Subway Surfers screenshot featuring Jake running on train tracks.",
@@ -3517,6 +3517,963 @@ export const games = [
     </ol>
   
     <p>Subway Surfers delivers a compelling blend of fast-paced action, vibrant visuals, and addictive gameplay that will keep you hooked for hours. So, lace up your running shoes, hop onto the tracks, and prepare for the ultimate endless running adventure!</p>
+  </div>`,
+  },
+
+  {
+    id: 54,
+    title: "Monkey mart",
+    iframeUrl: "https://azgames.io/monkey-mart.embed",
+    description: "Build your supermarket empire in Monkey Mart! A delightful blend of farming and shopkeeping with a monkey twist. Plant, harvest, and trade your way to supermarket success! No downloads needed. Hire staff, expand your business, and become the ultimate monkey tycoon!",
+    tags: ["monkey", "mart", "supermarket", "farming", "simulation game"],
+    publishDate: "2025-11-21",
+    imageUrl: "/images/games/game54.webp",
+    imageAlt: "A cartoon monkey tending to his shop in Monkey mart.",
+    seo: {
+      title: "Monkey Mart - Build Your Supermarket Empire - Play Free Online",
+      description: "Run your own Monkey Mart! A fun mix of farming and business sim. Grow crops, sell goods, and expand your supermarket. Play free online! No downloads needed.",
+      keywords: "monkey mart, supermarket game, farming game, business simulation, online game, free game, monkey, mart"
+    },
+    addressBar: "monkey-mart",
+    categories: ['kids'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Monkey mart</h2>
+    <p>Ever dreamed of running your own supermarket? Now's your chance with Monkey Mart! This addictive game combines the simple pleasures of a management game with the strategic challenges of a business simulation. Start small, think big – your goal is to transform a humble stall into a sprawling supermarket empire, all while embracing the chaotic charm of a monkey-run operation.</p>
+  
+    <h3>Plant, Harvest, and Profit!</h3>
+    <p>Your journey to supermarket glory begins with the basics: planting fruits like corn and bananas. Move from station to station, carefully tending your crops. When the time is right, harvest your bounty and proudly display it on your stall. Watch as your eager customers flock to buy your goods, each transaction bringing you closer to your ultimate goal.</p>
+  
+    <h3>Expand Your Empire!</h3>
+    <p>As your profits grow, so does your potential. Unlock new items to sell, expanding your product range and attracting even more customers. Hire new monkey staff to automate tasks and streamline your operations, allowing you to focus on the bigger picture – becoming the ultimate Monkey Mart tycoon!</p>
+  
+    <img width="50%" style="width: 50%;" src="/images/games/game54-01.webp" alt="A cartoon monkey tending to his shop in Monkey mart." />
+
+    <h3>Charming Visuals and Addictive Gameplay</h3>
+    <p>Monkey Mart isn't just about business; it's about fun! The game boasts charming visuals that will keep you hooked, while the addictive gameplay loop of farming, shopkeeping, and expansion will keep you coming back for more. Play Monkey Mart online for free – no downloads needed! It's the perfect way to unwind and unleash your inner entrepreneur.</p>
+  
+    <h3>How to Play Monkey Mart</h3>
+    <p>Getting started is easy! Simply move your monkey entrepreneur around the mart using the WASD or Arrow keys. Interact with stations, shelves, and the cash register automatically by standing nearby. Use your mouse to navigate menus, make upgrades, and manage your growing business.</p>
+  
+    <h3>Essential Tips & Tricks for Monkey Mart Success</h3>
+    <ul>
+      <li><strong>Stock Up:</strong> Keep your stall fully stocked to attract a steady stream of customers.</li>
+      <li><strong>Hire Early:</strong> Monkey staff are your best friends! Hire them early to save valuable time.</li>
+      <li><strong>Upgrade Smart:</strong> Invest in upgrading your stations for faster harvests and bigger earnings.</li>
+    </ul>
+  
+    <h3>Controls</h3>
+    <ul>
+        <li><strong>Move:</strong> WASD or Arrow keys</li>
+        <li><strong>Interact:</strong> Automatic (stand near stations, shelves, or cash register)</li>
+        <li><strong>Navigate Menus:</strong> Mouse click (for upgrades or options)</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Monkey Mart?</strong><br>Monkey Mart is a blend of a basic management game and a business simulation game, offering an addictive mix of farming and shopkeeping.</li>
+      <li><strong>What is the main goal in Monkey Mart?</strong><br>The main goal is to improve and expand your mall stall until it becomes a thriving supermarket empire.</li>
+      <li><strong>How do I make money in Monkey Mart?</strong><br>You earn money by planting, harvesting, and trading various items. You receive cash after each successful activity.</li>
+      <li><strong>What controls are used to play Monkey Mart?</strong><br>You can move your monkey using the WASD or Arrow keys. Interaction is automatic when standing near stations. Use mouse clicks to navigate menus.</li>
+      <li><strong>What should I do to attract more customers?</strong><br>Make sure to stock your stall fully. Attracting more customers will lead to a greater profit!</li>
+      <li><strong>How do I make my business run efficiently?</strong><br>Hire new employees (monkey staff) and upgrade your stations for faster harvests and bigger earnings to make your business run more efficiently.</li>
+    </ol>
+  
+    <p>Ready to build your own supermarket empire? Dive into the world of Monkey Mart and experience the thrill of farming, trading, and managing your way to success. With its charming visuals, addictive gameplay, and endless opportunities for expansion, Monkey Mart is the perfect game for anyone who dreams of being a business tycoon. So, grab your bananas, put on your thinking cap, and get ready to build the ultimate monkey mart!</p>
+  </div>`,
+  },
+
+  {
+    id: 55,
+    title: "Deer Adventure",
+    iframeUrl: "https://1games.io/deer-adventure",
+    description: "Unleash deer mayhem in Deer Adventure! Explore a vibrant town as a nimble deer, causing hilarious chaos with your stretchy neck and powerful antlers. From peaceful frolics to epic town disruption, every moment is engaging! Customize your deer, tackle outrageous missions, and evade authorities. Join the animal-life simulation fun now!",
+    tags: ["deer", "adventure", "simulation", "open world", "animal game"],
+    publishDate: "2025-11-21",
+    imageUrl: "/images/games/game55.webp",
+    imageAlt: "A deer causing chaos in a town, highlighting the Deer Adventure game.",
+    seo: {
+      title: "Deer Adventure - Unleash Hilarious Mayhem in This Animal Adventure!",
+      description: "Step into Deer Adventure! Explore a vibrant town as a crazy deer, causing chaos and tackling missions. Customize your deer and evade authorities. Play now!",
+      keywords: "deer adventure, animal simulation game, open world game, crazy deer, mayhem, town disruption, stretchy neck, antlers, animal game"
+    },
+    addressBar: "deer-adventure",
+    categories: ['kids'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Deer Adventure</h2>
+    <p>Imagine a world where you're not just a deer, but a deer unleashed! Welcome to Deer Adventure, the ultimate open-world simulation where you can explore a vibrant town as a nimble deer, wreaking havoc and creating unforgettable moments of animal mayhem. From peaceful frolics to full-on destruction, every decision shapes your unique adventure. Are you ready to step into the crazy life of a deer?</p>
+  
+    <h3>Explore the Life of a Crazy Deer</h3>
+    <p>Deer Adventure seamlessly blends open-world exploration with engaging simulation mechanics. Roam freely through streets, parks, and even buildings, interacting with other animals and unsuspecting humans. Utilize your deer's unique abilities, including a flexible neck and sharp antlers, to explore both playful and destructive possibilities. The dynamic environments and unpredictable town citizens ensure that every moment is engaging and full of surprises.</p>
+  
+    <img width="50%" style="width: 50%;" src="/images/games/game55-01.webp" alt="A deer causing chaos in a town, highlighting the Deer Adventure game." />
+
+    <h3>Epic Deer Challenges Await!</h3>
+    <p>Get ready to complete outrageous missions that will test your agility and creativity. Imagine jumping from rooftops, riding cows across busy streets, and causing maximum town disruption. Engage in dynamic combat with unexpected foes, including police sheep, giant whales, and attacking panda bears, all in the name of survival and deer-fueled fun. Customizing your deer is key – enhance your abilities with unique outfits and powerful weapons, allowing you to dominate pranks, destruction, and even dance contests. Explore interactive objects and vehicles to unleash wild chaos while testing your reflexes throughout the town. The possibilities are endless!</p>
+  
+    <h3>Deer Power Controls</h3>
+    <p>Master the art of deer mayhem with these intuitive controls:</p>
+    <ul>
+      <li><strong>WASD:</strong> Navigate the town with ease.</li>
+      <li><strong>Arrow keys:</strong> Interact with the human characters.</li>
+      <li><strong>Mouse:</strong> Manage the camera and get the perfect angle for your chaos.</li>
+      <li><strong>LMB (Left Mouse Button):</strong> Click to attack and unleash your inner deer.</li>
+      <li><strong>Spacebar:</strong> Jump up and reach new heights for your deer adventures.</li>
+      <li><strong>Shift:</strong> Hold to dash and quickly escape sticky situations.</li>
+      <li><strong>Q or RMB (Right Mouse Button):</strong> Hold to stretch your neck and reach those hard-to-get items.</li>
+      <li><strong>F:</strong> Take special action and unleash your deer's unique abilities.</li>
+    </ul>
+  
+    <h3>Key Features of Deer Adventure:</h3>
+    <ul>
+      <li>Complete outrageous missions, from rooftop jumps to cow-riding stunts.</li>
+      <li>Engage in dynamic combat with police sheep, giant whales, and attacking panda bears.</li>
+      <li>Customize your deer with outfits and weapons to enhance abilities.</li>
+      <li>Explore interactive objects and vehicles to create wild chaos.</li>
+      <li>Collect hidden items scattered across the town.</li>
+      <li>Experience the thrill of evading authorities and aggressive opponents.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is Deer Adventure?</strong><br>Deer Adventure is an open-world animal adventure game where you play as a nimble deer exploring a vibrant town, causing chaos, and completing outrageous missions.</li>
+      <li><strong>What are some of the things I can do in the game?</strong><br>You can explore the town, interact with animals and humans, complete missions like jumping from rooftops and riding cows, engage in combat with police sheep, giant whales, and pandas, customize your deer, and collect hidden items.</li>
+      <li><strong>How do I control the deer?</strong><br>Use WASD to move, arrow keys to interact with humans, the mouse to manage the camera, LMB to attack, Spacebar to jump, Shift to dash, Q or RMB to stretch your neck, and F for special actions.</li>
+      <li><strong>Can I customize my deer?</strong><br>Yes! You can customize your deer with outfits and weapons to enhance its abilities.</li>
+      <li><strong>What kind of enemies will I face?</strong><br>You'll face dynamic combat with police sheep, giant whales, and attacking panda bears.</li>
+      <li><strong>What makes Deer Adventure unique?</strong><br>Deer Adventure's unique blend of open-world exploration, simulation mechanics, and outrageous missions, combined with the deer's unique abilities, creates a hilarious and engaging experience unlike any other animal game.</li>
+    </ol>
+  
+    <p>So, are you ready to unleash your inner deer and embark on an unforgettable adventure filled with chaos, laughter, and endless possibilities? Jump into Deer Adventure today and experience the crazy life of a deer like never before!</p>
+  </div>`,
+  },
+
+  {
+    id: 56,
+    title: "Supermarket Master",
+    iframeUrl: "https://game.azgame.io/supermarket-master/",
+    description: "Craft your ultimate retail empire in Supermarket Master! From managing bustling stores to expanding diverse departments, this addictive business simulator puts you in control. Attract hordes of customers and watch your empire flourish! Start your supermarket journey now!",
+    tags: ["supermarket simulation", "retail empire", "business management", "store expansion", "customer attraction"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game56.webp",
+    imageAlt: "Screenshot from Supermarket Master showing a bustling supermarket scene.",
+    seo: {
+      title: "Supermarket Master - Build Your Retail Empire Online!",
+      description: "Become the ultimate Supermarket Master! Manage stores, expand departments, and attract customers in this addictive business simulator. Grow your retail empire today!",
+      keywords: "supermarket, master, retail, empire, business, simulator, management, stores, customers, expansion, online game"
+    },
+    addressBar: "supermarket-master",
+    categories: ['kids'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Supermarket Master: Forge Your Retail Dynasty</h2>
+    <p>Step into the vibrant world of retail management with Supermarket Master, a thrilling business simulator that puts you at the helm of your own supermarket empire. From humble beginnings to a sprawling network of stores, every decision rests in your hands. Are you ready to transform a single shop into a retail powerhouse?</p>
+  
+    <h3>Manage and Expand Your Stores</h3>
+    <p>The core gameplay revolves around strategic store management. You'll need to meticulously oversee every aspect of your supermarket, from stocking shelves with the latest products to ensuring customer satisfaction. As you progress, unlock and expand new departments, offering a wider variety of goods and attracting an even larger customer base. Each department presents unique challenges and opportunities for growth.</p>
+  
+    <h3>Attract Customers and Maximize Profits</h3>
+    <p>Attracting customers is paramount to your success. Implement savvy marketing strategies, optimize product placement, and maintain a clean and inviting shopping environment to keep shoppers coming back for more. Efficiently manage inventory to minimize waste and maximize profits, ensuring your stores remain competitive and profitable. Watch as your customer base swells and your cash registers overflow!</p>
+  
+    <h3>A Fun and Addictive Business Simulator</h3>
+    <p>Supermarket Master offers a compelling blend of strategic depth and engaging gameplay. The intuitive interface and rewarding progression system make it easy to pick up and play, while the endless possibilities for expansion and optimization will keep you hooked for hours. Whether you're a seasoned business mogul or a casual gamer, Supermarket Master provides a satisfying and immersive simulation experience.</p>
+  
+    <h3>Key Features to Master:</h3>
+    <ul>
+      <li><strong>Strategic Store Management:</strong> Oversee every aspect of your supermarket, from stocking shelves to managing staff.</li>
+      <li><strong>Department Expansion:</strong> Unlock and expand new departments to offer a wider variety of goods and services.</li>
+      <li><strong>Customer Attraction:</strong> Implement marketing strategies and optimize store layout to attract and retain customers.</li>
+      <li><strong>Profit Maximization:</strong> Efficiently manage inventory and pricing to maximize profits.</li>
+      <li><strong>Addictive Gameplay:</strong> Experience a compelling blend of strategy and simulation.</li>
+    </ul>
+  
+    <h3>Ready to build your Retail Empire?</h3>
+    <p>Dive into Supermarket Master and start building your dream retail empire today. With its engaging gameplay, strategic depth, and endless opportunities for growth, Supermarket Master is the ultimate business simulation experience for aspiring entrepreneurs and seasoned gamers alike. Can you rise to the challenge and become the ultimate Supermarket Master?</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Supermarket Master?</strong><br>Supermarket Master is a fun and addictive business simulator where you manage stores, expand departments, and attract customers to build your retail empire.</li>
+      <li><strong>What are the key aspects of managing a store in Supermarket Master?</strong><br>You need to oversee all aspects of your supermarket, including stocking shelves, managing staff, optimizing store layout, and ensuring customer satisfaction.</li>
+      <li><strong>How do I expand my supermarket in the game?</strong><br>You can unlock and expand new departments within your store, offering a wider variety of goods and services to attract more customers.</li>
+      <li><strong>What is the primary goal in Supermarket Master?</strong><br>The main objective is to attract as many customers as possible and maximize your profits to build a successful and thriving retail empire.</li>
+      <li><strong>What makes Supermarket Master so addictive?</strong><br>The game offers a compelling blend of strategic depth and engaging gameplay, with a rewarding progression system that keeps you hooked for hours.</li>
+      <li><strong>Where can I start growing my Supermarket Master empire?</strong><br>You can start growing your retail empire now by downloading or playing Supermarket Master online!</li>
+    </ol>
+  
+    <p>Supermarket Master offers a dynamic and engaging simulation experience, where strategic planning and shrewd decision-making are key to your success. Become the master of your retail domain and create the ultimate supermarket dynasty!</p>
+  </div>`,
+  },
+
+  {
+    id: 57,
+    title: "Drive Mad",
+    iframeUrl: "https://azgames.io/drive-mad.embed",
+    description: "Embark on a wild ride with Drive Mad! Navigate quirky cars through challenging terrains, mastering balance and control. Reach the finish line, level up, and conquer increasingly complex obstacles. It's addictive fun, free to play!",
+    tags: ["driving game", "obstacle course", "car physics", "skill game", "free game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game57.webp",
+    imageAlt: "Drive Mad car driving over a ramp obstacle",
+    seo: {
+      title: "Drive Mad - Conquer Crazy Courses & Master Car Physics!",
+      description: "Drive Mad: A thrilling car driving game with challenging terrains. Master control, avoid crashes, and reach the finish line. Play free and level up now!",
+      keywords: "drive mad, driving game, car game, obstacle course, physics game, skill game, free online game, driving challenges"
+    },
+    addressBar: "drive-mad",
+    categories: ['kids'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Drive Mad</h2>
+    <p>Prepare for a hilarious and challenging driving experience in Drive Mad! This isn't your typical racing game. Get ready to pilot a variety of quirky cars across treacherous terrains filled with unexpected obstacles. Your mission? Reach the finish line in one piece and advance to even crazier levels. It's a test of skill, patience, and a whole lot of luck!</p>
+  
+    <img width="50%" style="width: 50%;" src="/images/games/game57-01.webp" alt="Drive Mad car driving over a ramp obstacle" />
+
+    <h3>The Addictive Challenge of Balance and Control</h3>
+    <p>At first glance, Drive Mad might seem simple: just accelerate and go. But don't be fooled! As you progress, you'll quickly discover the intricate balance between speed and control that's required to succeed. Each level presents a unique set of obstacles designed to test your driving prowess. From ramps and bridges to precarious platforms and gaping chasms, you'll need to master the art of navigating tricky terrain while keeping your vehicle upright.</p>
+  
+    <h3>Quirky Cars, Unique Physics</h3>
+    <p>Adding to the challenge, Drive Mad features a diverse selection of vehicles, each with its own distinct physics system. Some cars are prone to flipping, while others are easily broken or get stuck. Learning the nuances of each vehicle is crucial to your success. Experiment with different speeds and approaches to find the sweet spot that allows you to conquer each obstacle without crashing or tumbling down. Remember, a cautious approach is often better than reckless speed!</p>
+  
+    <h3>Mastering the Controls: It's All About Finesse</h3>
+    <p>Forget steering! Drive Mad keeps things simple with forward and backward movement. Use the spacebar, D, or the right/up arrow to accelerate and the A or left/down arrow to reverse. The key is to use these controls with finesse, carefully modulating your speed and momentum to maintain control and navigate tricky sections. It's a constant battle against gravity and momentum, requiring precise inputs and quick reflexes.</p>
+  
+    <h3>Tips for Conquering Drive Mad</h3>
+    <ul>
+      <li><strong>Understand the Vehicle:</strong> Each car handles differently. Take the time to get a feel for its unique characteristics before tackling challenging obstacles.</li>
+      <li><strong>Control Your Speed:</strong> Rushing headfirst will often lead to disaster. Slow down when necessary to maintain control and avoid crashes.</li>
+      <li><strong>Learn from Your Mistakes:</strong> Crashing is inevitable. Use each restart as an opportunity to learn from your previous attempts and adjust your driving style accordingly.</li>
+      <li><strong>Patience is Key:</strong> Some levels may require multiple attempts to master. Don't get discouraged! Keep practicing and you'll eventually find the right approach.</li>
+    </ul>
+  
+    <h3>How to Play Drive Mad: A Quick Guide</h3>
+    <ol>
+      <li><strong>Accelerate:</strong> Press and hold the Spacebar, D, or Right/Up arrow keys to move forward.</li>
+      <li><strong>Reverse:</strong> Press the A or Left/Down arrow keys to move backward.</li>
+      <li><strong>Navigate Obstacles:</strong> Use a combination of forward and backward movement to carefully navigate ramps, bridges, and other challenging terrain.</li>
+      <li><strong>Restart:</strong> If you crash, flip over, or fall into the water, you'll need to restart the level.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the goal of Drive Mad?</strong><br>The goal is to reach the finish line safely on each level, navigating a variety of obstacles without crashing.</li>
+      <li><strong>How do I control the car in Drive Mad?</strong><br>You control the car by accelerating forward (Spacebar, D, or Right/Up arrow) and reversing (A or Left/Down arrow). There is no steering.</li>
+      <li><strong>What happens if I crash?</strong><br>If you crash, flip over, or fall into the water, you will need to restart the level from the beginning.</li>
+      <li><strong>Are there different cars to drive?</strong><br>Yes, there are different vehicles available throughout the game. Each vehicle has its own unique physics and handling characteristics.</li>
+      <li><strong>How do I level up in Drive Mad?</strong><br>You level up by successfully completing each level and reaching the finish line.</li>
+      <li><strong>Is Drive Mad free to play?</strong><br>Yes, Drive Mad is a free-to-play car driving game.</li>
+    </ol>
+  
+    <p>Dive into the crazy world of Drive Mad and test your driving skills like never before! With its addictive gameplay, challenging levels, and quirky vehicles, it's guaranteed to provide hours of entertainment. So buckle up, hit the gas, and prepare for a wild ride!</p>
+  </div>`,
+  },
+
+  {
+    id: 58,
+    title: "Slope Rider",
+    iframeUrl: "https://game.azgame.io/slope-rider/",
+    description: "Experience the thrill of endless sledding in Slope Rider! Navigate treacherous winter courses, dodge deadly obstacles, and collect stylish sleds. Survive the slopes and aim for the highest score in this fast-paced, unpredictable adventure!",
+    tags: ["slope", "rider", "sledding", "winter games", "adventure"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game58.webp",
+    imageAlt: "A thrilling sledding scene in Slope Rider with a rider navigating snowy slopes and dodging obstacles.",
+    seo: {
+      title: "Slope Rider - Endless Sledding Adventure Online",
+      description: "Hit the slopes in Slope Rider! Steer your sled through treacherous winter courses, dodge obstacles, and collect new sleds. Play now for free and achieve the highest score!",
+      keywords: "slope rider, sledding game, winter adventure, endless runner, obstacle course, azgames, free games online"
+    },
+    addressBar: "slope-rider",
+    categories: ['kids'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Slope Rider: Conquer the Unpredictable Slopes!</h2>
+    <p>Get ready for an adrenaline-pumping ride down the snowy mountains in Slope Rider! This isn't your grandma's gentle sledding adventure. Prepare to navigate a treacherous winter wonderland packed with deadly obstacles and hazards that will test your reflexes and nerve. With breathtaking scenery as your backdrop, your mission is simple: survive as long as possible and rack up the highest score imaginable!</p>
+  
+    <h3>Fast-Paced & Unpredictable Terrain</h3>
+    <p>Slope Rider plunges you into an endless sledding experience set against stunning snowy forests and icy terrains. The core objective is straightforward: skillfully guide your sled through ever-changing slopes, avoiding obstacles and collisions to achieve the ultimate score. The longer you survive, the higher your score will climb! But be warned, the slopes are relentless, and danger lurks around every icy corner.</p>
+  
+    <h3>Obstacles Galore: A Test of Skill</h3>
+    <p>Success in Slope Rider is no easy feat. The slopes are teeming with treacherous obstacles designed to end your run in a flash. Brace yourself for a barrage of pine trees, falling ice shards, massive ice-capped boulders, and menacing rolling snowballs that constantly threaten your path. A momentary lapse in concentration or a slight delay in steering can send your sled careening into an obstacle, bringing your exhilarating ride to an abrupt halt.</p>
+  
+    <h3>Steer For Your Survival: Mastering the Controls</h3>
+    <p>The game mechanics are deceptively simple: you control your sled, which hurtles forward at breakneck speed, by steering it left or right and strategically jumping to evade incoming obstacles. Remember this crucial rule: any collision spells game over. There's no slowing down or stopping this sled, so your survival hinges entirely on your lightning-fast reflexes and exceptional driving prowess. Dodge the dangers, survive the slopes, and become the ultimate Slope Rider!</p>
+  
+    <h3>Collect Gifts, Unlock Sleds</h3>
+    <p>Scattered throughout the hazardous slopes are precious gift boxes waiting to be collected. Grab as many as you can to unlock a dazzling array of stylish and unique sleds. But exercise caution! Don't let the allure of these gifts lure you into a dangerous situation. A fancy sled is useless if you crash trying to get it!</p>
+  
+    <h3>Game Controls: Master the Slopes</h3>
+    <p>The fate of your run rests on your fingertips. Here's how to conquer the slopes:</p>
+    <ul>
+      <li><strong>Left Arrow:</strong> Steer Left</li>
+      <li><strong>Right Arrow:</strong> Steer Right</li>
+      <li><strong>Up Arrow:</strong> Jump</li>
+    </ul>
+  
+    <h3>Are You Ready to Ride?</h3>
+    <p>Dare to ride across ever-changing snow slopes riddled with hazards and obstacles? Dive into the heart-pounding world of Slope Rider on AZgames.io and discover the ultimate score you can achieve! Challenge your friends, beat your personal best, and become the undisputed king (or queen) of the slopes!</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Slope Rider?</strong><br>The main objective is to survive as long as possible on the ever-changing snowy slopes while avoiding obstacles and earning the highest score possible.</li>
+      <li><strong>What are the main obstacles in the game?</strong><br>The main obstacles include pine trees, dropping ice, ice-capped boulders, and rolling snowballs.</li>
+      <li><strong>How do I control the sled in Slope Rider?</strong><br>You control the sled using the left and right arrow keys to steer and the up arrow key to jump. The sled automatically moves forward at high speed.</li>
+      <li><strong>What happens if I hit an obstacle?</strong><br>Hitting any obstacle results in an instant game over.</li>
+      <li><strong>What are the gift boxes for?</strong><br>Gift boxes can be collected along the path and used to unlock new and stylish sleds.</li>
+      <li><strong>Where can I play Slope Rider?</strong><br>You can play Slope Rider on AZgames.io.</li>
+    </ol>
+  
+    <p>So, what are you waiting for? Grab your virtual sled, brace yourself, and plunge into the exhilarating, unpredictable world of Slope Rider! The slopes await, and glory – or a spectacular crash – is just around the corner!</p>
+  </div>`,
+  },
+
+  {
+    id: 59,
+    title: "Soccer Dash",
+    iframeUrl: "https://app-208358.games.s3.yandex.net/208358/olf8lv7ggo1c00e36sgabatfs0p2a2gj_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=208358&device-type=desktop",
+    description: "Experience Soccer Dash, the ultimate soccer game where skillful swiping is key! Navigate the ball through challenging levels, dodge cunning players, and score epic goals. Master slow-motion precision for the winning kick!",
+    tags: ["soccer game", "dash game", "football", "slow motion", "skill game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game59.webp",
+    imageAlt: "Soccer Dash gameplay featuring a soccer ball dodging obstacles to score a goal.",
+    seo: {
+      title: "Soccer Dash - Thrilling Soccer Game Online",
+      description: "Dash your way to victory in Soccer Dash! Swipe, strategize, and score goals in this addictive soccer game. Enjoy unique levels and slow-motion gameplay for precision shots.",
+      keywords: "soccer, dash, soccer game, football game, slow motion, sports game, online game, avoid obstacles, score goals"
+    },
+    addressBar: "soccer-dash",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Soccer Dash: Score Big with Precision and Skill</h2>
+    <p>Step onto the virtual field and experience the exhilarating challenge of Soccer Dash! This isn't your typical soccer game; it's a test of skill, precision, and quick thinking. Navigate the ball through a series of increasingly complex levels, dodging tricky opponents and weaving around obstacles, all in pursuit of that sweet taste of victory – scoring the ultimate goal!</p>
+  
+    <img width="50%" style="width: 50%;" src="/images/games/game59-01.webp" alt="Soccer Dash gameplay featuring a soccer ball dodging obstacles to score a goal." />
+
+    <h3>Master the Art of the Swipe</h3>
+    <p>Forget complicated button combinations. Soccer Dash puts you in direct control with an intuitive swipe-to-move mechanic. Simply swipe your finger in the direction you want the ball to travel, and release to unleash your kick! But here’s the twist: the game cleverly enters slow motion as you plan your shot, giving you ample time to analyze the field and plot your perfect move. This unique feature allows for incredible precision and strategic gameplay.</p>
+  
+    <h3>Unique Levels Filled with Surprises</h3>
+    <p>Prepare to be amazed by the imaginative and visually stunning levels that await you in Soccer Dash. Each level is carefully crafted with its own unique set of challenges, obstacles, and surprises. From tight corridors to sprawling open fields, you'll need to adapt your strategy and master your skills to conquer each new environment. Expect the unexpected, and be ready to think on your feet!</p>
+  
+    <h3>Key Game Elements:</h3>
+    <ul>
+      <li><strong>Skill and Accuracy:</strong> Hone your soccer skills and improve your accuracy with each level you conquer.</li>
+      <li><strong>Unique Football Levels:</strong> Explore a variety of imaginative and challenging levels filled with surprises.</li>
+      <li><strong>Slow-Motion Gameplay:</strong> Take advantage of the innovative slow-motion feature for pinpoint precision.</li>
+      <li><strong>Enjoyable Visuals:</strong> Immerse yourself in the game's vibrant and imaginative visual style.</li>
+    </ul>
+
+    <img width="50%" style="width: 50%;" src="/images/games/game59-02.webp" alt="Soccer Dash gameplay featuring a soccer ball dodging obstacles to score a goal." />
+  
+    <h3>Gameplay Instructions: Your Path to Victory</h3>
+    <ol>
+      <li><strong>The Objective:</strong> Your primary goal is to navigate the soccer ball past all obstacles and successfully score a goal in each level.</li>
+      <li><strong>How to Play:</strong> Simply swipe your finger on the screen in the direction you want the ball to move. Release your finger to kick the ball. Use the slow-motion feature to plan your shots strategically.</li>
+    </ol>
+  
+    <h3>FAQ: Get the Inside Scoop on Soccer Dash</h3>
+    <ol>
+      <li><strong>How do I control the ball in Soccer Dash?</strong><br>Controlling the ball is simple! Swipe your finger in the direction you want the ball to move, then release to kick it. The game conveniently slows down during the swipe, giving you time to aim.</li>
+      <li><strong>What is the main goal of the game?</strong><br>The primary objective is to skillfully avoid all the obstacles placed in your path and successfully score a goal in each unique level.</li>
+      <li><strong>What makes Soccer Dash different from other soccer games?</strong><br>The unique combination of skill-based challenges, strategic slow-motion gameplay, and imaginative level design sets Soccer Dash apart from traditional soccer games.</li>
+      <li><strong>Are the levels in Soccer Dash all the same?</strong><br>Not at all! Each level is meticulously designed with its own set of obstacles and surprises, ensuring a fresh and engaging experience every time you play.</li>
+      <li><strong>What kind of skills do I need to succeed in Soccer Dash?</strong><br>Success in Soccer Dash requires a combination of skill, accuracy, and strategic thinking. Mastering the swipe-to-move mechanic and utilizing the slow-motion feature are key to conquering each level.</li>
+      <li><strong>Can I improve my skills while playing?</strong><br>Absolutely! The more you play Soccer Dash, the better you'll become at anticipating obstacles, planning your moves, and executing precise shots.</li>
+    </ol>
+  
+    <p>Ready to put your soccer skills to the test? Download Soccer Dash today and embark on an unforgettable journey filled with thrilling challenges, strategic gameplay, and the sweet taste of victory! Get ready to swipe, score, and dash your way to soccer stardom!</p>
+  </div>`,
+  },
+
+  {
+    id: 60,
+    title: "Table Tennis World Tour",
+    iframeUrl: "https://app-166908.games.s3.yandex.net/166908/0xr5s4a1ekzc2atchpwluec71pc6pik4_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=166908&device-type=desktop",
+    description: "Experience the thrill of Table Tennis World Tour with stunning 3D physics! This realistic game offers an immersive experience, setting a new standard for virtual table tennis. Compete globally and master the art of spin and speed!",
+    tags: ["table tennis", "3D sports game", "world tour", "realistic physics", "online competition"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game60.webp",
+    imageAlt: "A dynamic action shot from Table Tennis World Tour, showcasing realistic 3D table tennis gameplay.",
+    seo: {
+      title: "Table Tennis World Tour - Experience Realistic 3D Table Tennis Online!",
+      description: "Immerse yourself in Table Tennis World Tour, the ultimate 3D table tennis game with realistic physics. Play now and dominate the world of virtual ping pong!",
+      keywords: "table tennis, ping pong, 3D game, sports game, realistic physics, world tour, online multiplayer, table tennis simulator"
+    },
+    addressBar: "table-tennis-world-tour",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Table Tennis World Tour</h2>
+    <p>Step into the arena and experience the adrenaline-pumping action of Table Tennis World Tour! This isn't just a game; it's a meticulously crafted simulation designed to replicate the speed, precision, and finesse of real-world table tennis. Feel the satisfying thwack of the ball as you execute perfectly timed shots and outmaneuver your opponents.</p>
+  
+    <img width="50%" style="width: 50%;" src="/images/games/game60-01.webp" alt="A dynamic action shot from Table Tennis World Tour, showcasing realistic 3D table tennis gameplay." />
+
+    <h3>Unleash the Power of 3D Physics</h3>
+    <p>Table Tennis World Tour sets itself apart with its incredibly realistic 3D physics engine. Every spin, every bounce, every subtle movement of the paddle is calculated with stunning accuracy. This creates an immersive experience that captures the true essence of the sport, making it the only bowling, err, table tennis game (my apologies for the confusion!) that fully embraces such sophisticated physics.</p>
+  
+    <h3>Game Features</h3>
+    <ul>
+      <li><strong>Realistic 3D Physics:</strong> Experience the most authentic table tennis simulation available.</li>
+      <li><strong>Intuitive Controls:</strong> Easy to learn, difficult to master – perfect for players of all skill levels.</li>
+      <li><strong>Stunning Visuals:</strong> High-definition graphics bring the game to life.</li>
+      <li><strong>Competitive Gameplay:</strong> Challenge players from around the globe.</li>
+    </ul>
+  
+    <h3>Master the Art of the Game</h3>
+    <p>Whether you're a seasoned pro or a complete beginner, Table Tennis World Tour offers a challenging and rewarding experience. Sharpen your skills, learn new techniques, and climb the ranks to become a true table tennis champion. The game's intuitive controls allow you to easily execute a wide range of shots, from powerful smashes to delicate drop shots.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>Is Table Tennis World Tour free to play?</strong><br>Yes, Table Tennis World Tour is free to play.</li>
+      <li><strong>What platforms is Table Tennis World Tour available on?</strong><br>Table Tennis World Tour is available on desktop.</li>
+      <li><strong>Does the game feature realistic 3D physics?</strong><br>Yes, this is the best and most realistic 3D table tennis simulation with incredible 3D physics engine and effects.</li>
+      <li><strong>Is Table Tennis World Tour a multiplayer game?</strong><br>Yes, Table Tennis World Tour allows you to compete globally.</li>
+      <li><strong>What kind of controls does Table Tennis World Tour have?</strong><br>Table Tennis World Tour features intuitive controls.</li>
+    </ol>
+  
+    <p>Download Table Tennis World Tour today and embark on your journey to become the ultimate table tennis champion! With its unparalleled realism, intuitive controls, and stunning graphics, this game is guaranteed to provide hours of thrilling entertainment.</p>
+  </div>`,
+  },
+
+  {
+    id: 61,
+    title: "Goalkeeper simulator",
+    iframeUrl: "https://app-282975.games.s3.yandex.net/282975/y9sl4q7r9dwi11qppekry5p1nt138sc5_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=282975&device-type=desktop",
+    description: "Dive into the thrilling world of Goalkeeper Simulator! Defend your net in single-player mode, facing escalating challenges and earning rewards. Or, test your skills against other players online, switching between goalkeeper and striker in intense head-to-head matches. Customize your games, chat with friends, and climb the ranks!",
+    tags: ["goalkeeper", "simulator", "sports game", "online competition", "3D game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game61.webp",
+    imageAlt: "A 3D screenshot from Goalkeeper Simulator, showing a goalie diving to save a shot.",
+    seo: {
+      title: "Goalkeeper Simulator - The Ultimate Online Soccer Game",
+      description: "Experience the thrill of being a goalkeeper in Goalkeeper Simulator! Play solo, compete online, chat with friends, and climb the ranks. Download now and become a legend!",
+      keywords: "goalkeeper simulator, soccer game, sports game, online game, penalty shootout, goalie, striker, online competition"
+    },
+    addressBar: "goalkeeper-simulator",
+    categories: ['sports'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Goalkeeper Simulator: Become the Ultimate Keeper</h2>
+    <p>Step into the gloves and experience the adrenaline-pumping action of being a goalkeeper in <b>Goalkeeper Simulator</b>! This engaging 3D game offers a realistic and challenging experience for players of all skill levels. Whether you prefer honing your skills in single-player mode or battling it out against other players online, Goalkeeper Simulator has something for everyone.</p>
+    
+    <img width="50%" style="width: 50%;" src="/images/games/game61-01.webp" alt="A 3D screenshot from Goalkeeper Simulator, showing a goalie diving to save a shot." />
+
+    <h3>Single-Player Mode: Test Your Reflexes</h3>
+    <p>In single-player mode, you'll face a relentless barrage of shots from various angles. Successfully deflect each ball to earn coins and progress through increasingly difficult levels. With seven distinct skill levels, the ball speed and shot accuracy will constantly challenge your reflexes and anticipation. Earn enough coins to upgrade your gear in the in-game store and boost your performance! Be careful though, missing four shots in a row will drop you down a level!</p>
+    
+    <h3>Online Mode: Head-to-Head Competition</h3>
+    <p>Take your skills online and compete against other players in thrilling head-to-head matches! The online mode allows you to switch roles between defending as a goalkeeper and attacking as a striker, adding a dynamic twist to the gameplay. Customize the number of shots per round and even set a coin wager to raise the stakes. Winning matches will earn you valuable ranking points, allowing you to climb the leaderboards and prove your dominance!</p>
+    
+    <h3>Connect and Compete with Friends</h3>
+    <p>The online mode isn't just about competition; it's also about community. Chat with other players, add friends to your list, and track your stats as you rise through the ranks. The in-game chat is always buzzing with activity, from celebrations and friendly banter to heated debates and new friendships.</p>
+  
+    <h3>Gameplay Instructions</h3>
+    <p>Goalkeeper Simulator offers intuitive controls that are easy to learn but difficult to master. The game is controlled using either a mouse or a finger, depending on your device.</p>
+    <ul>
+      <li><b>Single Mode:</b> Move your gloves to intercept the ball as it approaches the goal. The ball's position is randomized.</li>
+      <li><b>Online Mode:</b> As the striker, control the power of your shot and release to select the direction. As the goalie, stop the other player's shots.</li>
+    </ul>
+  
+    <h3>Online Lobby Types</h3>
+    <ul>
+      <li><b>Regular Lobbies:</b> Casual matches with no ranking implications.</li>
+      <li><b>Ranked Lobbies:</b> Competitive matches where wins and losses affect your ranking.</li>
+    </ul>
+  
+    <h3>Key Features</h3>
+    <ul>
+      <li>Engaging 3D graphics and realistic physics</li>
+      <li>Single-player mode with seven levels of difficulty</li>
+      <li>Online mode with head-to-head competition</li>
+      <li>Role-switching between goalkeeper and striker</li>
+      <li>In-game chat and friend list functionality</li>
+      <li>Coin-based reward system for unlocking new gear</li>
+      <li>Ranked and unranked online lobbies</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>How do I control the goalkeeper?</strong><br>In single-player mode, use your mouse or finger to move the gloves and intercept the ball as it comes towards the goal.</li>
+      <li><strong>What are the different difficulty levels in single-player mode?</strong><br>There are seven levels of difficulty. The higher the level, the faster and more accurate the shots will be.</li>
+      <li><strong>How do I earn coins?</strong><br>You earn coins by successfully deflecting balls in single-player mode. The number of coins you receive per deflected ball depends on the difficulty level, ranging from 4 to 10 coins.</li>
+      <li><strong>What is the purpose of the online mode?</strong><br>The online mode allows you to compete head-to-head with other players, switching roles between goalkeeper and striker. You can wager coins on the outcome of the match and climb the ranks by winning.</li>
+      <li><strong>How do I invite friends to play online?</strong><br>You can invite friends to play from your friend list within the game.</li>
+      <li><strong>What happens if I miss too many shots in a row in single-player mode?</strong><br>If you miss four goals in a row, your difficulty level will decrease.</li>
+    </ol>
+  
+    <p>Ready to prove your goalkeeping prowess? Download <b>Goalkeeper Simulator</b> today and experience the ultimate test of reflexes, strategy, and sportsmanship! Join the vibrant online community and become a legend between the posts!</p>
+  </div>`,
+  },
+
+  {
+    id: 62,
+    title: "Parking Hero 3D: City Jam",
+    iframeUrl: "https://app-452591.games.s3.yandex.net/452591/ye3fkrsuy8ufix05dcq8y7rkkoy9l0ay/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=452591&device-type=desktop",
+    description: "Test your parking prowess in Parking Hero 3D: City Jam! Navigate tight spots, master precision, and avoid collisions in this addictive top-down challenge. Use keyboard/controller or on-screen controls. Become the ultimate parking hero!",
+    tags: ["parking game", "city driving", "3D parking", "skill game", "precision driving"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game62.webp",
+    imageAlt: "Overhead view of a car carefully parking in Parking Hero 3D: City Jam.",
+    seo: {
+      title: "Parking Hero 3D: City Jam - Test Your Parking Skills!",
+      description: "Master the art of parking in Parking Hero 3D: City Jam! Navigate challenging city environments and become the ultimate parking hero. Play now!",
+      keywords: "parking hero, city jam, parking game, 3D parking, driving skills, car parking, precision driving, city driving game"
+    },
+    categories: ['parking'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "parking-hero-3d-city-jam",
+    detailsHtml: `<div>
+    <h2>Parking Hero 3D: City Jam</h2>
+    <p>Ever felt the thrill of squeezing your car into that impossibly tight spot? Parking Hero 3D: City Jam puts you right in the driver's seat, or rather, above it! This addictive game challenges your parking skills like never before, demanding precision, timing, and nerves of steel. Get ready to navigate a bustling city, find your designated parking spot, and execute the perfect park without a scratch!</p>
+    
+    <img src="/images/games/game62-01.webp" alt="Parking Hero 3D: City Jam" width="50%" style="width: 50%;" />
+
+    <h3>Mastering the Urban Jungle</h3>
+    <p>In Parking Hero 3D: City Jam, you'll experience the city from a bird's-eye view. This vantage point provides you with a strategic overview of the parking environment, allowing you to plan your moves carefully. The game is all about spatial awareness and skillful maneuvering, as you attempt to perfectly position your car within the designated area. The challenge lies in avoiding any contact with obstacles, other vehicles, and the unforgiving curbs!</p>
+  
+    <h3>Controls at Your Fingertips</h3>
+    <p>The game offers intuitive controls, ensuring a seamless and engaging parking experience, regardless of your preferred gaming platform. Here's how you can take the wheel:</p>
+    <ul>
+      <li><strong>Computer Keyboard:</strong> Use the arrow keys to steer, accelerate, and brake. Precise inputs are key!</li>
+      <li><strong>Game Controller:</strong> If you're on a console, your controller will provide responsive and familiar controls.</li>
+      <li><strong>Mobile Device:</strong> On your phone or tablet, simply tap the screen and drag your finger to guide your car's movement.</li>
+    </ul>
+  
+    <h3>Become the Ultimate Parking Master</h3>
+    <p>Parking Hero 3D: City Jam isn't just about parking; it's about mastering the art of vehicular finesse. Show off your skills, impress your friends, and become the undisputed Parking Hero of the City! Each successful parking job brings you closer to parking perfection. Are you ready to take on the challenge and prove your worth?</p>
+  
+    <h3>Tips for Parking Perfection</h3>
+    <ol>
+      <li><strong>Plan Your Route:</strong> Before you start moving, take a moment to assess the parking area and visualize your approach.</li>
+      <li><strong>Slow and Steady:</strong> Precision is key. Avoid jerky movements and take your time to execute each maneuver.</li>
+      <li><strong>Utilize Your Mirrors:</strong> Even though you have a top-down view, imagine using your mirrors to gauge distances and avoid collisions.</li>
+      <li><strong>Practice Makes Perfect:</strong> Don't get discouraged if you don't nail it on the first try. Keep practicing, and you'll become a parking pro in no time!</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main goal of Parking Hero 3D: City Jam?</strong><br>The main goal is to park your car correctly within the designated area without hitting any obstacles or other vehicles.</li>
+      <li><strong>How do I control the car on a computer?</strong><br>You use the arrow keys on your computer keyboard to control the car's movement.</li>
+      <li><strong>How do I control the car on a mobile device?</strong><br>Tap the screen and move your finger to control the car's movement on a mobile device.</li>
+      <li><strong>What should I avoid while parking?</strong><br>You should avoid any contact with obstacles and other vehicles while parking.</li>
+      <li><strong>What skills are important to succeed in the game?</strong><br>Precision, timing, and spatial awareness are crucial for successful parking in the game.</li>
+      <li><strong>What makes Parking Hero 3D: City Jam a good game?</strong><br>The top-down view, challenging scenarios, and intuitive controls make it an engaging and addictive parking simulation game.</li>
+    </ol>
+  
+    <p>So, buckle up, get ready to rev your engines, and prepare for the ultimate parking challenge in Parking Hero 3D: City Jam! Can you handle the pressure and become the undisputed parking champion? The city awaits your masterful parking skills!</p>
+  </div>`,
+  },
+
+  {
+    id: 63,
+    title: "City Parking",
+    iframeUrl: "https://app-138561.games.s3.yandex.net/138561/zej0npi24bmd01i0lwvvbfk0c6xhg1zo_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=138561&device-type=desktop",
+    description: "Test your precision parking skills in City Parking! Navigate challenging levels with stunning graphics. Use WASD to conquer tight spots and become the ultimate parking pro. Can you master the art of urban parking?",
+    tags: ["city parking", "parking game", "driving simulator", "skill game", "car game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game63.webp",
+    imageAlt: "A car parked perfectly in a city parking spot, showcasing the City Parking game.",
+    seo: {
+      title: "City Parking - Master the Art of Urban Parking!",
+      description: "Challenge your parking skills in City Parking! Enjoy amazing graphics and multiple levels. Use WASD controls. Perfect for parking game enthusiasts!",
+      keywords: "city parking, parking game, driving game, car simulator, challenging levels, WASD controls, good graphics, parking skills"
+    },
+    categories: ['parking'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "city-parking",
+    detailsHtml: `<div>
+    <h2>City Parking: The Ultimate Parking Challenge</h2>
+    <p>Get ready to test your parking prowess in <strong>City Parking</strong>! This isn't just about getting from point A to point B; it's about precision, control, and mastering the art of navigating tight urban spaces. With its engaging gameplay and visually appealing graphics, City Parking offers a fun and challenging experience for parking enthusiasts of all skill levels.</p>
+   <img src="/images/games/game63-01.webp" alt="City Parking" width="50%" style="width: 50%;" />
+    <h3>Navigate a Multitude of Challenging Levels</h3>
+    <p>City Parking throws you into a series of increasingly difficult parking scenarios. Each level is designed to test your spatial reasoning and driving skills. From parallel parking to navigating crowded lots, you'll need to use all your wits to succeed. Prepare for hairpin turns, narrow passages, and unexpected obstacles that will keep you on the edge of your seat!</p>
+  
+    <h3>Experience Amazing Graphics</h3>
+    <p>Immerse yourself in a visually stunning urban environment. <strong>City Parking</strong> boasts impressive graphics that bring the city to life. From the detailed car models to the realistic streetscapes, every aspect of the game is designed to provide a compelling and immersive experience. Get ready to be amazed by the level of detail!</p>
+  
+    <h3>How to Play City Parking</h3>
+    <p>The goal is simple: park the car in the designated parking space without crashing. But achieving that goal requires skill and precision. Here's a breakdown of the controls:</p>
+    <ul>
+      <li><strong>WASD Keys:</strong> Use the WASD keys to drive the car. W accelerates, S brakes and reverses, and A and D steer left and right.</li>
+    </ul>
+    <p>Mastering these controls is key to navigating the challenging levels and achieving parking perfection!</p>
+  
+    <h3>Tips for Success</h3>
+    <p>Here are a few tips to help you become a City Parking champion:</p>
+    <ul>
+      <li><strong>Take your time:</strong> Don't rush! Carefully assess each parking situation before making your move.</li>
+      <li><strong>Use your mirrors:</strong> Pay attention to your surroundings and use your mirrors to avoid collisions.</li>
+      <li><strong>Practice makes perfect:</strong> The more you play, the better you'll become at judging distances and maneuvering the car.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of City Parking?</strong><br>The main objective is to park the car in the designated parking space without colliding with any obstacles.</li>
+      <li><strong>What controls do I use to drive the car?</strong><br>You use the WASD keys. W accelerates, S brakes and reverses, and A and D steer left and right.</li>
+      <li><strong>Are there multiple levels in City Parking?</strong><br>Yes, City Parking features many challenging levels to test your parking skills.</li>
+      <li><strong>Does the game have good graphics?</strong><br>Yes, the game is designed with amazing graphics to enhance your playing experience.</li>
+      <li><strong>Is City Parking difficult to play?</strong><br>City Parking offers a range of challenging levels to suit different skill levels. Some levels may be more difficult than others.</li>
+    </ol>
+  
+    <p>So, are you ready to put your parking skills to the ultimate test? Dive into <strong>City Parking</strong> today and experience the thrill of navigating challenging levels with stunning graphics. Master the controls, hone your skills, and become the undisputed champion of urban parking!</p>
+  </div>`,
+  },
+
+  {
+    id: 64,
+    title: "Bus Escape",
+    iframeUrl: "https://app-388129.games.s3.yandex.net/388129/0cyfielrszfgfinh8msuvobc3jna2dl3/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=388129&device-type=desktop",
+    description: "Navigate a chaotic parking lot in Bus Escape! Strategically move cars to clear a path for the bus, pick up waiting passengers, and match them with their preferred vehicles. Think smart and escape the gridlock!",
+    tags: ["bus","escape","puzzle","parking","strategy"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game64.webp",
+    imageAlt: "A bus surrounded by colorful cars in a crowded parking lot, symbolizing the bus escape challenge.",
+    seo: {
+      title: "Bus Escape - Puzzle Your Way Out of Parking Chaos!",
+      description: "Solve challenging parking puzzles in Bus Escape! Guide the bus, pick up passengers, and escape the gridlock. Play now and test your strategic thinking!",
+      keywords: "bus escape, parking puzzle, strategy game, online game, car puzzle, traffic jam, logic game"
+    },
+    categories: ['parking'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "bus-escape",
+    detailsHtml: `<div>
+    <h2>Bus Escape: Untangle the Traffic Jam!</h2>
+    <p>Get ready for a brain-teasing challenge in Bus Escape! Your mission is simple: clear a path for the bus to escape the crowded parking lot. But don't be fooled, this seemingly easy task requires careful planning and strategic thinking. Every move counts as you navigate a sea of colorful cars, ensuring the bus can reach freedom.</p>
+  
+    <img src="/images/games/game64-01.webp" alt="Bus Escape" width="50%" style="width: 50%;" />
+
+    <h3>Gameplay Overview</h3>
+    <p>The core objective is to maneuver the cars blocking the bus's exit. Clicking on a car will make it move in the direction indicated by the arrow on top of it. However, you need to make sure the path is clear of any obstacles. Strategic thinking is key to solve each level.</p>
+  
+    <h3>Passenger Pick-Up and Color Matching</h3>
+    <p>Before making your grand escape, you need to gather all the waiting passengers! Once on board, each passenger has a preferred vehicle color. It is important to consider this as part of your strategy to successfully complete each stage.</p>
+  
+    <h3>How to Play Bus Escape</h3>
+    <p>The gameplay of Bus Escape is straightforward, but increasingly challenging. Here’s a step-by-step guide:</p>
+    <ul>
+      <li><strong>Empty the Parking Lot:</strong> The primary objective is to get the cars with passengers out of the parking lot.</li>
+      <li><strong>Click to Move:</strong> Clicking on a car will make it drive in the direction of the arrow.</li>
+      <li><strong>Avoid Obstacles:</strong> Make sure there are no obstacles on the car's path so that it can leave the parking lot without problems.</li>
+      <li><strong>Special Tools:</strong> If you get stuck, you can use special tools to help you sort and organize the cars.</li>
+    </ul>
+  
+    <h3>Tips and Tricks for a Smooth Escape</h3>
+    <ol>
+      <li><strong>Plan Ahead:</strong> Visualize the entire sequence of moves before clicking on the first car.</li>
+      <li><strong>Start with the Obvious:</strong> Begin by moving the cars that are directly blocking the bus.</li>
+      <li><strong>Use Special Tools Wisely:</strong> Don't waste your special tools early on. Save them for when you truly need them.</li>
+      <li><strong>Look for Alternatives:</strong> Sometimes, there's more than one way to solve a puzzle. Experiment with different approaches.</li>
+    </ol>
+  
+    <h3>Features</h3>
+    <ul>
+      <li>Intuitive click-and-play controls</li>
+      <li>Increasingly challenging levels</li>
+      <li>Strategic puzzle gameplay</li>
+      <li>Special tools to help solve the puzzles</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main goal of Bus Escape?</strong><br>The main goal is to get all the cars with passengers out of the parking lot, clearing a path for the bus to escape.</li>
+      <li><strong>How do I move the cars?</strong><br>Clicking on a car will make it drive in the direction of the arrow.</li>
+      <li><strong>What should I do if a car is blocked?</strong><br>Make sure there are no obstacles on the car's path so that it can leave the parking lot without problems. Consider moving other cars to create space.</li>
+      <li><strong>Are there any tools to help me if I get stuck?</strong><br>Yes, you can use special tools to help you sort and organize the cars if you get stuck.</li>
+      <li><strong>Do I need to pick up passengers?</strong><br>Yes, make sure you gather all waiting passengers before escaping.</li>
+      <li><strong>Is matching passenger color important?</strong><br>Yes, each passenger must select a vehicle that matches their preferred color.</li>
+    </ol>
+  
+    <p>Challenge your mind and test your strategic prowess with Bus Escape! Can you navigate the traffic chaos and help the bus reach its destination? Get ready for hours of addictive puzzle fun!</p>
+  </div>`,
+  },
+
+  {
+    id: 65,
+    title: "Taxi Driver",
+    iframeUrl: "https://app-146056.games.s3.yandex.net/146056/nxa49updq8pzj7l4b14ocqr7ebt29pvm_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=146056&device-type=desktop",
+    description: "Buckle up and hit the streets in Taxi Driver! Navigate challenging levels, pick up passengers, and master the art of cab driving. With intuitive controls and vibrant graphics, this driving simulator delivers endless fun. Can you become the ultimate taxi tycoon?",
+    tags: ["taxi game","driving simulator","arcade","casual game","driver"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game65.webp",
+    imageAlt: "A taxi cab speeds through a city street in Taxi Driver game.",
+    seo: {
+      title: "Taxi Driver - The Ultimate Driving Simulator Game!",
+      description: "Experience the thrill of driving in Taxi Driver! Pick up passengers, navigate challenging levels, and master your driving skills. Play now and become the best taxi driver!",
+      keywords: "taxi driver game, driving simulator, arcade game, casual driving, online game, driver, taxi"
+    },
+    addressBar: "taxi-driver",
+    categories: ['parking'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Taxi Driver</h2>
+    <p>Imagine the bustling city, the vibrant lights, and the constant hum of traffic. You're not just observing; you're in the driver's seat, navigating the urban maze in <strong>Taxi Driver</strong>. This isn't your average driving game; it's a dynamic simulator that puts your skills to the test as you race against the clock to deliver passengers to their destinations.</p>
+  
+    <img src="/images/games/game65-01.webp" alt="Taxi Driver" width="50%" style="width: 50%;" />
+
+    <h3>Gameplay Overview</h3>
+    <p>In <strong>Taxi Driver</strong>, your mission is simple: pick up passengers and get them to their desired locations as quickly and safely as possible. But don't let the simplicity fool you. Each of the <strong>many challenging levels</strong> presents unique obstacles and demanding routes. You'll need sharp reflexes, a keen sense of direction, and nerves of steel to succeed.</p>
+  
+    <h3>Intuitive Controls</h3>
+    <p>Mastering the controls is essential for navigating the city streets. The game features easy-to-learn controls, allowing you to focus on the thrill of the ride. Use <strong>WASD or arrow keys to move</strong> your taxi through the city. Need a break from the non-stop action? Simply press <strong>Escape to pause the game</strong>. It's that easy!</p>
+  
+    <h3>Key Features</h3>
+    <ul>
+      <li><strong>Many Challenging Levels:</strong> Test your driving skills across a variety of increasingly difficult levels. Each level presents unique challenges and obstacles.</li>
+      <li><strong>Good Graphics:</strong> Immerse yourself in a visually appealing city environment with detailed graphics that bring the game to life.</li>
+    </ul>
+  
+    <h3>Tips for Success</h3>
+    <ol>
+      <li><strong>Plan Your Route:</strong> Take a moment to scan the map before starting a level to identify the fastest and most efficient route.</li>
+      <li><strong>Master the Controls:</strong> Practice using the WASD or arrow keys to achieve precise control over your taxi.</li>
+      <li><strong>Use Pause Strategically:</strong> Don't hesitate to pause the game to assess the situation or plan your next move.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Taxi Driver?</strong><br>The main objective is to pick up passengers and transport them to their destinations within the given time limit.</li>
+      <li><strong>What controls are used to move the taxi?</strong><br>You can use either the WASD keys or the arrow keys to control the movement of the taxi.</li>
+      <li><strong>How do I pause the game?</strong><br>Press the Escape key to pause the game at any time.</li>
+      <li><strong>Are there different levels in the game?</strong><br>Yes, Taxi Driver features many challenging levels with varying degrees of difficulty.</li>
+      <li><strong>What kind of graphics does the game have?</strong><br>The game features good graphics, enhancing the overall gaming experience.</li>
+    </ol>
+  
+    <p><strong>Taxi Driver</strong> is more than just a game; it's an adrenaline-pumping adventure that puts you in the heart of the urban jungle. So, buckle up, hit the gas, and get ready to experience the thrill of being a taxi driver!</p>
+  </div>`,
+  },
+
+  {
+    id: 66,
+    title: "Parking Master: Urban Challenges",
+    iframeUrl: "https://app-335325.games.s3.yandex.net/335325/apbfgsrv9cpz8o32czxwgh72vw34amyg/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=335325&device-type=desktop",
+    description: "Test your parking prowess in 'Parking Master: Urban Challenges'! Navigate compact city cars & robust SUVs through tricky urban landscapes. Master realistic physics, conquer captivating levels, and become the ultimate parking expert!",
+    tags: ["parking simulation","urban driving","skill game","3D game","car game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game66.webp",
+    imageAlt: "Parking Master: Urban Challenges game screenshot showing a car parked in a tight urban spot.",
+    seo: {
+      title: "Parking Master: Urban Challenges - Test Your Urban Parking Skills!",
+      description: "Immerse yourself in realistic 3D parking! 'Parking Master: Urban Challenges' lets you conquer challenging cityscapes. Master controls & become a parking expert now!",
+      keywords: "parking master, urban, parking, challenges, parking simulator, driving game, city driving, car parking game, driving skills, 3D parking"
+    },
+    addressBar: "parking-master-urban-challenges",
+    categories: ['parking'],
+    size: "small",
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Parking Master: Urban Challenges</h2>
+    <p>Ever felt the thrill of perfectly slotting your car into a ridiculously tight parking space? 'Parking Master: Urban Challenges' throws you headfirst into the heart of congested cityscapes, demanding precision, skill, and a healthy dose of spatial reasoning. This isn't just about avoiding scratches; it's about mastering the urban parking arena.</p>
+
+     <img src="/images/games/game66-01.webp" alt="Taxi Driver" width="50%" style="width: 50%;" />
+
+    <h3>Immersive 3D Parking Simulation</h3>
+    <p>Experience parking like never before with this immersive 3D simulation. 'Parking Master: Urban Challenges' is designed to help you hone your driving abilities and transform you into a parking virtuoso. Navigate a variety of meticulously crafted, life-size vehicles through environments that will truly test your mettle. From simple, straightforward bays to shockingly cramped lanes, each level demands both expertise and a spark of creativity.</p>
+  
+    <h3>Variety is the Spice of Parking</h3>
+    <p>Prepare for a diverse range of challenges and vehicles. 'Parking Master: Urban Challenges' offers:</p>
+    <ul>
+      <li><strong>Multiple Captivating Levels:</strong> Test your skills in a wide array of parking scenarios, each more demanding than the last.</li>
+      <li><strong>Diverse Vehicle Selection:</strong> Take the wheel of various vehicles, from nimble city cars perfect for squeezing into tight spots to robust SUVs that demand careful maneuvering.</li>
+      <li><strong>Realistic Physics:</strong> Feel the weight and handling of each vehicle as you navigate the urban landscape. Account for your vehicle's dimensions and adapt to varying road conditions to achieve parking perfection.</li>
+      <li><strong>Addictive Gameplay:</strong> Enjoy a compelling gameplay experience with a finely tuned control system, accurate vehicle responses, and a diverse range of tasks that will keep you hooked for hours.</li>
+    </ul>
+  
+    <h3>Master the Controls</h3>
+    <p>Here’s how to navigate the concrete jungle:</p>
+    <ul>
+      <li><strong>PC Controls:</strong>
+        <ul>
+          <li><strong>Movement:</strong> Use the WASD keys or the arrow keys to move and turn your vehicle.</li>
+          <li><strong>Handbrake:</strong> The space bar activates the handbrake, essential for those hairpin turns and emergency stops.</li>
+          <li><strong>Game Menu:</strong> Press E or ~ to open the in-game menu and adjust settings.</li>
+          <li><strong>Camera View:</strong> Switch camera perspectives with the M key for optimal visibility.</li>
+          <li><strong>First-Person Zoom:</strong> When in first-person view, hold the Shift key to zoom in for enhanced precision.</li>
+        </ul>
+      </li>
+      <li><strong>Mobile Device Controls:</strong> All essential controls are conveniently displayed on your screen, allowing for intuitive touch-based maneuvering.</li>
+    </ul>
+  
+    <h3>Gameplay Instructions</h3>
+    <p>Your mission is simple: park the car without causing any accidents, and do it as quickly as possible! Follow the arrows guiding you to the designated parking space. Your progress is automatically saved after completing each level. To unlock the next level, you must successfully complete the preceding one.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Parking Master: Urban Challenges?</strong><br>Parking Master: Urban Challenges is an immersive 3D parking simulation game.</li>
+      <li><strong>What skills can I improve by playing this game?</strong><br>The game helps you improve your driving skills, especially your parking abilities, and become a professional parker.</li>
+      <li><strong>What types of vehicles can I drive in the game?</strong><br>You can drive various types of vehicles, including compact city cars and robust SUVs.</li>
+      <li><strong>Are the game physics realistic?</strong><br>Yes, the game features realistic physics, taking into account your vehicle's dimensions and road conditions.</li>
+      <li><strong>What are the PC controls for moving the car?</strong><br>You can use the WASD keys or the arrow keys to move and turn the car on PC.</li>
+      <li><strong>How do I unlock new levels?</strong><br>To unlock the next level, you must first complete the previous one.</li>
+    </ol>
+  
+    <p>'Parking Master: Urban Challenges' offers more than just a game; it's a personal simulator for perfecting your parking talents. So, buckle up, hit the streets, and prove you have what it takes to conquer any parking challenge! Become the ultimate parking master and showcase your mastery of every maneuver.</p>
+  </div>`,
+  },
+
+  {
+    id: 67,
+    title: "Jul Parking Simulator",
+    iframeUrl: "https://app-175180.games.s3.yandex.net/175180/suy61glmghvf8b7zpwrpl1qevku9r36i_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=175180&device-type=desktop",
+    description: "Test your parking skills in Jul Parking Simulator! Navigate 25 levels with good graphics and realistic controls. Master the art of parking with WASD or arrow keys to move and F to enter/exit the car. A fun and challenging experience awaits!",
+    tags: ["jul","parking","simulator","driving game","skill game"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game67.webp",
+    imageAlt: "Car parking in a designated space in Jul Parking Simulator.",
+    seo: {
+      title: "Jul Parking Simulator - Test Your Skills Online",
+      description: "Experience the fun of parking in Jul Parking Simulator! Master 25 levels with realistic controls. Park perfectly using WASD or arrow keys. Play now!",
+      keywords: "jul, parking simulator, car parking game, online parking, driving simulator, skill-based game, 3D parking"
+    },
+    categories: ['parking'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "jul-parking-simulator",
+    detailsHtml: `<div>
+    <h2>Jul Parking Simulator</h2>
+    <p>Step into the driver's seat and prepare for a parking challenge like no other with Jul Parking Simulator! This engaging game puts your driving precision to the ultimate test as you navigate a series of increasingly complex parking scenarios. With responsive controls and surprisingly challenging levels, it’s a great way to sharpen your spatial reasoning skills and have fun while doing it. Can you master all 25 levels?</p>
+  
+    <img src="/images/games/game67-01.webp" alt="Jul Parking Simulator" width="50%" style="width: 50%;" />
+
+    <h3>Gameplay and Objective</h3>
+    <p>Your mission is simple: park the car perfectly within the designated parking space. However, achieving this goal is anything but easy! Each level presents a unique layout filled with obstacles and tight corners that demand careful maneuvering and skillful control. The sense of accomplishment you'll feel after successfully parking in those tricky spots is truly rewarding.</p>
+  
+    <h3>Key Features</h3>
+    <ul>
+      <li><strong>25 Levels of Parking Fun:</strong> With a wide variety of parking challenges to overcome, Jul Parking Simulator offers hours of entertainment. Each level is meticulously designed to test your driving abilities and push your skills to the limit.</li>
+      <li><strong>Good Graphics:</strong> Immerse yourself in a visually appealing environment that enhances the gameplay experience. The detailed car models and realistic environments add depth and realism to the parking challenges.</li>
+      <li><strong>Intuitive Controls:</strong> Navigate the game world with ease using the WASD or arrow keys for movement, and the F key to enter or exit the car. The controls are designed to be responsive and easy to learn, allowing you to focus on mastering your parking technique.</li>
+    </ul>
+  
+    <h3>How to Play</h3>
+    <p>Getting started with Jul Parking Simulator is a breeze:</p>
+    <ol>
+      <li>Use the <strong>WASD or arrow keys</strong> to control the movement of your car.</li>
+      <li>Press the <strong>F key</strong> (or spacebar) to enter and exit the car, allowing you to carefully position yourself for the perfect parking maneuver.</li>
+      <li>Carefully navigate the car through the level, avoiding obstacles and other vehicles.</li>
+      <li>Park the car perfectly within the designated parking space to complete the level.</li>
+    </ol>
+  
+    <h3>Tips and Tricks</h3>
+    <p>Mastering Jul Parking Simulator requires patience and precision. Here are some tips to help you succeed:</p>
+    <ul>
+      <li>Take your time and carefully assess each parking situation before making a move.</li>
+      <li>Use the reverse gear to your advantage, especially when maneuvering in tight spaces.</li>
+      <li>Pay attention to the surrounding environment and avoid hitting obstacles.</li>
+      <li>Practice makes perfect! The more you play, the better you'll become at parking in tricky situations.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What are the controls for Jul Parking Simulator?</strong><br>You can use either WASD or the arrow keys to move the car. Press the F key (or spacebar) to enter or exit the car.</li>
+      <li><strong>How many levels are there in the game?</strong><br>There are 25 challenging levels to test your parking skills.</li>
+      <li><strong>What is the objective of the game?</strong><br>The objective is to park the car perfectly within the designated parking space in each level.</li>
+      <li><strong>Are there any specific features that enhance the gaming experience?</strong><br>Yes, Jul Parking Simulator features good graphics and intuitive controls, providing a smooth and engaging gaming experience.</li>
+      <li><strong>Can I play Jul Parking Simulator on different devices?</strong><br>This information depends on the platform you are playing on. Please check the game's compatibility with your device.</li>
+    </ol>
+  
+    <p>Ready to put your parking skills to the test? Dive into the exciting world of Jul Parking Simulator and become the ultimate parking master! With its engaging gameplay, stunning visuals, and intuitive controls, it's the perfect game for anyone who loves a good driving challenge.</p>
+  </div>`,
+  },
+
+  {
+    id: 68,
+    title: "Car OUT! Jam Parking Puzzle",
+    iframeUrl: "https://app-446644.games.s3.yandex.net/446644/aht4imn9f3arlb3keh0rfqeestvazm5x/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=446644&device-type=desktop",
+    description: "Navigate the chaotic parking lot in Car OUT! Jam Parking Puzzle! Solve intricate puzzles, guide cars to their spots, and pick up passengers of matching colors. Use boosters to master passenger sorting and VIP parking. Perfect for unwinding or challenging your wits!",
+    tags: ["car puzzle","parking jam","logic game","strategy","vehicle"],
+    publishDate: "2025-11-22",
+    imageUrl: "/images/games/game68.webp",
+    imageAlt: "A vibrant and challenging car out jam parking puzzle scene.",
+    seo: {
+      title: "Car OUT! Jam Parking Puzzle - Solve Addictive Traffic Jams",
+      description: "Escape the gridlock in Car OUT! Jam Parking Puzzle. Solve unique parking challenges, sort passengers, and use VIP parking to clear the jam. Play now!",
+      keywords: "car, out, jam, parking puzzle, traffic jam, puzzle game, logic puzzle, car game, solve puzzle"
+    },
+    categories: ['parking'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "car-out-jam-parking-puzzle",
+    detailsHtml: `<div>
+    <h2>Car OUT! Jam Parking Puzzle: The Ultimate Parking Challenge</h2>
+    <p>Ever felt the frustration of being stuck in a parking jam? Now you can experience that, but with a twist of puzzle-solving fun! Car OUT! Jam Parking Puzzle puts you in control of a chaotic parking lot, tasking you with guiding cars to their designated spots and ensuring passengers get safely on board. It's a game that tests your spatial reasoning and strategic thinking, all while providing a satisfying sense of order to the vehicular mayhem. Get ready to untangle the traffic, one car at a time!</p>
+  
+    <img src="/images/games/game68-01.webp" alt="Car OUT! Jam Parking Puzzle" width="50%" style="width: 50%;" />
+
+    <h3>Gameplay: A Symphony of Movement and Color</h3>
+    <p>The core gameplay revolves around simple, yet engaging mechanics. Using the left mouse button, you select a vehicle and direct it towards an empty parking spot. But there's a catch! Cars need to pick up passengers whose color matches their own. Once all the correct passengers are aboard, the car triumphantly drives away, freeing up space for the next maneuver. As you progress, the levels become increasingly complex, demanding careful planning and a keen eye for detail.</p>
+  
+    <h3>Boosters: Your Secret Weapons for Parking Perfection</h3>
+    <p>When the parking jam becomes particularly perplexing, don't despair! Car OUT! Jam Parking Puzzle offers a range of powerful boosters to help you out:</p>
+    <ul>
+      <li><strong>Passenger Sorting:</strong> Rearrange the order of passengers waiting, allowing you to strategically prioritize pickups.</li>
+      <li><strong>Queue Sorting:</strong> Adjust the order of cars waiting to park, optimizing the flow of traffic.</li>
+      <li><strong>VIP Parking:</strong> Create a special parking spot for a car that needs to leave urgently, instantly clearing a path.</li>
+    </ul>
+  
+    <h3>A Balance of Relaxation and Challenge</h3>
+    <p>Whether you're looking for a relaxing way to unwind or a stimulating mental workout, Car OUT! Jam Parking Puzzle offers the perfect balance. The game seamlessly alternates between simpler stages designed for casual play and more intricate puzzles that will truly test your wits. Prepare to be challenged, entertained, and ultimately, rewarded for your parking prowess.</p>
+  
+    <h3>How to Play: A Step-by-Step Guide</h3>
+    <ol>
+      <li><strong>Select a Vehicle:</strong> Use the left mouse button to choose the car you want to move.</li>
+      <li><strong>Direct to Parking Spot:</strong> Click on an empty parking spot to guide the selected car.</li>
+      <li><strong>Passenger Pickup:</strong> If the car's color matches the first passengers in line, they will board the vehicle.</li>
+      <li><strong>Drive Away:</strong> Once all matching passengers are aboard, the car will depart.</li>
+      <li><strong>Use Boosters Strategically:</strong> Deploy Passenger Sorting, Queue Sorting, or VIP Parking when needed to overcome challenging jams.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main goal of Car OUT! Jam Parking Puzzle?</strong><br>The goal is to solve parking puzzles by guiding cars to their designated spots and ensuring they pick up passengers of matching colors before driving away.</li>
+      <li><strong>How do I control the cars in the game?</strong><br>You use the left mouse button to select a vehicle and then click on an empty parking spot to direct it there.</li>
+      <li><strong>What are the different boosters available in the game?</strong><br>The game offers three boosters: Passenger Sorting (rearranges passenger order), Queue Sorting (adjusts car waiting order), and VIP Parking (creates a special parking spot).</li>
+      <li><strong>Are the levels in the game all equally challenging?</strong><br>No, the game offers a variety of levels with unique challenges. Simple stages alternate with more complex ones to provide a balanced experience for all players.</li>
+      <li><strong>What happens if a car picks up the wrong passengers?</strong><br>The car will only pick up passengers whose color matches its own. The game mechanics ensure that the correct passengers are picked up before the car departs.</li>
+      <li><strong>Is Car OUT! Jam Parking Puzzle suitable for all ages?</strong><br>Yes, the game is designed to be accessible and enjoyable for players of all ages, offering a blend of relaxation and mental stimulation.</li>
+    </ol>
+  
+    <p>Ready to test your parking skills? Dive into the world of Car OUT! Jam Parking Puzzle and experience the ultimate blend of strategy, color-matching, and vehicular maneuvering. It's time to conquer the chaos and become the master of the parking lot!</p>
   </div>`,
   }
 
@@ -3592,7 +4549,7 @@ export const categoriesGames = [
     title: '3D Mario game', // 页面 H1 标题
     addressBar: '3d-mario-games', // 地址栏
     description: 'Explore a vast library of 3D Mario games online. From action-packed Mario games to thrilling adventure experiences, discover immersive gaming experiences for all ages.',
-    icon:'<svg t="1763343329905" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="28585"><path d="M326.388 0.753h211.569v54.349H326.388z m213.07 55.856h52.28v52.28h-52.28z" p-id="28586"></path><path d="M485.682 56.61h52.28v52.279h-52.28z m-53.787 0h52.28v52.279h-52.28z m-53.789 0h52.28v52.279h-52.28z m-53.789 0h52.28v52.279h-52.28z" fill="#FD0000" p-id="28587"></path><path d="M270.529 56.61h52.28v52.279h-52.28z" p-id="28588"></path><path d="M270.529 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28589"></path><path d="M270.529 217.964h52.28v52.28h-52.28z" p-id="28590"></path><path d="M270.529 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28591"></path><path d="M270.529 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28592"></path><path d="M270.529 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28593"></path><path d="M270.529 648.252h52.28v52.28h-52.28z m-53.775-537.857h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" p-id="28594"></path><path d="M216.754 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28595"></path><path d="M216.754 325.539h52.28v52.28h-52.28z" p-id="28596"></path><path d="M216.754 379.324h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28597"></path><path d="M216.754 433.108h52.28v52.28h-52.28z" p-id="28598"></path><path d="M216.754 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28599"></path><path d="M216.754 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z m-53.789-161.358h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0-376.5h52.28v52.28h-52.28z" p-id="28600"></path><path d="M162.965 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28601"></path><path d="M162.965 325.539h52.28v52.28h-52.28z m-53.789-53.789h52.28v52.28h-52.28z" p-id="28602"></path><path d="M324.317 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28603"></path><path d="M324.317 217.964h52.28v52.28h-52.28z" p-id="28604"></path><path d="M324.317 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28605"></path><path d="M324.317 325.539h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28606"></path><path d="M324.317 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28607"></path><path d="M324.317 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28608"></path><path d="M324.317 648.252h52.28v52.28h-52.28z" p-id="28609"></path><path d="M378.106 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28610"></path><path d="M378.106 217.964h52.28v52.28h-52.28z" p-id="28611"></path><path d="M378.106 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28612"></path><path d="M378.106 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28613"></path><path d="M378.106 648.252h52.28v52.28h-52.28z" p-id="28614"></path><path d="M431.895 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28615"></path><path d="M431.895 217.964h52.28v52.28h-52.28z" p-id="28616"></path><path d="M431.895 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28617"></path><path d="M431.895 325.539h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28618"></path><path d="M431.895 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28619"></path><path d="M431.895 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28620"></path><path d="M431.895 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" p-id="28621"></path><path d="M485.682 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28622"></path><path d="M485.682 271.75h52.28v52.28h-52.28z" p-id="28623"></path><path d="M485.682 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28624"></path><path d="M485.682 486.894h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28625"></path><path d="M485.682 540.68h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" p-id="28626"></path><path d="M539.458 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28627"></path><path d="M539.458 325.539h52.28v52.28h-52.28z" p-id="28628"></path><path d="M539.458 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28629"></path><path d="M539.458 594.465h52.28v52.28h-52.28z" p-id="28630"></path><path d="M539.458 648.252h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28631"></path><path d="M593.247 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28632"></path><path d="M593.247 325.539h52.28v52.28h-52.28z" p-id="28633"></path><path d="M593.247 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28634"></path><path d="M593.247 486.894h52.28v52.28h-52.28z" p-id="28635"></path><path d="M593.247 540.68h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28636"></path><path d="M593.247 56.61h52.28v52.279h-52.28z m53.788 53.785h52.28v52.28h-52.28z" p-id="28637"></path><path d="M647.035 164.179h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z" fill="#FD0000" p-id="28638"></path><path d="M647.035 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" p-id="28639"></path><path d="M647.035 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28640"></path><path d="M700.824 217.964h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z" fill="#FD0000" p-id="28641"></path><path d="M700.824 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28642"></path><path d="M700.824 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28643"></path><path d="M700.824 648.252h52.28v52.28h-52.28z m0-484.073h52.28v52.28h-52.28z m53.787 53.785h52.28v52.28h-52.28z" p-id="28644"></path><path d="M754.611 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28645"></path><path d="M754.611 433.108h52.28v52.28h-52.28z" p-id="28646"></path><path d="M754.611 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28647"></path><path d="M808.388 217.964h52.28v52.28h-52.28z" p-id="28648"></path><path d="M808.388 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28649"></path><path d="M862.176 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m-53.788 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m-53.777 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z m-53.787 53.786h52.28v52.28h-52.28z" p-id="28650"></path><path d="M700.824 755.823h52.28v52.28h-52.28z" fill="#FD0000" p-id="28651"></path><path d="M754.611 755.823h52.28v52.28h-52.28z m53.777 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" p-id="28652"></path><path d="M808.388 917.182h52.28v52.28h-52.28z" fill="#FD0000" p-id="28653"></path><path d="M862.176 917.182h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" p-id="28654"></path><path d="M808.388 970.967h52.28v52.28h-52.28z m-53.777 0h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.787 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.789 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28655"></path><path d="M647.035 702.038h52.28v52.28h-52.28z" p-id="28656"></path><path d="M593.247 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28657"></path><path d="M593.247 917.182h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#0072C1" p-id="28658"></path><path d="M593.247 755.823h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" p-id="28659"></path><path d="M539.458 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28660"></path><path d="M539.458 917.182h52.28v52.28h-52.28z" fill="#0072C1" p-id="28661"></path><path d="M539.458 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28662"></path><path d="M539.458 755.823h52.28v52.28h-52.28z" p-id="28663"></path><path d="M539.458 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28664"></path><path d="M485.682 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#0072C1" p-id="28665"></path><path d="M485.682 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28666"></path><path d="M485.682 755.823h52.28v52.28h-52.28z" p-id="28667"></path><path d="M485.682 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28668"></path><path d="M431.895 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#0072C1" p-id="28669"></path><path d="M431.895 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28670"></path><path d="M431.895 755.823h52.28v52.28h-52.28z" p-id="28671"></path><path d="M431.895 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28672"></path><path d="M378.106 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#0072C1" p-id="28673"></path><path d="M378.106 755.823h52.28v52.28h-52.28z" p-id="28674"></path><path d="M378.106 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28675"></path><path d="M324.317 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28676"></path><path d="M324.317 917.182h52.28v52.28h-52.28z" p-id="28677"></path><path d="M324.317 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28678"></path><path d="M324.317 755.823h52.28v52.28h-52.28z" p-id="28679"></path><path d="M324.317 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28680"></path><path d="M270.529 702.038h52.28v52.28h-52.28z" p-id="28681"></path><path d="M270.529 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28682"></path><path d="M270.529 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.775 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" p-id="28683"></path></svg>',
+    icon: '<svg t="1763343329905" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="28585"><path d="M326.388 0.753h211.569v54.349H326.388z m213.07 55.856h52.28v52.28h-52.28z" p-id="28586"></path><path d="M485.682 56.61h52.28v52.279h-52.28z m-53.787 0h52.28v52.279h-52.28z m-53.789 0h52.28v52.279h-52.28z m-53.789 0h52.28v52.279h-52.28z" fill="#FD0000" p-id="28587"></path><path d="M270.529 56.61h52.28v52.279h-52.28z" p-id="28588"></path><path d="M270.529 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28589"></path><path d="M270.529 217.964h52.28v52.28h-52.28z" p-id="28590"></path><path d="M270.529 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28591"></path><path d="M270.529 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28592"></path><path d="M270.529 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28593"></path><path d="M270.529 648.252h52.28v52.28h-52.28z m-53.775-537.857h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" p-id="28594"></path><path d="M216.754 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28595"></path><path d="M216.754 325.539h52.28v52.28h-52.28z" p-id="28596"></path><path d="M216.754 379.324h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28597"></path><path d="M216.754 433.108h52.28v52.28h-52.28z" p-id="28598"></path><path d="M216.754 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28599"></path><path d="M216.754 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z m-53.789-161.358h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0-376.5h52.28v52.28h-52.28z" p-id="28600"></path><path d="M162.965 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28601"></path><path d="M162.965 325.539h52.28v52.28h-52.28z m-53.789-53.789h52.28v52.28h-52.28z" p-id="28602"></path><path d="M324.317 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28603"></path><path d="M324.317 217.964h52.28v52.28h-52.28z" p-id="28604"></path><path d="M324.317 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28605"></path><path d="M324.317 325.539h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28606"></path><path d="M324.317 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28607"></path><path d="M324.317 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28608"></path><path d="M324.317 648.252h52.28v52.28h-52.28z" p-id="28609"></path><path d="M378.106 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28610"></path><path d="M378.106 217.964h52.28v52.28h-52.28z" p-id="28611"></path><path d="M378.106 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28612"></path><path d="M378.106 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28613"></path><path d="M378.106 648.252h52.28v52.28h-52.28z" p-id="28614"></path><path d="M431.895 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FD0000" p-id="28615"></path><path d="M431.895 217.964h52.28v52.28h-52.28z" p-id="28616"></path><path d="M431.895 271.75h52.28v52.28h-52.28z" fill="#FD0000" p-id="28617"></path><path d="M431.895 325.539h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28618"></path><path d="M431.895 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28619"></path><path d="M431.895 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28620"></path><path d="M431.895 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" p-id="28621"></path><path d="M485.682 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28622"></path><path d="M485.682 271.75h52.28v52.28h-52.28z" p-id="28623"></path><path d="M485.682 325.539h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28624"></path><path d="M485.682 486.894h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28625"></path><path d="M485.682 540.68h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" p-id="28626"></path><path d="M539.458 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28627"></path><path d="M539.458 325.539h52.28v52.28h-52.28z" p-id="28628"></path><path d="M539.458 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28629"></path><path d="M539.458 594.465h52.28v52.28h-52.28z" p-id="28630"></path><path d="M539.458 648.252h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28631"></path><path d="M593.247 110.395h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28632"></path><path d="M593.247 325.539h52.28v52.28h-52.28z" p-id="28633"></path><path d="M593.247 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28634"></path><path d="M593.247 486.894h52.28v52.28h-52.28z" p-id="28635"></path><path d="M593.247 540.68h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28636"></path><path d="M593.247 56.61h52.28v52.279h-52.28z m53.788 53.785h52.28v52.28h-52.28z" p-id="28637"></path><path d="M647.035 164.179h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z" fill="#FD0000" p-id="28638"></path><path d="M647.035 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" p-id="28639"></path><path d="M647.035 594.465h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28640"></path><path d="M700.824 217.964h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z" fill="#FD0000" p-id="28641"></path><path d="M700.824 379.324h52.28v52.28h-52.28z m0 53.784h52.28v52.28h-52.28z" p-id="28642"></path><path d="M700.824 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28643"></path><path d="M700.824 648.252h52.28v52.28h-52.28z m0-484.073h52.28v52.28h-52.28z m53.787 53.785h52.28v52.28h-52.28z" p-id="28644"></path><path d="M754.611 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28645"></path><path d="M754.611 433.108h52.28v52.28h-52.28z" p-id="28646"></path><path d="M754.611 486.894h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28647"></path><path d="M808.388 217.964h52.28v52.28h-52.28z" p-id="28648"></path><path d="M808.388 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28649"></path><path d="M862.176 271.75h52.28v52.28h-52.28z m0 53.789h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z m-53.788 53.784h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z m-53.777 53.785h52.28v52.28h-52.28z m0 53.787h52.28v52.28h-52.28z m-53.787 53.786h52.28v52.28h-52.28z" p-id="28650"></path><path d="M700.824 755.823h52.28v52.28h-52.28z" fill="#FD0000" p-id="28651"></path><path d="M754.611 755.823h52.28v52.28h-52.28z m53.777 53.786h52.28v52.28h-52.28z m0 53.786h52.28v52.28h-52.28z" p-id="28652"></path><path d="M808.388 917.182h52.28v52.28h-52.28z" fill="#FD0000" p-id="28653"></path><path d="M862.176 917.182h52.28v52.28h-52.28z m0 53.785h52.28v52.28h-52.28z" p-id="28654"></path><path d="M808.388 970.967h52.28v52.28h-52.28z m-53.777 0h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.787 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.789 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28655"></path><path d="M647.035 702.038h52.28v52.28h-52.28z" p-id="28656"></path><path d="M593.247 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28657"></path><path d="M593.247 917.182h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#0072C1" p-id="28658"></path><path d="M593.247 755.823h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" p-id="28659"></path><path d="M539.458 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28660"></path><path d="M539.458 917.182h52.28v52.28h-52.28z" fill="#0072C1" p-id="28661"></path><path d="M539.458 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28662"></path><path d="M539.458 755.823h52.28v52.28h-52.28z" p-id="28663"></path><path d="M539.458 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28664"></path><path d="M485.682 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#0072C1" p-id="28665"></path><path d="M485.682 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28666"></path><path d="M485.682 755.823h52.28v52.28h-52.28z" p-id="28667"></path><path d="M485.682 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28668"></path><path d="M431.895 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#0072C1" p-id="28669"></path><path d="M431.895 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28670"></path><path d="M431.895 755.823h52.28v52.28h-52.28z" p-id="28671"></path><path d="M431.895 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28672"></path><path d="M378.106 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z m0-53.787h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#0072C1" p-id="28673"></path><path d="M378.106 755.823h52.28v52.28h-52.28z" p-id="28674"></path><path d="M378.106 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28675"></path><path d="M324.317 970.967h52.28v52.28h-52.28z" fill="#FFFFFF" p-id="28676"></path><path d="M324.317 917.182h52.28v52.28h-52.28z" p-id="28677"></path><path d="M324.317 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z" fill="#FD0000" p-id="28678"></path><path d="M324.317 755.823h52.28v52.28h-52.28z" p-id="28679"></path><path d="M324.317 702.038h52.28v52.28h-52.28z" fill="#FBD5B5" p-id="28680"></path><path d="M270.529 702.038h52.28v52.28h-52.28z" p-id="28681"></path><path d="M270.529 970.967h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" fill="#FD0000" p-id="28682"></path><path d="M270.529 863.395h52.28v52.28h-52.28z m0-53.786h52.28v52.28h-52.28z m-53.775 161.358h52.28v52.28h-52.28z m0-53.785h52.28v52.28h-52.28z" p-id="28683"></path></svg>',
     seo: {
       title: "Play free 3D Mario game online | Latest popular 3D web games - 3dsgames.com",
       description: "Explore free 3D Mario game and play instantly. Get the latest 3DS game guides, in-depth reviews, and must-play recommendations. Immerse yourself in the world of 3D games!",
@@ -3636,6 +4593,19 @@ export const categoriesGames = [
       title: "Play 3D Kids Games Online | Fun & Safe 3D Kids Games - 3dsgames.com",
       description: "Explore fun, safe, and easy-to-play 3D Kids games online. Enjoy creative adventures, simple challenges, and interactive experiences designed for young players.",
       keywords: "3DS games, 3D games, H5 games, H5 3D games, web-based 3D games, free H5 games, 3DS strategy guides, 3DS recommendations, Nintendo 3DS, online 3D games"
+    },
+  },
+  {
+    id: 'parking', // 内部标识符，被游戏的 categories 字段引用
+    name: '3D Parking game', // 显示名称
+    title: '3D Parking game', // 页面 H1 标题
+    addressBar: '3d-parking-games', // 地址栏
+    description: 'Explore a wide variety of online Parking games that challenge your driving precision, spatial awareness, and timing skills. From realistic 3D parking simulators to fun casual challenges, test how well you can park under pressure!',
+    icon: '<svg t="1763350654581" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="88731"><path d="M258.416 103.404C254.52 149.66 206.316 156.96 206.316 156.96c41.388 1.952 51.7 56.24 51.7 56.24 0.884-38.708 53.284-56.808 53.284-56.808-39.252-2.352-52.884-52.988-52.884-52.988z" fill="#D7E057" p-id="88732"></path><path d="M311.66 150.404c-34.42-2.064-47.328-48.1-47.456-48.568a6.024 6.024 0 0 0-6.332-4.408 6 6 0 0 0-5.436 5.468c-3.44 40.864-45.252 47.856-47.016 48.128a6 6 0 0 0 0.616 11.928c36.112 1.704 45.996 50.876 46.092 51.376a6 6 0 0 0 11.896-0.992c0.78-34.036 48.768-51.108 49.252-51.276a6 6 0 0 0-1.616-11.656zM257.396 191.784c-5.424-12.524-14.836-27.632-30.348-35.508 11.724-5.62 25.636-15.652 32.808-33.092 6.204 12.284 16.8 27.524 33.336 34.892-12.028 6.56-27.688 17.624-35.796 33.708z" fill="#3A312A" p-id="88733"></path><path d="M171.62 171.328c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.376 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88734"></path><path d="M209.388 202.816c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.892-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.604-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.956-21.46 19.884z" fill="#3A312A" p-id="88735"></path><path d="M171.62 64.696c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.38 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88736"></path><path d="M209.388 96.188c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.896-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.608-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.952-21.46 19.884z" fill="#3A312A" p-id="88737"></path><path d="M510.868 444.704L336.64 270.476c-14.524-14.52-38.068-14.52-52.588 0-14.524 14.524-14.524 38.072 0 52.592l174.228 174.228a37.08 37.08 0 0 0 26.296 10.892 37.192 37.192 0 0 0 26.292-63.484z" fill="#FCE8CB" p-id="88738"></path><path d="M515.108 440.46L340.88 266.236c-16.832-16.832-44.236-16.84-61.072 0-8.156 8.156-12.652 19.004-12.652 30.54s4.496 22.384 12.652 30.54l174.228 174.228c8.16 8.156 19.004 12.648 30.536 12.648s22.376-4.492 30.536-12.648c8.156-8.156 12.648-19.004 12.648-30.54s-4.492-22.388-12.648-30.544z m-8.484 52.596a30.98 30.98 0 0 1-22.052 9.132 30.996 30.996 0 0 1-22.052-9.132L288.292 318.828c-5.892-5.892-9.136-13.724-9.136-22.056s3.248-16.164 9.136-22.056a31.08 31.08 0 0 1 22.052-9.116c7.984 0 15.972 3.04 22.052 9.116l174.228 174.228c12.16 12.16 12.16 31.952 0 44.112z" fill="#3A312A" p-id="88739"></path><path d="M878.34 270.476c-14.52-14.52-38.064-14.52-52.592 0l-174.228 174.228a37.188 37.188 0 0 0 0 52.592 37.08 37.08 0 0 0 26.296 10.892 37.084 37.084 0 0 0 26.296-10.892l64.432-64.432 39.352-39.352 70.444-70.444c14.52-14.52 14.52-38.068 0-52.592z" fill="#FCE8CB" p-id="88740"></path><path d="M882.584 266.236c-16.836-16.836-44.236-16.836-61.08 0l-174.232 174.228c-8.156 8.156-12.648 19.004-12.648 30.54s4.492 22.384 12.648 30.54a42.92 42.92 0 0 0 30.54 12.648c11.528 0 22.376-4.492 30.54-12.648l64.432-64.432a6 6 0 1 0-8.484-8.484l-64.432 64.428a31.008 31.008 0 0 1-22.056 9.136 31.012 31.012 0 0 1-22.056-9.132c-12.16-12.16-12.16-31.948 0-44.108l174.232-174.224c12.16-12.156 31.948-12.16 44.108-0.004 12.156 12.16 12.156 31.948 0 44.108l-70.444 70.44a6 6 0 1 0 8.484 8.484l70.444-70.44c16.836-16.844 16.836-44.24 0.004-61.08z" fill="#3A312A" p-id="88741"></path><path d="M445.872 124.092m-59.396 0a59.396 59.396 0 1 0 118.792 0 59.396 59.396 0 1 0-118.792 0Z" fill="#87796F" p-id="88742"></path><path d="M445.872 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396s65.396-29.336 65.396-65.396c0-36.064-29.336-65.4-65.396-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.396 23.952 53.396 53.4c0 29.444-23.952 53.396-53.396 53.396z" fill="#3A312A" p-id="88743"></path><path d="M657.893553 133.590379a59.396 59.396 0 1 0 117.259579-19.019212 59.396 59.396 0 1 0-117.259579 19.019212Z" fill="#87796F" p-id="88744"></path><path d="M716.512 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396 36.064 0 65.4-29.336 65.4-65.396 0-36.064-29.336-65.4-65.4-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.4 23.952 53.4 53.4c0 29.444-23.956 53.396-53.4 53.396z" fill="#3A312A" p-id="88745"></path><path d="M551.24 748.52h-68.2c-3.76 0-7.28-1-10.32-2.76v158.4h-25.8a27.588 27.588 0 0 0-19.48 47.08 27.452 27.452 0 0 0 19.48 8.08h68.92v-0.16c22-0.96 39.52-19 39.52-41.24v-169.84a20 20 0 0 1-4.12 0.44z" fill="#FCE8CB" p-id="88746"></path><path d="M559.132 743.416a6.008 6.008 0 0 0-5.024-1.204 13.892 13.892 0 0 1-2.872 0.308h-68.2a14.592 14.592 0 0 1-7.308-1.952 5.988 5.988 0 0 0-6.004-0.008 6.012 6.012 0 0 0-3.004 5.2v152.404h-19.8c-18.508 0-33.56 15.056-33.56 33.56a33.4 33.4 0 0 0 9.836 23.764 33.332 33.332 0 0 0 23.724 9.836h68.92c0.576 0 1.136-0.084 1.668-0.248a47.2 47.2 0 0 0 43.852-47.152V748.08c0-1.816-0.816-3.524-2.228-4.664z m-9.772 174.504a35.232 35.232 0 0 1-33.78 35.244 6.088 6.088 0 0 0-1.092 0.156H446.92a21.432 21.432 0 0 1-15.24-6.32 21.584 21.584 0 0 1 15.236-36.84h25.8a6 6 0 0 0 6-6v-149.992c1.42 0.236 2.864 0.352 4.32 0.352h66.32v163.4z" fill="#3A312A" p-id="88747"></path><path d="M796.4 787.8l-29.04-39.84c-1.24 0.36-2.52 0.56-3.92 0.56h-97.96l16.28 22.32h-85.4c-21.12 0-38.48 15.8-41 36.2-0.16 1.2-0.24 2.44-0.28 3.68h-0.04v68.92c0 1.32 0.08 2.64 0.32 3.92a27.516 27.516 0 0 0 27.24 23.68c15.24 0 27.6-12.36 27.6-27.6v-26.2h152.8c15.56 0 29.76-8.72 36.84-22.56 7.04-13.88 5.72-30.52-3.44-43.08z" fill="#FCE8CB" p-id="88748"></path><path d="M801.248 784.264l-29.04-39.84a6.016 6.016 0 0 0-6.52-2.228c-0.752 0.22-1.468 0.32-2.248 0.32h-97.96a6 6 0 0 0-4.848 9.532l9.324 12.784h-73.6c-23.848 0-44.036 17.824-46.948 41.408-0.152 1.16-0.244 2.348-0.3 3.544a5.892 5.892 0 0 0-0.072 0.928v68.92c0 1.856 0.136 3.496 0.38 4.752 2.304 16.448 16.572 28.852 33.184 28.852 18.528 0 33.596-15.076 33.596-33.6v-20.2h146.8a47.2 47.2 0 0 0 42.18-25.828l0.012-0.02a47.136 47.136 0 0 0-3.94-49.324z m-6.752 43.888a35.248 35.248 0 0 1-31.496 19.288h-152.8a6 6 0 0 0-6 6v26.2c0 11.912-9.688 21.6-21.596 21.6-10.664 0-19.82-7.96-21.344-18.784a15.348 15.348 0 0 1-0.22-2.816v-68.236c0.02-0.16 0.032-0.316 0.036-0.48 0.036-1.04 0.096-2.084 0.24-3.152 2.18-17.632 17.248-30.932 35.048-30.932h85.404a6 6 0 0 0 4.848-9.532l-9.324-12.784h86.156c0.416 0 0.836-0.012 1.248-0.04l26.864 36.856a35.208 35.208 0 0 1 2.936 36.812z" fill="#3A312A" p-id="88749"></path><path d="M774.56 726.6L688.08 608c-0.32 0.04-0.68 0.04-1 0.04h-211.76a13.96 13.96 0 0 1-11.96-6.76c-0.64 3.28-0.96 6.68-0.96 10.12v116.48a20.64 20.64 0 0 0 20.64 20.64h68.2c11.4 0 20.68-9.24 20.68-20.64v-81.24c0-2.88 3.64-4.12 5.36-1.8l73.64 98c2.56 3.6 6.72 5.68 11.12 5.68h101.4c11.28 0 17.76-12.8 11.12-21.92z" fill="#F16C7A" p-id="88750"></path><path d="M779.408 723.064l-86.48-118.596c-1.284-1.76-3.688-2.708-5.848-2.424h-211.76a7.928 7.928 0 0 1-6.828-3.864 5.996 5.996 0 0 0-11.024 1.956 58.864 58.864 0 0 0-1.072 11.264v116.48a26.668 26.668 0 0 0 26.64 26.64h68.2c14.712 0 26.68-11.948 26.68-26.64v-72.204l68.108 90.64a19.66 19.66 0 0 0 16.012 8.204h101.404a19.664 19.664 0 0 0 17.612-10.796 19.732 19.732 0 0 0-1.644-20.66z m-9.048 15.212a7.624 7.624 0 0 1-6.916 4.244H662.04a7.712 7.712 0 0 1-6.324-3.284l-73.616-97.972a8.96 8.96 0 0 0-10.008-3.176 8.992 8.992 0 0 0-6.172 8.556v81.24a14.672 14.672 0 0 1-14.68 14.64h-68.2a14.656 14.656 0 0 1-14.64-14.64v-115.092a19.832 19.832 0 0 0 6.92 1.252h209.736l84.652 116.088c1.768 2.428 2.016 5.472 0.652 8.144z" fill="#3A312A" p-id="88751"></path><path d="M581.192 392.496c-66.18 0-119.824 53.648-119.824 119.824v81.776a13.944 13.944 0 0 0 13.944 13.944h211.76a13.944 13.944 0 0 0 13.944-13.944V512.32c0-66.18-53.644-119.824-119.824-119.824z" fill="#D7E057" p-id="88752"></path><path d="M581.192 386.492c-69.38 0-125.828 56.444-125.828 125.828v10.66a6 6 0 1 0 12 0v-10.66c0-62.764 51.06-113.828 113.828-113.828 62.76 0 113.824 51.064 113.824 113.828v81.776a7.952 7.952 0 0 1-7.94 7.944h-211.764a7.952 7.952 0 0 1-7.944-7.944v-15.084a6 6 0 1 0-12 0v15.084a19.968 19.968 0 0 0 19.944 19.944h211.764a19.964 19.964 0 0 0 19.94-19.944V512.32c0-69.384-56.444-125.828-125.824-125.828z" fill="#3A312A" p-id="88753"></path><path d="M546.162425 415.230706a152.588 152.588 0 1 0 70.133088-297.007981 152.588 152.588 0 1 0-70.133088 297.007981Z" fill="#FCE8CB" p-id="88754"></path><path d="M581.192 108.088c-87.444 0-158.588 71.144-158.588 158.588 0 42.36 16.496 82.184 46.448 112.136 29.956 29.956 69.78 46.452 112.14 46.448h0.008c42.356 0 82.18-16.496 112.132-46.448s46.448-69.776 46.448-112.136c0-87.44-71.144-158.588-158.588-158.588z m103.656 262.244c-27.688 27.688-64.5 42.932-103.656 42.932s-75.964-15.248-103.652-42.932c-27.688-27.688-42.936-64.496-42.936-103.652 0-80.828 65.76-146.588 146.588-146.588 80.828 0 146.588 65.76 146.588 146.588 0 39.156-15.244 75.964-42.932 103.652z" fill="#3A312A" p-id="88755"></path><path d="M536.24 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856zM626.14 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856z" fill="#3A312A" p-id="88756"></path><path d="M511.408 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16zM650.98 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16z" fill="#F5978A" p-id="88757"></path><path d="M618.416 312.772a5.984 5.984 0 0 0-7.724 3.512c-2.328 6.216-11.488 17.964-29.5 17.964-14.272 0-23.712-5.86-29.7-18.436a6.004 6.004 0 0 0-10.836 5.156c7.984 16.776 21.624 25.28 40.536 25.28 21.364 0 36.092-13.352 40.736-25.752a6 6 0 0 0-3.512-7.724z" fill="#3A312A" p-id="88758"></path><path d="M581.192 78.124c-94.208 0-170.564 76.356-170.564 170.564 0 91.768 28.924 104.704 28.924 28.924 0-4.84 0.248-9.624 0.72-14.336 63.424-28.348 124.968-63.168 174.92-109.788 1.196 2.948 2.464 5.864 3.848 8.74 7.032 14.576 16.508 27.876 26.672 40.484 22.052 27.376 48.044 52.06 77.048 71.924 0.02 0.992 0.076 1.976 0.076 2.976 0 75.78 28.924 62.848 28.924-28.924-0.004-94.204-76.36-170.564-170.568-170.564z" fill="#87796F" p-id="88759"></path><path d="M581.192 72.124c-97.356 0-176.564 79.208-176.564 176.568 0 40.74 6.08 84.268 23.148 84.268 6.376 0 11.096-5.62 14.024-16.7 2.452-9.28 3.752-22.644 3.752-38.648 0-3.412 0.132-6.864 0.392-10.304 69.588-31.392 124.38-65.396 167.1-103.724l0.596 1.252c6.268 13 14.976 26.232 27.404 41.64 22.528 27.964 48.016 51.96 75.796 71.36 0.012 15.904 1.308 29.188 3.752 38.424 2.928 11.08 7.648 16.7 14.028 16.7 17.064 0 23.144-43.532 23.144-84.268-0.008-97.36-79.212-176.568-176.572-176.568zM734.8 320.132c-2.176-3.576-5.964-15.392-5.964-42.52 0-0.704-0.024-1.408-0.048-2.104l-0.032-1.012a6.016 6.016 0 0 0-2.608-4.808c-27.796-19.04-53.288-42.84-75.764-70.744-11.836-14.68-20.08-27.172-25.936-39.32a139.588 139.588 0 0 1-3.692-8.388 6.008 6.008 0 0 0-9.652-2.136c-43.244 40.352-99.924 75.908-173.276 108.7a5.992 5.992 0 0 0-3.52 4.88 150.932 150.932 0 0 0-0.752 14.932c0 27.128-3.788 38.944-5.968 42.52-4.056-5.128-10.956-26.848-10.956-71.44 0-90.744 73.824-164.568 164.564-164.568 90.744 0 164.568 73.824 164.568 164.568-0.008 44.592-6.904 66.312-10.964 71.44z" fill="#3A312A" p-id="88760"></path><path d="M769.724 730.16l-84.64-116.12h-33.36l84.64 116.12c1.76 2.4 2 5.44 0.64 8.12-1.36 2.64-3.96 4.24-6.92 4.24h33.32c3 0 5.6-1.6 6.96-4.24 1.36-2.68 1.12-5.72-0.64-8.12z" fill="#CE4E61" p-id="88761"></path><path d="M639.004 414.32a159.8 159.8 0 0 1-22.92 7c27.64 20.76 45.56 53.8 45.56 91v81.76c0 4.4-3.56 7.96-7.92 7.96h33.36c4.36 0 7.92-3.56 7.92-7.96v-81.76c0-41.68-22.52-78.16-56-98z" fill="#B9BC39" p-id="88762"></path><path d="M581.204 84.12c-4.08 0-8.08 0.16-12.08 0.44 85.12 6.2 152.48 77.48 152.48 164.12 0 6.28-0.12 12.12-0.4 17.52 1.64 1.2 3.32 2.36 4.96 3.48 1.6 1.12 2.56 2.92 2.6 4.84l0.04 1.08c0 0.68 0.04 1.32 0.04 2 0 27.16 3.76 38.96 5.96 42.52 4.04-5.12 10.96-26.84 10.96-71.44 0-90.72-73.84-164.56-164.56-164.56z" fill="#6B5B51" p-id="88763"></path></svg>',
+    seo: {
+      title: "Play 3D parking Games Online | Fun & Safe 3D parking Games - 3dsgames.com",
+      description: "fun and challenging online Parking games that test your driving control, precision, and timing. Enjoy realistic 3D parking simulators and exciting car.",
+      keywords: "parking games, car parking online, 3D parking game, driving games, parking simulator, free parking games"
     },
   },
 
