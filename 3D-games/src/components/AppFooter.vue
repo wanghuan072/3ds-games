@@ -77,11 +77,11 @@
       <div class="footer-section">
         <h3 class="section-title">Legal</h3>
         <ul class="footer-links">
-          <li><RouterLink to="/privacy-policy" class="footer-link">Privacy Policy</RouterLink></li>
-          <li><RouterLink to="/terms-of-use" class="footer-link">Terms of Use</RouterLink></li>
-          <li><RouterLink to="/copyright" class="footer-link">Copyright</RouterLink></li>
-          <li><RouterLink to="/about-us" class="footer-link">About Us</RouterLink></li>
-          <li><RouterLink to="/contact-us" class="footer-link">Contact Us</RouterLink></li>
+          <li><a href="/privacy-policy" class="footer-link" rel="nofollow">Privacy Policy</a></li>
+          <li><a href="/terms-of-use" class="footer-link" rel="nofollow">Terms of Use</a></li>
+          <li><a href="/copyright" class="footer-link" rel="nofollow">Copyright</a></li>
+          <li><a href="/about-us" class="footer-link" rel="nofollow">About Us</a></li>
+          <li><a href="/contact-us" class="footer-link" rel="nofollow">Contact Us</a></li>
         </ul>
       </div>
     </div>
