@@ -68,6 +68,18 @@
             <a href="/3d-mario-games" class="footer-link">3D Mario Games</a>
           </li>
           <li>
+            <a href="/3d-adventure-games" class="footer-link">3D Adventure Games</a>
+          </li>
+          <li>
+            <a href="/3d-sports-games" class="footer-link">3D Sports Games</a>
+          </li>
+          <li>
+            <a href="/3d-kids-games" class="footer-link">3D Kids Games</a>
+          </li>
+          <li>
+            <a href="/3d-parking-games" class="footer-link">3D Parking Games</a>
+          </li>
+          <li>
             <a href="/3d-jump-games" class="footer-link">3D Jump Games</a>
           </li>
         </ul>

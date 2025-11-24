@@ -1903,7 +1903,7 @@ export const games = [
       keywords: "super mario bros, mario classic game, platform adventure, bowser, mushroom kingdom, retro mario, princess toadstool"
     },
     addressBar: "super-mario-bros",
-    categories: ['mario', 'kids'], // 引用 categoriesGames 中的 id
+    categories: ['mario', 'kids', 'jump'], // 引用 categoriesGames 中的 id
     size: "small",
     isHot: true,
     isNew: true,
@@ -2164,7 +2164,7 @@ export const games = [
       keywords: "Temple Run 2, temple, run, endless runner, mobile game, adventure, performance, optimization, download, free"
     },
     addressBar: "temple-run-2",
-    categories: ['adventure', 'kids'],
+    categories: ['adventure', 'kids', 'jump'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -2220,7 +2220,7 @@ export const games = [
       keywords: "snow, road, 3D racing, snow racing game, stunt game, icy tracks, racing adventure, online game"
     },
     addressBar: "snow-road-3d",
-    categories: ['adventure', 'sports', 'kids'],
+    categories: ['adventure', 'sports', 'kids', 'jump'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -3729,7 +3729,7 @@ export const games = [
       keywords: "drive mad, driving game, car game, obstacle course, physics game, skill game, free online game, driving challenges"
     },
     addressBar: "drive-mad",
-    categories: ['kids'],
+    categories: ['kids', 'jump'],
     size: "small",
     isHot: true,
     isNew: true,
@@ -4475,6 +4475,805 @@ export const games = [
   
     <p>Ready to test your parking skills? Dive into the world of Car OUT! Jam Parking Puzzle and experience the ultimate blend of strategy, color-matching, and vehicular maneuvering. It's time to conquer the chaos and become the master of the parking lot!</p>
   </div>`,
+  },
+
+  {
+    id: 69,
+    title: "Traffic Jam 3D!",
+    iframeUrl: "https://app-281284.games.s3.yandex.net/281284/4yo9n9qqyc3jf2aglc5tq54m412iovna_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=281284&device-type=desktop",
+    description: "Escape the gridlock in Traffic Jam 3D! Strategically move cars, avoid collisions, and master the art of parking in this relaxing yet challenging puzzle game. Simple controls, visually pleasing cars, and a stress-free atmosphere await!",
+    tags: ["traffic jam","puzzle game","car parking","casual game","relaxation"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game69.webp",
+    imageAlt: "A vibrant 3D scene from Traffic Jam 3D, showcasing colorful cars in a complex traffic jam.",
+    seo:{
+      title:"Traffic Jam 3D! - Solve Puzzles & Escape the Congestion - Play Now!",
+      description:"Navigate chaotic traffic in Traffic Jam 3D! Use strategy to move cars, avoid crashes, and find the perfect parking spot. Enjoy simple gameplay and relaxing fun!",
+      keywords:"traffic jam, car puzzle, parking game, 3D game, casual game, strategy game, online game, free game"
+    },
+    categories: ['parking'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "traffic-jam-3d",
+    detailsHtml: `<div>
+    <h2>Traffic Jam 3D!</h2>
+    <p>Immerse yourself in the delightfully frustrating world of Traffic Jam 3D! This isn't just another parking game; it's a strategic puzzle where every move counts. Picture a gridlocked city, cars bumper-to-bumper, and you're the only one who can restore order. Feel the satisfaction as you carefully maneuver vehicles, creating pathways and freeing the jam.</p>
+  
+    <h3>The Art of Congestion Control</h3>
+    <p>Traffic Jam 3D challenges your spatial reasoning and problem-solving skills. Your mission? To strategically move the cars out of the traffic jam without causing any collisions. Each level presents a unique configuration of vehicles, demanding a thoughtful and precise approach. The simple, yet engaging mechanics make it accessible to players of all ages and skill levels. One wrong move and you might find yourself back at square one, but don't worry, the relaxing atmosphere keeps things from getting too stressful!</p>
+  
+    <h3>Game Features That Will Hook You</h3>
+    <ul>
+      <li><strong>Simple, yet Exciting Mechanics:</strong> Master the art of escaping traffic jams by strategically moving cars. It's easy to pick up, but difficult to master!</li>
+      <li><strong>Visually Pleasing Design:</strong> Each car is meticulously designed to create a visually appealing experience, contributing to the game's relaxing and enjoyable atmosphere.</li>
+      <li><strong>Relaxed Gameplay:</strong> Play at your own pace and immerse yourself in the soothing atmosphere of Traffic Jam 3D. There's no time limit, so you can take your time and plan your moves carefully.</li>
+      <li><strong>Intuitive Controls:</strong> Simply click (or tap) on a car to move it in the direction indicated by the arrows.</li>
+    </ul>
+  
+    <h3>Gameplay Instructions: Your Road to Freedom</h3>
+    <ol>
+      <li><strong>Move with Ease:</strong> Click on the cars using your mouse or tap with your finger to initiate movement.</li>
+      <li><strong>Arrow Guidance:</strong> Pay close attention to the arrows on each car. They indicate the direction in which the car will move.</li>
+      <li><strong>Collision Avoidance:</strong> Carefully plan your moves to prevent cars from crashing into each other.</li>
+      <li><strong>Pedestrian Safety:</strong> Ensure that no pedestrians are harmed during your strategic maneuvers.</li>
+      <li><strong>Relax and Enjoy:</strong> Have fun and relax as you conquer the traffic challenges!</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Traffic Jam 3D?</strong><br>The main objective is to strategically move cars out of the traffic jam without causing collisions or hitting pedestrians.</li>
+      <li><strong>How do I control the cars in the game?</strong><br>You control the cars by clicking on them with your mouse or tapping them with your finger. The arrows indicate the direction the car will move.</li>
+      <li><strong>What happens if I cause a collision?</strong><br>If cars collide, you may have to restart the level. The goal is to solve the puzzle without any crashes.</li>
+      <li><strong>Is there a time limit in Traffic Jam 3D?</strong><br>No, there is no time limit. You can play at your own pace and enjoy the relaxed atmosphere of the game.</li>
+      <li><strong>What makes Traffic Jam 3D unique?</strong><br>The unique combination of enjoyable driving-themed puzzles and a relaxing atmosphere sets Traffic Jam 3D apart from other parking games.</li>
+      <li><strong>Is Traffic Jam 3D difficult to play?</strong><br>The game features simple mechanics that are easy to learn, but the puzzles can become quite challenging as you progress.</li>
+    </ol>
+  
+    <p>Ready to untangle the mess? Traffic Jam 3D offers a delightful escape from the everyday grind. With its simple controls, visually appealing graphics, and strategically engaging gameplay, it's the perfect way to unwind and test your problem-solving skills. Dive in and experience the satisfying feeling of clearing the road, one car at a time!</p>
+  </div>`,
+  },
+
+  {
+    id: 73,
+    title: "Dancing Beat",
+    iframeUrl: "https://gamea.azgame.io/dancing-beat/",
+    description: "Feel the rhythm in Dancing Beat! Guide your ball through dazzling, ever-changing mazes with one-click control. Precision timing is key – sync your moves to the music and conquer pulse-racing challenges! Addictive gameplay with vibrant graphics and immersive environments.",
+    tags: ["dancing","beat","arcade game","rhythm game","music game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game73.webp",
+    imageAlt: "A vibrant screenshot from Dancing Beat showing a ball navigating a colorful, twisting path in sync with the music.",
+    seo:{
+      title:"Dancing Beat - Rhythm-Based Arcade Game - Test Your Reflexes!",
+      description:"Immerse yourself in Dancing Beat! A musical arcade journey where sound and reflexes unite. Navigate intricate mazes, sync your moves with the music, and stay in tune!",
+      keywords:"dancing beat, rhythm game, arcade game, music game, reflex game, one-click control, addictive gameplay, challenging levels"
+    },
+    addressBar: "dancing-beat",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "large", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Dancing Beat</h2>
+    <p>Dive into the electrifying world of Dancing Beat, a unique musical arcade experience where your reflexes and sense of rhythm are put to the ultimate test. Each level is a dynamic symphony of visuals and sound, unfolding in real-time as your ball gracefully dances through vibrant worlds filled with unpredictable twists, turns, and delightful surprises. Prepare to be captivated as every click resonates with the beat, perfectly synchronizing your movements with the pulsating rhythm of the music.</p>
+  
+    <h3>Gameplay: A Rhythmic Dash to Victory</h3>
+    <p>Dancing Beat challenges you to guide a ball through visually stunning mazes that evolve with each note of the soundtrack. The objective is simple: keep the ball aligned with the melody while skillfully avoiding obstacles like sharp turns, barriers, and rhythm traps that appear in perfect harmony with the music. Precise timing is essential; players must click at the exact moment the ball reaches a corner or edge to change direction safely. One missed beat results in a crash, instantly restarting the level. The game operates on a foundation of precision, rhythm, and instinct, demanding seamless agility.</p>
+  
+    <h3>Evolving Challenges</h3>
+    <p>As the music intensifies, the patterns become progressively challenging. Expect faster sequences, tighter turns, and complex rhythm breaks that will push your coordination and awareness to their limits. Some stages feature hidden pathways and rhythm traps, demanding quick recognition of upcoming cues to keep your dance alive. Each successful click becomes an integral part of the song, transforming pure timing into a captivating musical performance.</p>
+  
+    <h3>Simple Control, Total Immersion</h3>
+    <p>Mastering Dancing Beat is surprisingly intuitive. A single click at the precise moment is all it takes to guide your ball through the intricate paths. Remember, timing and patience are your allies in this rhythmic adventure! The control scheme is elegantly simple: click the screen at precise moments to guide your ball through every twist and turn.</p>
+  
+    <h3>Features That Keep You Hooked</h3>
+    <ul>
+      <li><strong>Smooth Transitions & Vibrant Graphics:</strong> Immerse yourself in a visually stunning world with seamless transitions between levels.</li>
+      <li><strong>Beautiful Soundtracks:</strong> Each stage is shaped by mesmerizing soundtracks that perfectly complement the visual action.</li>
+      <li><strong>One-Click Control:</strong> Enjoy an intuitive and accessible control scheme that's easy to learn but challenging to master.</li>
+      <li><strong>Endless Replay Value:</strong> The dynamic level generation ensures a fresh and engaging experience every time you play.</li>
+      <li><strong>Distinct Environments:</strong> Explore a variety of handcrafted environments, each designed for maximum immersion.</li>
+      <li><strong>Increasing Challenge:</strong> Sharpen your reflexes as you progress through increasingly challenging levels.</li>
+    </ul>
+  
+    <h3>What makes Dancing Beat so Addictive?</h3>
+    <p>Dancing Beat is a compelling blend of simple mechanics and increasingly difficult challenges. The smooth transitions, stunning visuals, and captivating soundtracks combine to create a truly immersive and addictive experience. The simple one-click control belies a deep level of skill required to master the game, making it both accessible and rewarding.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Dancing Beat?</strong><br>Dancing Beat is a musical arcade game where you guide a ball through a maze that unfolds in real-time, syncing your moves with the beat of the music.</li>
+      <li><strong>How do you control the ball in Dancing Beat?</strong><br>You control the ball with a simple one-click mechanism. Click the screen at the precise moment the ball reaches a corner or edge to change direction.</li>
+      <li><strong>What happens if I miss a beat?</strong><br>If you miss a beat, the ball will crash, and the level will restart instantly.</li>
+      <li><strong>Does the game get harder as I progress?</strong><br>Yes, the game becomes progressively more challenging with faster sequences, tighter turns, and complex rhythm breaks. Some stages also include hidden pathways and rhythm traps.</li>
+      <li><strong>What are some of the key features of Dancing Beat?</strong><br>Key features include smooth transitions and vibrant graphics, beautiful soundtracks, one-click control with endless replay value, distinct immersive environments, and increasing challenge that sharpens player reflexes.</li>
+    </ol>
+  
+    <p>Ready to embark on a rhythmic adventure? Download Dancing Beat now and see how long you can stay in tune. Experience the perfect blend of music, reflexes, and addictive gameplay!</p>
+  </div>`,
+  },
+
+  {
+    id: 70,
+    title: "Helix Ball Jump",
+    iframeUrl: "https://play.gamepix.com/tentrix/embed",
+    description: "Descend the twisting tower in Helix Ball Jump! This casual game challenges your reflexes as you guide a bouncing ball through cracks in rotating platforms. Master the timing, unlock cool skins, and conquer endless levels in this addictive arcade experience!",
+    tags: ["helix jump","ball game","casual game","arcade game","reflex game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game70.webp",
+    imageAlt: "A bouncing ball falling through a helix tower in Helix Ball Jump",
+    seo:{
+      title:"Helix Ball Jump - Addictive Arcade Game Online",
+      description:"Play Helix Ball Jump for free! Guide your ball through the rotating helix tower, unlock skins, and master endless levels. Test your reflexes in this addictive casual game.",
+      keywords:"helix ball jump, helix game, ball jump game, casual arcade game, reflex game, online game, free game"
+    },
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    addressBar: "helix-ball-jump",
+    detailsHtml: `<div>
+    <h2>Helix Ball Jump </h2>
+    <p>Dive into the captivating world of Helix Ball Jump, a hyper-casual game that combines simple mechanics with addictive gameplay. Your mission is to guide a bouncing ball down a series of intricately designed, rotating platforms. The challenge? To skillfully navigate through cracks and avoid landing on forbidden zones. Prepare for a test of reflexes and strategic thinking as you descend into the helix!</p>
+  
+    <h3>How to Play Helix Ball Jump: Mastering the Descent</h3>
+    <p>The core objective of Helix Ball Jump is deceptively simple: guide your ever-bouncing ball through the maze of rotating platforms to reach the bottom. Success hinges on your ability to anticipate the platform's movement and react swiftly. Timing is everything!</p>
+  
+    <h3>Unlocking Combos and Invincibility</h3>
+    <p>Elevate your gameplay by executing combo moves. Rotate the platforms in rapid succession to align the ball with multiple cracks, earning you higher points. String together three successful descents in quick succession, and you'll activate "Fireball Mode", granting temporary invincibility for the first bounce, allowing you to even destroy forbidden areas!</p>
+  
+    <h3>Endless Levels and Increasing Difficulty</h3>
+    <p>Helix Ball Jump boasts an endless supply of procedurally generated levels, each presenting an escalating degree of challenge. Pace yourself, strategize your moves, and adapt to the ever-changing helix environment.</p>
+  
+    <h3>Missions, Coins, and Ball Skins</h3>
+    <p>Keep an eye on the left side of your screen to discover missions that, upon completion, reward you with valuable coins. Utilize these coins to unlock a variety of unique and stylish ball skins. With 27 skins to collect, ranging from common to rare and downright funky, you'll have plenty of reasons to keep playing!</p>
+  
+    <h3>Power-Ups to Aid Your Descent</h3>
+    <p>Helix Ball Jump features two crucial power-ups that can significantly impact your performance:</p>
+    <ul>
+      <li><strong>Fireball Mode:</strong> Triggered after successfully navigating through three or more consecutive platform gaps. In this mode, your ball becomes temporarily invincible, capable of destroying any platform it lands on, including forbidden zones.</li>
+      <li><strong>Green Arrows:</strong> Randomly appearing on certain platforms, these arrows instantly activate "Fireball Mode", granting you a powerful advantage.</li>
+    </ul>
+  
+    <h3>The Original Helix Jump Experience</h3>
+    <p>This is the authentic Helix Jump game, originally developed by Voodoo. Since its initial mobile release in 2018, it has captured the hearts of millions with its engaging gameplay. Now, you can enjoy this addictive experience for free in your web browser at CrazyGames!</p>
+  
+    <h3>Looking for Similar Games?</h3>
+    <p>If you're a fan of casual games that test your reflexes and challenge your ability to avoid obstacles, explore our wide selection of <a href="#">avoid and obstacle games</a> for more thrilling experiences.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the goal of Helix Ball Jump?</strong><br>The goal is to guide the bouncing ball down through a series of rotating platforms without falling off the edge or hitting forbidden sections.</li>
+      <li><strong>How do I control the ball?</strong><br>You don't directly control the ball's movement. Instead, you rotate the platforms to align the ball with the cracks.</li>
+      <li><strong>What is Fireball mode?</strong><br>Fireball mode makes your ball invincible for the first bounce after passing through 3 or more consecutive platform gaps. When in "Fireball mode", your ball can safely touch even the forbidden color and will destroy the platform it lands on.</li>
+      <li><strong>How do I unlock new ball skins?</strong><br>You earn coins by completing missions and progressing through the game. These coins can be used to unlock the 27 available skins.</li>
+      <li><strong>Are there power-ups in Helix Ball Jump?</strong><br>Yes, Helix Ball Jump contains two main power-ups: Fireball mode and Green Arrows.</li>
+      <li><strong>Is Helix Ball Jump endless?</strong><br>Yes, Helix Jump features an endless number of levels with incremental difficulty.</li>
+    </ol>
+  
+    <p>Helix Ball Jump is more than just a game; it's a test of precision, timing, and strategy. With its simple yet addictive gameplay, diverse range of unlockable skins, and endless supply of challenging levels, it's a guaranteed source of endless entertainment. So, jump in and start your descent today!</p>
+  </div>`,
+  },
+
+  {
+    id: 71,
+    title: "JUMP THE WALL",
+    iframeUrl: "https://play.gamepix.com/jump-the-wall-1/embed?sid=e4515",
+    description: "Leap over towering obstacles in Jump The Wall! Sharpen your reflexes, time your jumps perfectly, and aim for new high scores in this addictive agility test. Navigate increasingly challenging terrains and avoid those game-slowing crashes. Practice makes perfect!",
+    tags: ["jump game","wall jump","reflex game","obstacle course","skill game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game71.webp",
+    imageAlt: "A character jumping over a wall in the game Jump The Wall.",
+    seo:{
+      title:"JUMP THE WALL - Test Your Reflexes Online!",
+      description:"Jump The Wall challenges your agility and timing. Leap over obstacles, avoid crashes, and master each level. Play now and beat your high score! All about the jump, the wall, and your skill.",
+      keywords:"jump, the, wall, jump game, obstacle course, reflex test, timing challenge, agility game, online game"
+    },
+    addressBar: "jump-the-wall",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>JUMP THE WALL</h2>
+    <p>Prepare for an adrenaline-pumping test of reflexes and timing in Jump The Wall! This game plunges you into a world of towering obstacles, where the only way to survive is to master the art of the perfect jump. Feel the pressure as each leap determines your fate, pushing you closer to victory or a frustrating slowdown.</p>
+  
+    <h3>Gameplay Dynamics: A Test of Agility</h3>
+    <p>Jump The Wall is designed to challenge players of all skill levels. The core mechanic revolves around precisely timed jumps to overcome increasingly complex obstacles. Each level introduces new terrains and challenges, demanding quick thinking and even quicker reactions. The higher you climb, the tougher it gets, making every successful jump a rewarding accomplishment.</p>
+  
+    <h3>Mastering the Controls: Simple Yet Demanding</h3>
+    <p>The controls are deceptively simple: use the arrow keys or a click of the mouse to jump. However, mastering the timing is where the true challenge lies. A mistimed jump results in a crash, slowing your progress and costing precious seconds. Experimentation and practice are key to finding the optimal rhythm and achieving consistently perfect jumps.</p>
+  
+    <h3>Essential Tips for Success: Jump to Victory</h3>
+    <p>Consistent practice is your best friend in Jump The Wall. Focus on improving your reaction speed and learning the patterns of each obstacle. Pay attention to the visual cues and anticipate the timing required for each jump. Don't get discouraged by early failures; every attempt brings you closer to mastering the game.</p>
+  
+    <h3>Features that Keep You Hooked: Beyond a Simple Jump</h3>
+    <ul>
+      <li><strong>Increasing Difficulty:</strong> The game's difficulty ramps up steadily, constantly testing your agility and timing skills.</li>
+      <li><strong>New Terrains:</strong> Each level introduces unique environments and obstacle layouts, keeping the gameplay fresh and engaging.</li>
+      <li><strong>Score Tracking:</strong> Aim to beat your previous scores with every leap, adding an element of competition and personal achievement.</li>
+      <li><strong>Intuitive Controls:</strong> Easy to learn, yet challenging to master, the controls make the game accessible to players of all ages.</li>
+    </ul>
+  
+    <h3>How to Play: A Quick Guide</h3>
+    <ol>
+      <li><strong>Initiate the Jump:</strong> Press the arrow keys or click the mouse to initiate your jump.</li>
+      <li><strong>Avoid Obstacles:</strong> Time your jumps perfectly to avoid crashing into obstacles.</li>
+      <li><strong>Optimize Timing:</strong> Practice to improve your reaction speed and achieve the best outcome for each jump.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Jump The Wall?</strong><br>The main objective is to outpace towering obstacles by executing perfectly timed jumps and navigating each level successfully.</li>
+      <li><strong>How do I control the character in Jump The Wall?</strong><br>You can control the character by pressing the arrow keys or clicking the mouse to make them jump.</li>
+      <li><strong>What happens if I crash into an obstacle?</strong><br>Crashing into an obstacle will slow you down, hindering your progress.</li>
+      <li><strong>How can I improve my performance in Jump The Wall?</strong><br>Consistent practice is crucial. Focus on improving your reaction speed and timing your jumps precisely.</li>
+      <li><strong>Does the game get harder as I progress?</strong><br>Yes, the game ramps up in difficulty as you progress, introducing new terrains and challenging your agility and timing.</li>
+      <li><strong>Is there a scoring system in the game?</strong><br>Yes, the game allows you to track your scores and aim to outdo your previous best with every leap you make.</li>
+    </ol>
+  
+    <p>Jump The Wall isn't just a game; it's a test of your reflexes, a challenge to your timing, and a thrilling race against gravity and towering obstacles. So, gear up, sharpen your reflexes, and prepare to jump your way to victory! Every jump, every wall, every second counts. Can you conquer the challenge and become the ultimate wall jumper?</p>
+  </div>`,
+  },
+
+  {
+    id: 72,
+    title: "Chicken Flip",
+    iframeUrl: "https://game.azgame.io/chicken-flip/",
+    description: "Get ready for a hilariously chaotic arcade experience in Chicken Flip! Perform crazy stunts, land with style, and guide your feathered friend through tricky levels. Flip, flop, and laugh your way to victory!",
+    tags: ["chicken","flip","arcade game","physics-based","stunt"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game72.webp",
+    imageAlt: "A chicken flipping through the air in the Chicken Flip game.",
+    seo:{
+      title:"Chicken Flip - Wild Stunts & Hilarious Chaos!",
+      description:"Play Chicken Flip and guide your chicken through crazy levels! Master timing and precision to land safely, unlock skins, and conquer challenges. Try it now!",
+      keywords:"chicken, flip, arcade, game, stunt, physics, azgames.io, online game, fun, hilarious"
+    },
+    addressBar: "chicken-flip",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Chicken Flip</h2>
+    <p>Prepare for a poultry-powered adventure like no other in <b>Chicken Flip</b>! This isn't your average game; it's a hilarious, physics-based arcade experience where you control a daring chicken on a mission to conquer treacherous hills and perform gravity-defying stunts. Sounds bizarre? Absolutely! But trust us, it's wildly addictive.</p>
+  
+    <h3>Gameplay Breakdown: Flip, Flop, and Fly!</h3>
+    <p><b>Chicken Flip</b> plunges you into a world of chaotic fun where your objective is simple: guide your cute, little chicken safely through a series of increasingly challenging levels. This is achieved by jumping, flipping, and bouncing your way across the terrain. However, the key to success lies in the art of landing smoothly. One wrong move, and your chicken will shatter into pieces, resulting in a level failure. So, aim for those perfect landings and strive to reach the finish line intact!</p>
+    <p>The game hinges on precise timing, skillful execution, and the ability to adapt to increasingly complex obstacles. While the initial levels offer a gentle introduction, prepare for a steep difficulty curve as you progress. Hone your skills, master the art of chicken navigation, and push your limits to achieve new heights in the game.</p>
+  
+    <h3>Master the Art of Landing</h3>
+    <p>In <b>Chicken Flip</b>, landing is paramount! Perfect your landings to progress further in the game. But how do you achieve a smooth landing? It’s all about timing your jumps and knowing when to slow down. A split-second miscalculation can send your feathered friend back to the starting point in pieces. Stay vigilant, observe the terrain, and anticipate the obstacles ahead to execute those perfect jumps!</p>
+  
+    <h3>Coin Collection and Customization</h3>
+    <p>As you flip and flop through the levels, keep an eye out for glittering coins scattered throughout the environment. Collect these coins to unlock a plethora of customization options, including unique skins, new items, and upgrades for your chickens. Give your chicken a personal touch and stand out from the flock!</p>
+  
+    <h3>Embrace the Challenge: Retry and Refine</h3>
+    <p><b>Chicken Flip</b> is a game of trial and error. Prepare for your chicken to crash, flip, and fail… a lot! But don't be discouraged. Each crash is a learning opportunity. Analyze your mistakes, adjust your timing, and jump with greater precision. Persistence is key, and with each attempt, you'll inch closer to mastering the art of chicken flipping!</p>
+  
+    <h3>Game Controls</h3>
+    <p>The controls are easy to learn but difficult to master:</p>
+    <ul>
+      <li><strong>D or Right Arrow Key:</strong> Jump</li>
+      <li><strong>A or Left Arrow Key:</strong> Slow Down</li>
+    </ul>
+  
+    <h3>Flip Your Way to Victory!</h3>
+    <p>Get ready for a symphony of hilarious chaos as you flip, flop, and feather your way through tricky levels. Play <b>Chicken Flip</b> now on Azgames.io and guide your chicken through wild flips, daring leaps, and exhilarating races to the finish line!</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is Chicken Flip about?</strong><br>Chicken Flip is a physics-based arcade game where you control a chicken and perform stunts to complete levels by jumping and flipping.</li>
+      <li><strong>How do I play Chicken Flip?</strong><br>Use the D or right arrow key to jump and the A or left arrow key to slow down. Time your jumps to land smoothly on your feet.</li>
+      <li><strong>What happens if I don't land properly?</strong><br>If you don't land smoothly, your chicken breaks into pieces, and you fail the level.</li>
+      <li><strong>Can I customize my chicken?</strong><br>Yes, you can collect coins during gameplay to unlock unique skins, new items, and upgrades for your chicken.</li>
+      <li><strong>What if I keep failing the levels?</strong><br>The game is all about trial and error. Keep retrying and focus on improving your timing and precision.</li>
+      <li><strong>Where can I play Chicken Flip?</strong><br>You can play Chicken Flip on Azgames.io.</li>
+    </ol>
+  
+    <p>So, are you ready to unleash your inner chicken and embark on a flipping, flopping, and feather-filled adventure? Dive into <b>Chicken Flip</b> today and experience the ultimate in arcade absurdity!</p>
+  </div>`,
+  },
+
+  {
+    id: 74,
+    title: "Slope Xtreme",
+    iframeUrl: "https://gamea.azgame.io/slope-xtreme/",
+    description: "Experience high-speed thrills in Slope Xtreme! A neon-drenched arcade runner with steep slopes, unpredictable tunnels, and flashing hazards. Guide your glowing ball through a cybernetic highway, collect energy, and defy gravity in this digital storm!",
+    tags: ["slope","xtreme","arcade runner","neon game","sci-fi racing"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game74.webp",
+    imageAlt: "A glowing ball races down a neon slope in Slope Xtreme.",
+    seo:{
+      title:"Slope Xtreme - High-Speed Neon Arcade Runner Online",
+      description:"Join Slope Xtreme, the ultimate arcade running challenge! Navigate neon tracks, avoid hazards, and conquer the digital storm. Play free now!",
+      keywords:"slope, xtreme, arcade, runner, neon, sci-fi, speed, challenge, game, online"
+    },
+    addressBar: "slope-xtreme",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Slope Xtreme</h2>
+    <p>Dive into the electrifying world of Slope Xtreme, where classic slope gameplay meets high-octane chaos. Each track pulsates with dazzling neon, and every second delivers an adrenaline rush. Brace yourself for a relentless race across steep descents, unpredictable tunnels, and flashing hazards, all designed to test your reflexes and keep you grinning on the edge of control. Are you ready to conquer this futuristic slope?</p>
+  
+    <h3>Cybernetic Highway Challenge</h3>
+    <p>Your journey in Slope Xtreme begins with a powerful cannon launch, propelling your glowing ball onto a cybernetic highway of shifting light. The neon track thrums with electric energy, surrounded by flickering holograms and floating data grids that morph into unpredictable slopes and tunnels. Every curve radiates with sci-fi brilliance, demanding pinpoint precision to navigate the accelerating rhythm of motion. It's a visually stunning and intensely challenging experience!</p>
+  
+    <h3>Amplify Your Speed and Score</h3>
+    <p>Cyber rings are strategically scattered along your path, offering the opportunity to amplify both your score and your speed. These rings send shockwaves of energy through the glowing circuit trails, boosting your momentum and increasing the intensity of the visual spectacle. The further you travel, the more intense the pulse of the city becomes, syncing with your speed. Each moment feels like defying gravity in a digital storm, and provides the potential to activate a crucial boost.</p>
+  
+    <h3>Master Balance, Conquer the Slope</h3>
+    <p>In Slope Xtreme, points soar with distance and risk. Only those who master balance and precision can truly conquer this dazzling futuristic slope challenge. The game's intuitive controls allow you to focus on the thrill of the race. Use the left and right arrow keys or the A and D keys to guide your ball with precision. Adapt your maneuvers to the ever-changing pace of each round, and prepare for the unexpected!</p>
+  
+    <h3>Typical Hazards to Overcome</h3>
+    <ul>
+      <li><strong>Rotating Barriers:</strong> Spinning fast to disrupt your timing and force quick reactions.</li>
+      <li><strong>Sharp Cracks:</strong> Forming instantly beneath the track, demanding immediate evasive action.</li>
+      <li><strong>Random Blocks:</strong> Scattered to block smooth travel, requiring skillful navigation.</li>
+      <li><strong>Acceleration Pads:</strong> Pushing your speed to the extreme, testing your control and precision.</li>
+      <li><strong>Slope Tunnels:</strong> Twisting your vision and balance, challenging your spatial awareness.</li>
+    </ul>
+  
+    <h3>Game Controls</h3>
+    <p>Guiding your ball through the treacherous slopes of Slope Xtreme is simple yet challenging. Use the left and right arrow keys or the A and D keys to navigate. Mastering the game requires anticipating the track's pace and adjusting your movements accordingly.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is Slope Xtreme?</strong><br>Slope Xtreme is an arcade running challenge set on a neon-lit, futuristic track. It combines classic slope gameplay with high-speed, unpredictable obstacles.</li>
+      <li><strong>How do I control the ball in Slope Xtreme?</strong><br>Use the left and right arrow keys, or the A and D keys, to guide the ball and avoid obstacles.</li>
+      <li><strong>What are cyber rings?</strong><br>Cyber rings are scattered along the track and amplify both your score and speed when collected.</li>
+      <li><strong>What kind of hazards can I expect in the game?</strong><br>Typical hazards include rotating barriers, sharp cracks forming beneath the track, random blocks, acceleration pads, and slope tunnels.</li>
+      <li><strong>What's the key to getting a high score?</strong><br>Mastering balance and precision is crucial. Collecting cyber rings and traveling further along the track will significantly increase your score.</li>
+      <li><strong>Is Slope Xtreme difficult to play?</strong><br>Slope Xtreme is easy to learn but challenging to master. The intuitive controls make it accessible to beginners, while the increasing difficulty and unpredictable obstacles will test even experienced players.</li>
+    </ol>
+  
+    <p>Ready to experience the ultimate adrenaline rush? Jump into Slope Xtreme and test your skills on the dazzling neon slopes. With its addictive gameplay, stunning visuals, and challenging obstacles, Slope Xtreme offers endless hours of thrilling entertainment. Conquer the digital storm and become a slope master!</p>
+  </div>`,
+  },
+
+  {
+    id: 75,
+    title: "Flying Ball",
+    iframeUrl: "https://gamea.azgame.io/flying-ball/",
+    description: "Experience the adrenaline rush of Flying Ball! Navigate winding platforms with fast reactions, mastering airtime and perfect landings for score boosts. Unlock fresh ball skins and conquer dynamic challenges in this addictive slope runner. Play now and test your rolling skills!",
+    tags: ["flying ball","hyper-casual game","slope runner","arcade game","rolling game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game75.webp",
+    imageAlt: "Flying ball rolling on a winding platform with ramps and gaps.",
+    seo:{
+      title:"Flying Ball - Addictive Rolling Adventure Online",
+      description:"Roll your way to victory in Flying Ball! A hyper-casual slope runner with fast-paced action, challenging tracks, and rewarding gameplay. Play now and break records!",
+      keywords:"flying ball, rolling game, hyper-casual, slope runner, arcade, fast-paced, addictive game, online game, skill-based game"
+    },
+    addressBar: "flying-ball",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Flying Ball: Rolling Rush Overview</h2>
+    <p>Dive into the thrilling world of Flying Ball, a hyper-casual slope runner designed to test your reflexes and precision. With its fast-paced gameplay and clean, flowing momentum, Flying Ball challenges you to navigate narrow pathways, conquer ramps and gaps, and adapt to shifting layouts. Every run is a chance to sharpen your skills, improve your control, and achieve cleaner motion. The further you roll, the higher your score climbs, creating an addictive cycle of quick retries and continuous improvement. Are you ready to take the plunge?</p>
+  
+    <h3>Unique Momentum Traits</h3>
+    <ul>
+      <li><strong>Long Airtime:</strong> Maximize your score with extended airtime, leading to better scoring moments.</li>
+      <li><strong>Perfect Landings:</strong> Trigger rewarding score boosts with flawlessly executed landings.</li>
+      <li><strong>Dynamic Challenges:</strong> Experience continuously refreshed goals, keeping the gameplay exciting and engaging.</li>
+      <li><strong>Minimalist Style:</strong> Enjoy a clean, focused play experience enhanced by a minimalist design.</li>
+    </ul>
+  
+    <h3>Detailed Gameplay Breakdown</h3>
+    <p>Flying Ball's core mechanics revolve around continuous rolling on dynamically shifting slopes. Sharp turns, sudden drops, and thin platforms demand split-second decisions and precise movements. Your inputs control the ball's direction and allow you to jump and extend airtime. As you progress, the layouts become increasingly complex, requiring a combination of air control, clean landings, and strategic path choices.</p>
+  
+    <h3>Typical Challenges</h3>
+    <ul>
+      <li><strong>Narrow Tracks:</strong> Master extremely precise movement to stay on course.</li>
+      <li><strong>Sudden Gaps:</strong> Execute sharp airborne timing to avoid falling into the abyss.</li>
+      <li><strong>Speed Shifts:</strong> Quickly adjust your direction to adapt to unexpected changes in speed.</li>
+      <li><strong>Moving Platforms:</strong> Navigate unpredictable platforms that add an extra layer of tension.</li>
+    </ul>
+  
+    <h3>In-Game Rewards</h3>
+    <p>Collect gems scattered across the platforms to unlock fresh ball skins, enhancing your visual experience. Challenges offer steady goals for extra rewards, providing continuous motivation. Perfect landings after extended airtime grant bonus points and accelerate your progression, creating satisfying milestones. Every jump, glide, and clean touchdown contributes to your growing score, driving you to break your personal records.</p>
+  
+    <h3>Motion Controls</h3>
+    <p>Use the left and right arrow keys to guide the ball as it flies through the air and rolls along the slopes. Simple, intuitive controls make Flying Ball easy to pick up but challenging to master.</p>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main goal of Flying Ball?</strong><br>The main goal is to roll as far as possible, collecting points by performing jumps, perfect landings, and staying on the track. The further you go, the higher your score.</li>
+      <li><strong>How do I control the ball?</strong><br>You control the ball using the left and right arrow keys. These keys allow you to guide the ball's direction in the air and on the slopes.</li>
+      <li><strong>What are gems used for?</strong><br>Gems are collected throughout the game and can be used to unlock fresh ball skins, customizing your visual experience.</li>
+      <li><strong>How can I increase my score?</strong><br>You can increase your score by achieving long airtime, performing perfect landings, and completing challenges. Perfect landings, in particular, grant significant bonus points.</li>
+      <li><strong>What makes a landing "perfect"?</strong><br>A landing is considered perfect when you land cleanly on the track after a jump, especially after a period of extended airtime. Perfect landings grant bonus points.</li>
+      <li><strong>Are there different levels or environments in the game?</strong><br>Yes, the game features shifting slopes and layouts that become increasingly complex as you progress. You'll encounter narrow tracks, sudden gaps, speed shifts, and moving platforms.</li>
+    </ol>
+  
+    <p>Flying Ball offers an engaging and addictive gameplay experience that combines fast-paced action with strategic decision-making. With its minimalist style, dynamic challenges, and rewarding progression system, Flying Ball is perfect for players looking for a quick and satisfying gaming fix. Dare to keep rolling—play now and see how far you can go!</p>
+  </div>`,
+  },
+
+  {
+    id: 76,
+    title: "Jump Ninja Hero",
+    iframeUrl: "https://html5.gamedistribution.com/4f0b476425fa445593fb8d0248d074cd/?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fgameforge.com%2Fen-US%2Flittlegames%2Fjump-ninja-hero%2F",
+    description: "Test your reflexes in Jump Ninja Hero! Dodge razor-sharp ninja stars by jumping and ducking. Survive as long as you can to achieve a high score on Lagged.com. Simple controls, endless fun! Play free online!",
+    tags: ["ninja","jump","skill game","arcade","hero"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game76.webp",
+    imageAlt: "Jump Ninja Hero dodging ninja stars.",
+    seo:{
+      title:"Jump Ninja Hero - Test Your Skills Online",
+      description:"Play Jump Ninja Hero online for free! Dodge ninja stars, jump, and duck to survive. Aim for a high score and challenge your friends on Lagged.com!",
+      keywords:"jump ninja hero, ninja game, dodging game, skill game, online game, free game, lagged"
+    },
+    addressBar: "jump-ninja-hero",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Jump Ninja Hero: A Test of Reflexes and Agility</h2>
+    <p>Step into the world of Jump Ninja Hero, a captivating online skill game where survival hinges on your ability to dodge a relentless barrage of razor-sharp ninja stars. Available for free on Little Games and Lagged.com, this addicting game challenges players to tap into their inner ninja and demonstrate lightning-fast reflexes.</p>
+    
+    <h3>Gameplay Overview</h3>
+    <p>The core objective of Jump Ninja Hero is simple: survive as long as possible. As the titular ninja, you'll face an endless stream of flying ninja stars. Your only defenses are your ability to jump and duck. Timing is crucial; a mistimed jump or duck will result in a game over. The longer you survive, the faster the ninja stars come, and the more challenging the game becomes.</p>
+    
+    <h3>Intuitive Controls and Addictive Gameplay</h3>
+    <p>Jump Ninja Hero boasts an incredibly simple control scheme, making it accessible to players of all ages and skill levels. Players can either tap the screen or use the arrow keys to control the ninja's movements. A single tap or arrow key press initiates a jump, while a double tap or quick succession of arrow key presses results in a double jump. Ducking is achieved by pressing the down arrow key or using a designated touch control. The straightforward controls belie the game's addictive nature. The constant threat of the ninja stars, combined with the desire to achieve a higher score, keeps players engaged for extended periods.</p>
+  
+    <h3>Features that Sharpen Your Senses</h3>
+    <ul>
+      <li><strong>High Score Tracking:</strong> Compete against yourself and others to achieve the highest score possible. Track your progress and strive to surpass your previous best.</li>
+      <li><strong>Achievement Unlocks:</strong> Earn achievements as you progress through the game, adding an extra layer of challenge and reward.</li>
+      <li><strong>Simple and Intuitive Controls:</strong> Master the art of jumping and ducking with easy-to-learn controls.</li>
+      <li><strong>Endless Gameplay:</strong> The game continues until you are hit, providing endless replayability.</li>
+    </ul>
+    
+    <h3>How to Play Jump Ninja Hero</h3>
+    <ol>
+      <li>Tap the screen or use the arrow keys to jump.</li>
+      <li>Tap twice or press the arrow keys quickly for a double jump.</li>
+      <li>Press the down arrow key to duck.</li>
+      <li>Dodge the flying ninja stars for as long as possible.</li>
+      <li>The longer you survive, the higher your score will be.</li>
+    </ol>
+    
+    <h3>Play Anywhere, Anytime</h3>
+    <p>Jump Ninja Hero is an HTML5 game, which means you can play it directly in your web browser without the need for any downloads or installations. This makes it perfect for playing on a variety of devices, including desktop computers, laptops, tablets, and smartphones. Enjoy the game on the go, or relax at home and test your ninja skills.</p>
+    
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the objective of Jump Ninja Hero?</strong><br>The objective is to dodge flying ninja stars for as long as possible to achieve a high score.</li>
+      <li><strong>How do I control the ninja?</strong><br>Tap or use arrow keys to jump, double jump, and duck.</li>
+      <li><strong>Do I need to download anything to play?</strong><br>No, Jump Ninja Hero is an HTML5 game and playable online, so no download is necessary.</li>
+      <li><strong>Is Jump Ninja Hero free to play?</strong><br>Yes, Jump Ninja Hero is free to play on Little Games and Lagged.com.</li>
+      <li><strong>What happens when I get hit?</strong><br>The game ends, and your score is recorded. You can then try again to beat your high score.</li>
+      <li><strong>Where can I play Jump Ninja Hero?</strong><br>You can play Jump Ninja Hero for free on Little Games and Lagged.com.</li>
+    </ol>
+    
+    <p>Jump Ninja Hero offers a simple yet challenging gameplay experience that is perfect for players looking for a quick and addictive game. With its intuitive controls, endless gameplay, and free-to-play accessibility, Jump Ninja Hero is a must-try for fans of skill-based arcade games. Sharpen your reflexes, embrace your inner ninja, and prepare to dodge your way to victory!</p>
+  </div>`,
+  },
+
+  {
+    id: 77,
+    title: "Helix Jump",
+    iframeUrl: "https://1games.io/helix-jump",
+    description: "Dive into the spiraling world of Helix Jump! Guide your bouncing ball through treacherous platforms, mastering your reflexes and timing. Descend further for higher scores, but beware – one wrong move ends the game! Addictive, fast-paced arcade fun awaits.",
+    tags: ["helix","jump","arcade game","mobile game","skill game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game77.webp",
+    imageAlt: "A bouncing ball falling through a helix-shaped tower in Helix Jump game.",
+    seo:{
+      title:"Helix Jump - Addictive Spiral Arcade Game to Play Free",
+      description:"Experience the addictive thrill of Helix Jump! Guide your bouncing ball through a spiraling tower. Test your reflexes and timing in this fast-paced arcade game.",
+      keywords:"helix jump, arcade game, mobile game, bouncing ball, spiral tower, reflexes, timing"
+    },
+    addressBar: "helix-jump",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Helix Jump: Dive into the Spiral to Speed!</h2>
+    <p>Prepare for an adrenaline-pumping descent into the captivating world of Helix Jump, a mobile game designed to test your reflexes and timing! Imagine a vibrant, spiraling tower stretching endlessly downwards, constructed from circular platforms. Your mission? To guide a lively, bouncing ball through this treacherous labyrinth. The further you fall, the greater your reward, but one misjudged bounce could send you tumbling to defeat. Helix Jump delivers high-intensity, arcade-style fun in short, addictive bursts – perfect for a quick gaming fix.</p>
+  
+    <h3>Gameplay Overview: A Plunge into the Unknown</h3>
+    <p>Helix Jump throws you straight into the action, tasking you with controlling a spirited bouncing ball as it plummets down an infinite tower of rotating platforms. Each level presents a colorful but perilous landscape. Colored zones represent danger; landing on the wrong one results in instant failure. Your objective is to expertly navigate the ball through gaps in the platforms while skillfully avoiding the hazardous segments. The key is precision and timing.</p>
+  
+    <h3>Unleash the Fireball: Power-Up to Smash Through!</h3>
+    <p>Achieve a series of successful descents through multiple platforms in quick succession, and you'll unlock the exhilarating fireball mode! In this unstoppable state, your ball transforms into a fiery projectile, capable of smashing through anything in its path. It's a rewarding power-up that adds an extra layer of excitement to the gameplay. </p>
+  
+    <h3>Challenge Yourself: The Faster You Fall, the Harder It Gets!</h3>
+    <p>As you progress further down the tower, the challenge intensifies. The speed of the ball increases, and the platform layouts become more complex, demanding even greater precision and faster reactions. This escalating difficulty curve is perfect for players who thrive under pressure and enjoy testing their limits.</p>
+  
+    <h3>Mastering the Controls: A Simple Swipe to Victory</h3>
+    <p>The control scheme in Helix Jump is remarkably intuitive. You don't directly control the ball's movement. Instead, you rotate the entire tower by simply swiping left or right on the screen. This allows the ball to fall through the gaps, relying on gravity to do most of the work. It’s a surprisingly elegant and effective method of control.</p>
+  
+    <h3>Essential Tips and Tricks for Helix Jump Success</h3>
+    <ul>
+      <li><strong>Time Your Moves with Precision:</strong> Carefully observe the ball's trajectory and perfectly time your tower rotations to skillfully guide it through the gaps.</li>
+      <li><strong>Strategize Your Descents:</strong> Plan your bounces ahead to maximize the ball's downward progress while minimizing the risk of collision with the platforms. </li>
+      <li><strong>Anticipate Platform Movement:</strong> Pay attention to the rotation patterns of the platforms. Predicting their movement will help you to time your jumps more effectively.</li>
+    </ul>
+  
+    <h3>FAQ: Your Questions Answered</h3>
+    <ol>
+      <li><strong>What is the main objective of Helix Jump?</strong><br>The objective is to guide a bouncing ball down a spiraling tower by rotating the platforms and allowing the ball to fall through the gaps while avoiding colored segments.</li>
+      <li><strong>How do I control the ball in Helix Jump?</strong><br>You control the ball indirectly by swiping left or right on the screen to rotate the tower. Gravity does the rest.</li>
+      <li><strong>What happens when I land on a colored segment?</strong><br>Landing on a colored segment results in game over. You must avoid these segments to continue your descent.</li>
+      <li><strong>What is fireball mode, and how do I activate it?</strong><br>Fireball mode is a power-up that allows the ball to smash through platforms. It's activated by breaking through multiple platforms in a row.</li>
+      <li><strong>Does the game get harder as I progress?</strong><br>Yes, the game's difficulty increases as you descend further. The ball's speed and platform complexity both increase.</li>
+    </ol>
+  
+    <p>Helix Jump offers a compelling blend of simple mechanics and addictive gameplay. Its intuitive controls, vibrant visuals, and escalating difficulty make it a must-play for anyone seeking a quick and engaging mobile gaming experience. So, are you ready to test your reflexes and dive into the spiral?</p>
+  </div>`,
+  },
+
+  {
+    id: 78,
+    title: "JUMPER RABBIT",
+    iframeUrl: "https://play.gamepix.com/jumper-rabbit/embed?sid=e4515",
+    description: "Embark on a hopping adventure in Jumper Rabbit! Guide your rabbit across platforms, timing your leaps perfectly to collect carrots and avoid treacherous obstacles. Simple controls, escalating challenges, and endless fun for players of all ages. Practice is key to mastering the jump!",
+    tags: ["jumper game","rabbit game","platformer","arcade game","casual game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game78.webp",
+    imageAlt: "A cute rabbit jumping between platforms in Jumper Rabbit.",
+    seo:{
+      title:"Jumper Rabbit - Hop, Skip, and Jump to Victory!",
+      description: "Guide your rabbit through a challenging platforming world in Jumper Rabbit! Collect carrots, avoid obstacles, and master the art of the perfect jump. Play now!",
+      keywords:"jumper rabbit, rabbit game, platformer game, arcade, casual, jumping game, carrot collecting"
+    },
+    addressBar: "jumper-rabbit",
+    categories: ['jump'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>JUMPER RABBIT</h2>
+    <p>Imagine a world where precision and timing are everything. A world filled with platforms and the insatiable craving for delicious, orange carrots. Welcome to the whimsical universe of Jumper Rabbit! Prepare yourself for an addictive experience where you'll guide an adorable rabbit through a series of increasingly challenging jumps, testing your reflexes and strategic thinking. Are you ready to hop to victory?</p>
+  
+    <h3>The Hopping Gameplay</h3>
+    <p>Jumper Rabbit's core gameplay revolves around perfectly timed jumps. The mechanics are simple to grasp, making it accessible for players of all ages. Click and hold to charge your jump, gauging the distance and power needed to reach the next platform. Release to unleash your rabbit's leap of faith! Successfully landing on a platform is just the first step. You'll also need to skillfully navigate around various obstacles that stand between you and a high score.</p>
+  
+    <h3>Carrot Collecting Frenzy</h3>
+    <p>What's a rabbit without its carrots? Scattered across the platforms are juicy, orange carrots just waiting to be collected. Collecting these carrots isn't just for show – they directly contribute to your score. Plan your jumps strategically to grab as many carrots as possible while still ensuring a safe landing. Think of it as a delicious reward for your hopping prowess!</p>
+  
+    <h3>Increasingly Challenging Levels</h3>
+    <p>Don't get too comfortable, because Jumper Rabbit doesn't stay easy for long! As you progress through the levels, the challenges ramp up significantly. Platforms become narrower, obstacles become more frequent, and the distances between jumps become greater. This escalating difficulty keeps the experience fresh and engaging, constantly pushing you to improve your timing and precision.</p>
+  
+    <h3>Mastering the Art of the Jump</h3>
+    <p>Success in Jumper Rabbit hinges on mastering the art of the perfect jump. It's not just about clicking and releasing; it's about understanding the physics of the jump, anticipating the trajectory, and adjusting your charge accordingly. Consistent practice is essential to developing your timing and precision. The more you play, the better you'll become at judging distances and executing flawless leaps.</p>
+  
+    <h3>Key Game Elements:</h3>
+    <ul>
+      <li><strong>Intuitive Jumping Mechanics:</strong> Easy-to-grasp controls make the game accessible to all ages.</li>
+      <li><strong>Progressive Difficulty:</strong> Challenges increase with each level, keeping the experience engaging.</li>
+      <li><strong>Carrot Collection:</strong> Collect carrots to score points and boost your score.</li>
+      <li><strong>Obstacle Avoidance:</strong> Dodge obstacles to survive and continue your hopping journey.</li>
+    </ul>
+  
+    <h3>How to Play:</h3>
+    <ol>
+      <li><strong>Charge Your Jump:</strong> Click and hold to charge a jump.</li>
+      <li><strong>Release to Leap:</strong> Release to leap forward.</li>
+      <li><strong>Aim for Platforms:</strong> Target the platforms for a safe landing.</li>
+      <li><strong>Avoid Obstacles:</strong> Steer clear of obstacles to stay alive.</li>
+      <li><strong>Collect Carrots:</strong> Grab carrots to earn points.</li>
+      <li><strong>Timing is Key:</strong> Land safely before going for more carrots.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Jumper Rabbit?</strong><br>The main objective is to guide the rabbit to leap from platform to platform, collecting carrots and dodging obstacles to achieve a high score.</li>
+      <li><strong>How do I control the rabbit's jump?</strong><br>Click and hold the mouse button to charge the jump, then release to leap forward. The longer you hold, the further the rabbit will jump.</li>
+      <li><strong>What happens if I miss a platform?</strong><br>If you miss a platform, the rabbit will fall, and the game will end.</li>
+      <li><strong>Are there any power-ups in the game?</strong><br>The game description does not specify any power-ups, the main focus is on skillful jumping and timing.</li>
+      <li><strong>Does the game get harder as I progress?</strong><br>Yes, the challenges increase with each level, with more frequent obstacles and longer jumps.</li>
+      <li><strong>What is the best strategy for getting a high score?</strong><br>Practice your timing and precision, aim for platforms with multiple carrots, and avoid unnecessary risks. Consistent practice improves your timing and precision!</li>
+    </ol>
+  
+    <p>Jumper Rabbit offers a simple yet addictive gameplay experience that will keep you entertained for hours. With its intuitive controls, escalating challenges, and charming visuals, it's the perfect game for anyone looking for a quick and fun distraction. So, grab your hopping shoes and get ready to jump your way to victory!</p>
+  </div>`,
+  },
+
+  {
+    id: 79,
+    title: "Super Rio Run",
+    iframeUrl: "https://app-166812.games.s3.yandex.net/166812/72tlirg9gjkxw9yi9cl794c5khfjmhs4_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=166812&device-type=desktop",
+    description: "Embark on a legendary mission with Super Rio Run! This free 2D adventure game offers thrilling running and jumping action. Don't miss the best new game of 2021 – it's an amazing, free-to-play experience!",
+    tags: ["super rio run","adventure game","jump and run","free game","2D platformer"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game79.webp",
+    imageAlt: "Super Rio jumping over an obstacle in Super Rio Run, a free running game.",
+    seo:{
+      title:"Super Rio Run - Free Jump and Run Adventure Game Online",
+    seo_description: "Experience the thrill of Super Rio Run, a free 2D adventure game! Jump, run, and conquer legendary missions in this amazing platformer. Download now and play!",
+      keywords:"super rio run, rio run, adventure game, free game, 2D game, platformer, jump and run, running game"
+    },
+    addressBar: "super-rio-run",
+    categories: ['mario'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Super Rio Run</h2>
+    <p>Get ready for a whirlwind adventure with Super Rio Run! This isn't just any running game; it's a thrilling journey packed with legendary missions, daring jumps, and non-stop action. Dive into a vibrant 2D world where your reflexes and strategic thinking will be put to the ultimate test.</p>
+  
+    <h3>A Classic Adventure Reimagined</h3>
+    <p>Super Rio Run captures the essence of classic jump-and-run games while adding a fresh, modern twist. The controls are intuitive, making it easy for anyone to pick up and play. However, mastering the game requires skill and precision as you navigate treacherous landscapes filled with obstacles and challenges.</p>
+  
+    <h3>Why Choose Super Rio Run?</h3>
+    <ul>
+      <li><strong>Free to Play:</strong> Enjoy the complete game experience without spending a dime.</li>
+      <li><strong>Addictive Gameplay:</strong> Experience non-stop action with challenging levels that will keep you hooked for hours.</li>
+      <li><strong>Retro Charm:</strong> Relive the nostalgia of classic 2D platformers with updated graphics and engaging sound effects.</li>
+      <li><strong>Legendary Missions:</strong> Embark on epic quests and conquer challenging objectives to prove your skills.</li>
+    </ul>
+  
+    <h3>Jump into Action Now!</h3>
+    <p>Super Rio Run isn't just a game; it's an invitation to a world of endless fun and excitement. Sharpen your reflexes, master your jumps, and become the ultimate running champion. Download Super Rio Run today and let the adventure begin!</p>
+  
+    <h3>How to Play Super Rio Run</h3>
+    <ol>
+      <li><strong>Download and Install:</strong> Get Super Rio Run for free from your favorite game portal.</li>
+      <li><strong>Start the Adventure:</strong> Launch the game and embark on your first legendary mission.</li>
+      <li><strong>Master the Controls:</strong> Use intuitive controls to jump, run, and navigate challenging levels.</li>
+      <li><strong>Conquer the Challenges:</strong> Overcome obstacles, collect power-ups, and defeat enemies to reach the end of each level.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>Is Super Rio Run really free?</strong><br>Yes! Super Rio Run is completely free to download and play. There are no hidden costs or in-app purchases required to enjoy the full game experience.</li>
+      <li><strong>What type of game is Super Rio Run?</strong><br>Super Rio Run is a 2D adventure game, specifically a jump-and-run platformer. It's designed to be reminiscent of classic arcade games, but with modern graphics and gameplay.</li>
+      <li><strong>Is Super Rio Run difficult to play?</strong><br>The game is designed to be accessible to players of all skill levels. The controls are simple, but mastering the game requires practice and quick reflexes. The increasing difficulty levels offer a satisfying challenge.</li>
+      <li><strong>What makes Super Rio Run stand out from other similar games?</strong><br>Super Rio Run combines classic platformer gameplay with a modern design and a compelling sense of adventure. Its free-to-play model and engaging level design make it a must-try for fans of the genre.</li>
+      <li><strong>Is Super Rio Run a new game?</strong><br>Yes! Super Rio Run is the best new game of 2021, offering a fresh and exciting experience for fans of 2D adventure games.</li>
+    </ol>
+  
+    <p>Don't miss out on the fun! Super Rio Run offers a captivating blend of nostalgia and modern gaming excitement. Download now and prove you have what it takes to conquer the ultimate jump-and-run challenge!</p>
+  </div>`,
+  },
+
+  {
+    id: 80,
+    title: "Alex World",
+    iframeUrl: "https://app-197434.games.s3.yandex.net/197434/0ssmfvt11atsdm7vowf6dypoc2semj1b_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=197434&device-type=desktop",
+    description: "Embark on an epic adventure in Alex World! Battle formidable bosses, collect shimmering gems, and rescue the kidnapped princess. Experience classic platforming with simple controls, meticulously crafted levels, and a tranquil soundtrack. Are you ready to save the princess and restore peace to Alex's World?",
+    tags: ["alex","world","platformer","adventure game","indie game"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game80.webp",
+    imageAlt: "A screenshot from Alex World, featuring the main character jumping in a colorful environment.",
+    seo:{
+      title:"Alex World - Adventure Platformer: Rescue the Princess!",
+      description: "Explore Alex World, a classic platformer! Defeat bosses, collect gems, and rescue the princess. Simple controls, beautiful graphics, and tranquil music await.",
+      keywords:"alex world, platformer game, adventure, indie game, rescue princess, gems, bosses, classic platforming"
+    },
+    addressBar: "alex-world",
+    categories: ['mario'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Alex World</h2>
+    <p>Enter the enchanting world of Alex, a land thrown into chaos by the princess's sudden abduction. A brave hero must rise to the occasion, venturing through treacherous landscapes and facing formidable foes to restore peace. Alex World offers a charming blend of classic platforming action, mesmerizing visuals, and a soothing soundtrack that will keep you hooked for hours!</p>
+  
+    <h3>A Classic Platforming Adventure Awaits</h3>
+    <p>Prepare for a nostalgic journey through meticulously designed levels brimming with challenges. Each stage presents unique obstacles and cunning enemies that will test your platforming skills. Navigate perilous jumps, dodge relentless attacks, and strategically use your abilities to overcome every hurdle in your path. </p>
+  
+    <h3>Conquer the Castle and Collect the Gems</h3>
+    <p>The ultimate challenge lies within the castle walls, where three powerful bosses await. Each boss possesses unique attack patterns and abilities, requiring you to master the game's mechanics to emerge victorious. Defeat these guardians and claim the shimmering gems they protect. These gems are key to unlocking the secrets of Alex World and ultimately rescuing the princess!</p>
+  
+    <h3>Simple Controls, Endless Fun</h3>
+    <p>Alex World embraces a user-friendly control scheme that makes it accessible to players of all skill levels. The traditional commands are intuitive and responsive, ensuring a seamless and enjoyable gaming experience. Whether you prefer touch controls or keyboard input, you'll be leaping, dashing, and blasting your way through the game with ease.</p>
+  
+    <h3>Gameplay Instructions: Mastering Alex's Movements</h3>
+    <ul>
+      <li><strong>Movement:</strong> Tap the screen or use keyboard keys to navigate Alex through the levels.</li>
+      <li><strong>Jump:</strong> Press the Up arrow (^) or W key to execute a jump.</li>
+      <li><strong>Move Left:</strong> Press the Left arrow (<) or A key to move Alex to the left.</li>
+      <li><strong>Move Right:</strong> Press the Right arrow (>) or S key to move Alex to the right.</li>
+      <li><strong>Shoot:</strong> Press the Z key or Spacebar to unleash Alex's projectile attack.</li>
+      <li><strong>Defeat Enemies:</strong> Jump on the heads of your enemies to eliminate them.</li>
+    </ul>
+  
+    <h3>Features That Make Alex World Special:</h3>
+    <ul>
+      <li><strong>Meticulously Designed Levels:</strong> Each level is crafted with precision to offer a balanced and engaging platforming experience.</li>
+      <li><strong>Multiple Enemies:</strong> Face a diverse cast of enemies, each with unique behaviors and attack patterns.</li>
+      <li><strong>Super Bosses:</strong> Test your skills against three formidable bosses that guard the castle and its treasures.</li>
+      <li><strong>Simple Gameplay:</strong> Enjoy an intuitive and accessible control scheme that makes the game easy to pick up and play.</li>
+      <li><strong>Beautiful Graphics:</strong> Immerse yourself in a vibrant and visually stunning world.</li>
+      <li><strong>Tranquil Music and Sounds:</strong> Relax and unwind with a soothing soundtrack that complements the gameplay.</li>
+    </ul>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What is the main objective of Alex World?</strong><br>Your main objective is to defeat the three bosses located in the castle, collect the gems they guard, and ultimately rescue the princess who has been kidnapped.</li>
+      <li><strong>How do I control Alex in the game?</strong><br>You can control Alex using either touch controls on the screen or keyboard keys. The Up arrow or W key is for jumping, Left arrow or A key is for moving left, Right arrow or S key is for moving right, and the Z key or Spacebar is for shooting.</li>
+      <li><strong>How do I defeat enemies in Alex World?</strong><br>The primary way to defeat enemies is by jumping on their heads. This will eliminate them and allow you to progress through the levels.</li>
+      <li><strong>How many bosses are there in the game?</strong><br>There are three super bosses that you must defeat in the castle to collect the gems and rescue the princess.</li>
+      <li><strong>What kind of music and sounds can I expect in Alex World?</strong><br>The game features tranquil music and sounds designed to create a relaxing and immersive gaming experience.</li>
+    </ol>
+  
+    <p>Prepare to be captivated by the charm and challenge of Alex World. With its engaging gameplay, stunning visuals, and soothing soundtrack, this platforming adventure is sure to provide hours of fun and excitement. So, grab your controller or keyboard, and get ready to embark on a quest to save the princess and restore peace to Alex's World!</p>
+  </div>`,
+  },
+
+  {
+    id: 81,
+    title: "Super Sandy World",
+    iframeUrl: "https://app-303290.games.s3.yandex.net/303290/c450ao6wji4217lyw8n322qp04ku7ktn_brotli/index.html?sdk=%2Fsdk%2F_%2Fv2.97c96d6acac215f69e1d.js#origin=https%3A%2F%2Fplayhop.com&app-id=303290&device-type=desktop",
+    description: "Dive into Super Sandy World, a retro arcade platformer! Embark on a challenging jungle adventure, jump and run like in the golden age of gaming. Perfect for all ages! Control Sandy with keys or on-screen buttons.",
+    tags: ["retro platformer","arcade game","jungle adventure","super sandy world","classic games"],
+    publishDate: "2025-11-24",
+    imageUrl: "/images/games/game81.webp",
+    imageAlt: "Super Sandy jumps in a lush green jungle, pixel art style.",
+    seo:{
+      title:"Super Sandy World - Retro Arcade Platformer Adventure!",
+      description: "Relive classic arcade action in Super Sandy World! A challenging retro-style platformer for all ages. Jump, run & conquer the jungle! Play now!",
+      keywords:"super sandy world, retro game, platformer, arcade, jungle adventure, classic platformer, jump and run"
+    },
+    addressBar: "super-sandy-world",
+    categories: ['mario'], // 引用 categoriesGames 中的 id
+    size: "small", // "large" 或 "small"
+    isHot: true,
+    isNew: true,
+    isHome: true,
+    detailsHtml: `<div>
+    <h2>Super Sandy World: A Blast from the Past!</h2>
+    <p>Get ready for a nostalgic trip down memory lane with Super Sandy World! This retro-style arcade platformer throws you into a vibrant jungle teeming with challenges and adventures. It's a classic jump-and-run experience, reminiscent of the golden age of gaming, designed to captivate players of all ages.</p>
+  
+    <h3>A Thrilling Jungle Adventure</h3>
+    <p>Prepare for an amazing and difficult journey through the jungle! Super Sandy World offers a classic platforming experience where precision and timing are key to overcoming obstacles and enemies. The vibrant pixel art style and catchy chiptune soundtrack will transport you back to the era of 8-bit and 16-bit consoles.</p>
+  
+    <h3>Gameplay Mechanics</h3>
+    <p>Super Sandy World embraces the simplicity and challenge of old-school platformers. Expect tough jumps, tricky enemy placements, and secrets hidden throughout the levels. Mastering the controls is essential to navigating the treacherous terrain and reaching the end of each stage.</p>
+  
+    <h3>Control Schemes</h3>
+    <p>Super Sandy World offers flexible control options to suit your preference:</p>
+    <ul>
+      <li><strong>Computer:</strong> Use the W, A, S, and D keys for movement and the spacebar to jump. If you manage to pick up a yellow flower, you can unleash a ranged attack by pressing the F key!</li>
+      <li><strong>Mobile Devices:</strong> Utilize the intuitive buttons on the game screen for seamless control on the go.</li>
+    </ul>
+  
+    <h3>Suitable for All Ages</h3>
+    <p>Whether you're a seasoned gamer who grew up with classic platformers or a newcomer looking for a fun and challenging experience, Super Sandy World has something to offer. Its simple yet engaging gameplay and charming retro aesthetic make it accessible to players of all skill levels.</p>
+  
+    <h3>How to Play Super Sandy World: Tips and Tricks</h3>
+    <ol>
+      <li><strong>Master the Jump:</strong> Precise jumping is crucial for navigating the levels. Practice your timing and learn to control Sandy's jump height.</li>
+      <li><strong>Explore Every Nook and Cranny:</strong> Keep an eye out for hidden passages and secrets. They may contain valuable power-ups or shortcuts.</li>
+      <li><strong>Use the Yellow Flower Wisely:</strong> If you find a yellow flower, use its ranged attack to defeat enemies from a distance. Conserve your shots, as the flower's power is limited.</li>
+      <li><strong>Patience is Key:</strong> Super Sandy World can be challenging, but don't give up! Learn from your mistakes and keep trying.</li>
+    </ol>
+  
+    <h3>FAQ</h3>
+    <ol>
+      <li><strong>What type of game is Super Sandy World?</strong><br>Super Sandy World is a retro-style arcade platformer reminiscent of classic games from the past.</li>
+      <li><strong>What are the control options for Super Sandy World?</strong><br>You can control Sandy using the W, A, S, and D keys and the spacebar on a computer, or using the buttons on the game screen on mobile devices. Picking up a yellow flower will allow you to shoot with the F key on the computer.</li>
+      <li><strong>Is Super Sandy World suitable for all ages?</strong><br>Yes, this classic platformer is designed to be enjoyable for players of all ages.</li>
+      <li><strong>What do the keys W, A, S, and D do?</strong><br>Those keys control movement.</li>
+      <li><strong>What does picking up a yellow flower do?</strong><br>It grants the character the ability to shoot projectiles by pressing the F key on the computer.</li>
+    </ol>
+  
+    <p>So, are you ready to embark on an unforgettable adventure? Dive into the whimsical world of Super Sandy World and experience the thrill of classic platforming action! Get ready to jump, run, and conquer the jungle in this timeless retro-inspired gem!</p>
+  </div>`,
   }
 
 
@@ -4601,7 +5400,20 @@ export const categoriesGames = [
     title: '3D Parking game', // 页面 H1 标题
     addressBar: '3d-parking-games', // 地址栏
     description: 'Explore a wide variety of online Parking games that challenge your driving precision, spatial awareness, and timing skills. From realistic 3D parking simulators to fun casual challenges, test how well you can park under pressure!',
-    icon: '<svg t="1763350654581" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="88731"><path d="M258.416 103.404C254.52 149.66 206.316 156.96 206.316 156.96c41.388 1.952 51.7 56.24 51.7 56.24 0.884-38.708 53.284-56.808 53.284-56.808-39.252-2.352-52.884-52.988-52.884-52.988z" fill="#D7E057" p-id="88732"></path><path d="M311.66 150.404c-34.42-2.064-47.328-48.1-47.456-48.568a6.024 6.024 0 0 0-6.332-4.408 6 6 0 0 0-5.436 5.468c-3.44 40.864-45.252 47.856-47.016 48.128a6 6 0 0 0 0.616 11.928c36.112 1.704 45.996 50.876 46.092 51.376a6 6 0 0 0 11.896-0.992c0.78-34.036 48.768-51.108 49.252-51.276a6 6 0 0 0-1.616-11.656zM257.396 191.784c-5.424-12.524-14.836-27.632-30.348-35.508 11.724-5.62 25.636-15.652 32.808-33.092 6.204 12.284 16.8 27.524 33.336 34.892-12.028 6.56-27.688 17.624-35.796 33.708z" fill="#3A312A" p-id="88733"></path><path d="M171.62 171.328c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.376 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88734"></path><path d="M209.388 202.816c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.892-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.604-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.956-21.46 19.884z" fill="#3A312A" p-id="88735"></path><path d="M171.62 64.696c-2.756 32.716-36.848 37.88-36.848 37.88 29.272 1.376 36.568 39.776 36.568 39.776 0.624-27.38 37.688-40.18 37.688-40.18-27.764-1.66-37.408-37.476-37.408-37.476z" fill="#D7E057" p-id="88736"></path><path d="M209.388 96.188c-23.068-1.384-31.892-32.748-31.976-33.064a6 6 0 0 0-11.768 1.064c-2.316 27.484-30.584 32.264-31.768 32.452a6 6 0 0 0 0.616 11.928c24.144 1.136 30.896 34.58 30.956 34.908a6 6 0 0 0 11.896-0.984c0.524-22.836 33.324-34.532 33.652-34.644a6 6 0 0 0-1.608-11.66z m-38.34 27.176c-3.696-7.54-9.36-15.788-17.788-21.116 7.424-4.164 14.788-10.52 19.484-19.668 4.228 7.496 10.616 15.82 19.764 20.9-7.4 4.4-15.956 10.952-21.46 19.884z" fill="#3A312A" p-id="88737"></path><path d="M510.868 444.704L336.64 270.476c-14.524-14.52-38.068-14.52-52.588 0-14.524 14.524-14.524 38.072 0 52.592l174.228 174.228a37.08 37.08 0 0 0 26.296 10.892 37.192 37.192 0 0 0 26.292-63.484z" fill="#FCE8CB" p-id="88738"></path><path d="M515.108 440.46L340.88 266.236c-16.832-16.832-44.236-16.84-61.072 0-8.156 8.156-12.652 19.004-12.652 30.54s4.496 22.384 12.652 30.54l174.228 174.228c8.16 8.156 19.004 12.648 30.536 12.648s22.376-4.492 30.536-12.648c8.156-8.156 12.648-19.004 12.648-30.54s-4.492-22.388-12.648-30.544z m-8.484 52.596a30.98 30.98 0 0 1-22.052 9.132 30.996 30.996 0 0 1-22.052-9.132L288.292 318.828c-5.892-5.892-9.136-13.724-9.136-22.056s3.248-16.164 9.136-22.056a31.08 31.08 0 0 1 22.052-9.116c7.984 0 15.972 3.04 22.052 9.116l174.228 174.228c12.16 12.16 12.16 31.952 0 44.112z" fill="#3A312A" p-id="88739"></path><path d="M878.34 270.476c-14.52-14.52-38.064-14.52-52.592 0l-174.228 174.228a37.188 37.188 0 0 0 0 52.592 37.08 37.08 0 0 0 26.296 10.892 37.084 37.084 0 0 0 26.296-10.892l64.432-64.432 39.352-39.352 70.444-70.444c14.52-14.52 14.52-38.068 0-52.592z" fill="#FCE8CB" p-id="88740"></path><path d="M882.584 266.236c-16.836-16.836-44.236-16.836-61.08 0l-174.232 174.228c-8.156 8.156-12.648 19.004-12.648 30.54s4.492 22.384 12.648 30.54a42.92 42.92 0 0 0 30.54 12.648c11.528 0 22.376-4.492 30.54-12.648l64.432-64.432a6 6 0 1 0-8.484-8.484l-64.432 64.428a31.008 31.008 0 0 1-22.056 9.136 31.012 31.012 0 0 1-22.056-9.132c-12.16-12.16-12.16-31.948 0-44.108l174.232-174.224c12.16-12.156 31.948-12.16 44.108-0.004 12.156 12.16 12.156 31.948 0 44.108l-70.444 70.44a6 6 0 1 0 8.484 8.484l70.444-70.44c16.836-16.844 16.836-44.24 0.004-61.08z" fill="#3A312A" p-id="88741"></path><path d="M445.872 124.092m-59.396 0a59.396 59.396 0 1 0 118.792 0 59.396 59.396 0 1 0-118.792 0Z" fill="#87796F" p-id="88742"></path><path d="M445.872 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396s65.396-29.336 65.396-65.396c0-36.064-29.336-65.4-65.396-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.396 23.952 53.396 53.4c0 29.444-23.952 53.396-53.396 53.396z" fill="#3A312A" p-id="88743"></path><path d="M657.893553 133.590379a59.396 59.396 0 1 0 117.259579-19.019212 59.396 59.396 0 1 0-117.259579 19.019212Z" fill="#87796F" p-id="88744"></path><path d="M716.512 58.696c-36.06 0-65.396 29.336-65.396 65.4 0 36.06 29.336 65.396 65.396 65.396 36.064 0 65.4-29.336 65.4-65.396 0-36.064-29.336-65.4-65.4-65.4z m0 118.792c-29.44 0-53.396-23.952-53.396-53.396s23.952-53.4 53.396-53.4 53.4 23.952 53.4 53.4c0 29.444-23.956 53.396-53.4 53.396z" fill="#3A312A" p-id="88745"></path><path d="M551.24 748.52h-68.2c-3.76 0-7.28-1-10.32-2.76v158.4h-25.8a27.588 27.588 0 0 0-19.48 47.08 27.452 27.452 0 0 0 19.48 8.08h68.92v-0.16c22-0.96 39.52-19 39.52-41.24v-169.84a20 20 0 0 1-4.12 0.44z" fill="#FCE8CB" p-id="88746"></path><path d="M559.132 743.416a6.008 6.008 0 0 0-5.024-1.204 13.892 13.892 0 0 1-2.872 0.308h-68.2a14.592 14.592 0 0 1-7.308-1.952 5.988 5.988 0 0 0-6.004-0.008 6.012 6.012 0 0 0-3.004 5.2v152.404h-19.8c-18.508 0-33.56 15.056-33.56 33.56a33.4 33.4 0 0 0 9.836 23.764 33.332 33.332 0 0 0 23.724 9.836h68.92c0.576 0 1.136-0.084 1.668-0.248a47.2 47.2 0 0 0 43.852-47.152V748.08c0-1.816-0.816-3.524-2.228-4.664z m-9.772 174.504a35.232 35.232 0 0 1-33.78 35.244 6.088 6.088 0 0 0-1.092 0.156H446.92a21.432 21.432 0 0 1-15.24-6.32 21.584 21.584 0 0 1 15.236-36.84h25.8a6 6 0 0 0 6-6v-149.992c1.42 0.236 2.864 0.352 4.32 0.352h66.32v163.4z" fill="#3A312A" p-id="88747"></path><path d="M796.4 787.8l-29.04-39.84c-1.24 0.36-2.52 0.56-3.92 0.56h-97.96l16.28 22.32h-85.4c-21.12 0-38.48 15.8-41 36.2-0.16 1.2-0.24 2.44-0.28 3.68h-0.04v68.92c0 1.32 0.08 2.64 0.32 3.92a27.516 27.516 0 0 0 27.24 23.68c15.24 0 27.6-12.36 27.6-27.6v-26.2h152.8c15.56 0 29.76-8.72 36.84-22.56 7.04-13.88 5.72-30.52-3.44-43.08z" fill="#FCE8CB" p-id="88748"></path><path d="M801.248 784.264l-29.04-39.84a6.016 6.016 0 0 0-6.52-2.228c-0.752 0.22-1.468 0.32-2.248 0.32h-97.96a6 6 0 0 0-4.848 9.532l9.324 12.784h-73.6c-23.848 0-44.036 17.824-46.948 41.408-0.152 1.16-0.244 2.348-0.3 3.544a5.892 5.892 0 0 0-0.072 0.928v68.92c0 1.856 0.136 3.496 0.38 4.752 2.304 16.448 16.572 28.852 33.184 28.852 18.528 0 33.596-15.076 33.596-33.6v-20.2h146.8a47.2 47.2 0 0 0 42.18-25.828l0.012-0.02a47.136 47.136 0 0 0-3.94-49.324z m-6.752 43.888a35.248 35.248 0 0 1-31.496 19.288h-152.8a6 6 0 0 0-6 6v26.2c0 11.912-9.688 21.6-21.596 21.6-10.664 0-19.82-7.96-21.344-18.784a15.348 15.348 0 0 1-0.22-2.816v-68.236c0.02-0.16 0.032-0.316 0.036-0.48 0.036-1.04 0.096-2.084 0.24-3.152 2.18-17.632 17.248-30.932 35.048-30.932h85.404a6 6 0 0 0 4.848-9.532l-9.324-12.784h86.156c0.416 0 0.836-0.012 1.248-0.04l26.864 36.856a35.208 35.208 0 0 1 2.936 36.812z" fill="#3A312A" p-id="88749"></path><path d="M774.56 726.6L688.08 608c-0.32 0.04-0.68 0.04-1 0.04h-211.76a13.96 13.96 0 0 1-11.96-6.76c-0.64 3.28-0.96 6.68-0.96 10.12v116.48a20.64 20.64 0 0 0 20.64 20.64h68.2c11.4 0 20.68-9.24 20.68-20.64v-81.24c0-2.88 3.64-4.12 5.36-1.8l73.64 98c2.56 3.6 6.72 5.68 11.12 5.68h101.4c11.28 0 17.76-12.8 11.12-21.92z" fill="#F16C7A" p-id="88750"></path><path d="M779.408 723.064l-86.48-118.596c-1.284-1.76-3.688-2.708-5.848-2.424h-211.76a7.928 7.928 0 0 1-6.828-3.864 5.996 5.996 0 0 0-11.024 1.956 58.864 58.864 0 0 0-1.072 11.264v116.48a26.668 26.668 0 0 0 26.64 26.64h68.2c14.712 0 26.68-11.948 26.68-26.64v-72.204l68.108 90.64a19.66 19.66 0 0 0 16.012 8.204h101.404a19.664 19.664 0 0 0 17.612-10.796 19.732 19.732 0 0 0-1.644-20.66z m-9.048 15.212a7.624 7.624 0 0 1-6.916 4.244H662.04a7.712 7.712 0 0 1-6.324-3.284l-73.616-97.972a8.96 8.96 0 0 0-10.008-3.176 8.992 8.992 0 0 0-6.172 8.556v81.24a14.672 14.672 0 0 1-14.68 14.64h-68.2a14.656 14.656 0 0 1-14.64-14.64v-115.092a19.832 19.832 0 0 0 6.92 1.252h209.736l84.652 116.088c1.768 2.428 2.016 5.472 0.652 8.144z" fill="#3A312A" p-id="88751"></path><path d="M581.192 392.496c-66.18 0-119.824 53.648-119.824 119.824v81.776a13.944 13.944 0 0 0 13.944 13.944h211.76a13.944 13.944 0 0 0 13.944-13.944V512.32c0-66.18-53.644-119.824-119.824-119.824z" fill="#D7E057" p-id="88752"></path><path d="M581.192 386.492c-69.38 0-125.828 56.444-125.828 125.828v10.66a6 6 0 1 0 12 0v-10.66c0-62.764 51.06-113.828 113.828-113.828 62.76 0 113.824 51.064 113.824 113.828v81.776a7.952 7.952 0 0 1-7.94 7.944h-211.764a7.952 7.952 0 0 1-7.944-7.944v-15.084a6 6 0 1 0-12 0v15.084a19.968 19.968 0 0 0 19.944 19.944h211.764a19.964 19.964 0 0 0 19.94-19.944V512.32c0-69.384-56.444-125.828-125.824-125.828z" fill="#3A312A" p-id="88753"></path><path d="M546.162425 415.230706a152.588 152.588 0 1 0 70.133088-297.007981 152.588 152.588 0 1 0-70.133088 297.007981Z" fill="#FCE8CB" p-id="88754"></path><path d="M581.192 108.088c-87.444 0-158.588 71.144-158.588 158.588 0 42.36 16.496 82.184 46.448 112.136 29.956 29.956 69.78 46.452 112.14 46.448h0.008c42.356 0 82.18-16.496 112.132-46.448s46.448-69.776 46.448-112.136c0-87.44-71.144-158.588-158.588-158.588z m103.656 262.244c-27.688 27.688-64.5 42.932-103.656 42.932s-75.964-15.248-103.652-42.932c-27.688-27.688-42.936-64.496-42.936-103.652 0-80.828 65.76-146.588 146.588-146.588 80.828 0 146.588 65.76 146.588 146.588 0 39.156-15.244 75.964-42.932 103.652z" fill="#3A312A" p-id="88755"></path><path d="M536.24 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856zM626.14 272.128a12.428 12.428 0 1 0 0 24.856 12.428 12.428 0 0 0 0-24.856z" fill="#3A312A" p-id="88756"></path><path d="M511.408 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16zM650.98 296.128c-11.824 0-21.408 7.164-21.408 16s9.584 16.004 21.408 16.004c11.824 0 21.408-7.164 21.408-16.004s-9.588-16-21.408-16z" fill="#F5978A" p-id="88757"></path><path d="M618.416 312.772a5.984 5.984 0 0 0-7.724 3.512c-2.328 6.216-11.488 17.964-29.5 17.964-14.272 0-23.712-5.86-29.7-18.436a6.004 6.004 0 0 0-10.836 5.156c7.984 16.776 21.624 25.28 40.536 25.28 21.364 0 36.092-13.352 40.736-25.752a6 6 0 0 0-3.512-7.724z" fill="#3A312A" p-id="88758"></path><path d="M581.192 78.124c-94.208 0-170.564 76.356-170.564 170.564 0 91.768 28.924 104.704 28.924 28.924 0-4.84 0.248-9.624 0.72-14.336 63.424-28.348 124.968-63.168 174.92-109.788 1.196 2.948 2.464 5.864 3.848 8.74 7.032 14.576 16.508 27.876 26.672 40.484 22.052 27.376 48.044 52.06 77.048 71.924 0.02 0.992 0.076 1.976 0.076 2.976 0 75.78 28.924 62.848 28.924-28.924-0.004-94.204-76.36-170.564-170.568-170.564z" fill="#87796F" p-id="88759"></path><path d="M581.192 72.124c-97.356 0-176.564 79.208-176.564 176.568 0 40.74 6.08 84.268 23.148 84.268 6.376 0 11.096-5.62 14.024-16.7 2.452-9.28 3.752-22.644 3.752-38.648 0-3.412 0.132-6.864 0.392-10.304 69.588-31.392 124.38-65.396 167.1-103.724l0.596 1.252c6.268 13 14.976 26.232 27.404 41.64 22.528 27.964 48.016 51.96 75.796 71.36 0.012 15.904 1.308 29.188 3.752 38.424 2.928 11.08 7.648 16.7 14.028 16.7 17.064 0 23.144-43.532 23.144-84.268-0.008-97.36-79.212-176.568-176.572-176.568zM734.8 320.132c-2.176-3.576-5.964-15.392-5.964-42.52 0-0.704-0.024-1.408-0.048-2.104l-0.032-1.012a6.016 6.016 0 0 0-2.608-4.808c-27.796-19.04-53.288-42.84-75.764-70.744-11.836-14.68-20.08-27.172-25.936-39.32a139.588 139.588 0 0 1-3.692-8.388 6.008 6.008 0 0 0-9.652-2.136c-43.244 40.352-99.924 75.908-173.276 108.7a5.992 5.992 0 0 0-3.52 4.88 150.932 150.932 0 0 0-0.752 14.932c0 27.128-3.788 38.944-5.968 42.52-4.056-5.128-10.956-26.848-10.956-71.44 0-90.744 73.824-164.568 164.564-164.568 90.744 0 164.568 73.824 164.568 164.568-0.008 44.592-6.904 66.312-10.964 71.44z" fill="#3A312A" p-id="88760"></path><path d="M769.724 730.16l-84.64-116.12h-33.36l84.64 116.12c1.76 2.4 2 5.44 0.64 8.12-1.36 2.64-3.96 4.24-6.92 4.24h33.32c3 0 5.6-1.6 6.96-4.24 1.36-2.68 1.12-5.72-0.64-8.12z" fill="#CE4E61" p-id="88761"></path><path d="M639.004 414.32a159.8 159.8 0 0 1-22.92 7c27.64 20.76 45.56 53.8 45.56 91v81.76c0 4.4-3.56 7.96-7.92 7.96h33.36c4.36 0 7.92-3.56 7.92-7.96v-81.76c0-41.68-22.52-78.16-56-98z" fill="#B9BC39" p-id="88762"></path><path d="M581.204 84.12c-4.08 0-8.08 0.16-12.08 0.44 85.12 6.2 152.48 77.48 152.48 164.12 0 6.28-0.12 12.12-0.4 17.52 1.64 1.2 3.32 2.36 4.96 3.48 1.6 1.12 2.56 2.92 2.6 4.84l0.04 1.08c0 0.68 0.04 1.32 0.04 2 0 27.16 3.76 38.96 5.96 42.52 4.04-5.12 10.96-26.84 10.96-71.44 0-90.72-73.84-164.56-164.56-164.56z" fill="#6B5B51" p-id="88763"></path></svg>',
+    icon: '<svg t="1763952613297" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7238"><path d="M458.667 800c0-20.779-3.712-41.045-10.88-60.096A170.71 170.71 0 0 0 117.333 800v10.667h341.334V800z" fill="#333549" p-id="7239"></path><path d="M139.05 789.333a147.266 147.266 0 0 1 8.534-40.277 149.376 149.376 0 0 1 289.365 40.277H139.051z" fill="#7DACFF" p-id="7240"></path><path d="M928 800c0-20.779-3.712-41.045-10.88-60.096A170.71 170.71 0 0 0 586.667 800v10.667H928V800z" fill="#333549" p-id="7241"></path><path d="M608.384 789.333a147.266 147.266 0 0 1 8.533-40.277 149.376 149.376 0 0 1 289.366 40.277H608.384z" fill="#7DACFF" p-id="7242"></path><path d="M436.715 834.923a149.333 149.333 0 1 0-297.451 0h-23.85c-21.185 0-43.457-4.971-60.843-14.251a96.917 96.917 0 0 1-40.32-40.32C4.949 762.965 0 744.682 0 698.176v-176.32c0-70.997 100.352-101.525 136.747-153.13 42.965-60.929 62.357-113.494 79.786-140.8 33.707-52.737 68.907-78.593 141.483-78.593h492.672c74.965 0 95.19 4.16 113.237 15.147 20.267 12.373 20.267 38.528 0 53.547C975.531 262.592 1024 397.653 1024 481.472v216.725c0 50.219-4.95 64.79-14.25 82.176a96.917 96.917 0 0 1-40.32 40.32c-14.87 7.936-29.633 12.715-63.36 13.931a149.333 149.333 0 1 0-297.473 0.299H436.715z" fill="#333549" p-id="7243"></path><path d="M757.333 650.667a170.667 170.667 0 0 1 170.39 160.96c13.376-1.707 22.186-4.715 31.658-9.771a75.584 75.584 0 0 0 31.574-31.573c9.066-16.982 11.712-30.294 11.712-72.107V481.451c0-25.856-5.056-59.328-14.422-99.435a1287.637 1287.637 0 0 0-16.042-61.163c-5.696-19.904-26.24-87.082-28.928-97.429l-3.627-13.93 11.563-8.598c8.512-6.293 8.512-13.973 1.6-18.176-14.934-9.11-35.2-12.053-102.123-12.053H358.016c-60.779 0-91.03 17.877-123.499 68.736 2.646-4.139-50.197 98.858-80.341 141.61-12.416 17.622-27.883 30.976-58.197 53.056l-8.576 6.23c-49.28 35.797-66.07 54.784-66.07 81.557v176.32c0 39.467 3.2 56.128 11.734 72.107 7.296 13.653 17.898 24.256 31.573 31.573 13.824 7.403 32.555 11.733 50.773 11.733h2.091a170.667 170.667 0 0 1 340.992 0h128.341a170.667 170.667 0 0 1 170.496-162.922z" fill="#7DACFF" p-id="7244"></path><path d="M288 949.333a128 128 0 1 0 0-256 128 128 0 0 0 0 256z" fill="#333549" p-id="7245"></path><path d="M288 928a106.667 106.667 0 1 1 0-213.333A106.667 106.667 0 0 1 288 928z" fill="#B9BECA" p-id="7246"></path><path d="M757.333 949.333a128 128 0 1 0 0-256 128 128 0 0 0 0 256z" fill="#333549" p-id="7247"></path><path d="M757.333 928a106.667 106.667 0 1 1 0-213.333 106.667 106.667 0 0 1 0 213.333z" fill="#B9BECA" p-id="7248"></path><path d="M288 885.333a64 64 0 1 0 0-128 64 64 0 0 0 0 128z" fill="#333549" p-id="7249"></path><path d="M288 864a42.667 42.667 0 1 1 0-85.333A42.667 42.667 0 0 1 288 864z" fill="#FFEEB4" p-id="7250"></path><path d="M757.333 885.333a64 64 0 1 0 0-128 64 64 0 0 0 0 128z" fill="#333549" p-id="7251"></path><path d="M757.333 864a42.667 42.667 0 1 1 0-85.333 42.667 42.667 0 0 1 0 85.333z" fill="#FFEEB4" p-id="7252"></path><path d="M179.413 510.25c-5.205-1.92-12.906-5.013-24.832-9.92l-34.474-14.25-4.224-1.728c-43.243-17.707-64.939-25.685-73.942-25.685C21.12 458.667 0 486.805 0 510.592c0 25.963 2.453 41.877 11.03 52.757 11.37 14.443 81.578 29.526 99.818 20.054a1754.133 1754.133 0 0 0 36.63-18.07c6.506-3.413 12.351-6.656 17.493-9.77 10.773-6.528 18.346-12.288 22.634-17.92 8-10.496 4.928-22.55-8.192-27.392z" fill="#333549" p-id="7253"></path><path d="M153.941 537.301a307.2 307.2 0 0 1-16.362 9.131c-10.134 5.333-36.438 17.963-36.587 18.048-9.152 4.757-68.16-7.936-73.195-14.336-4.48-5.675-6.464-18.517-6.464-39.552 0-13.12 13.099-30.592 20.608-30.592 4.566 0 28.523 8.81 65.856 24.107l4.203 1.706 34.453 14.23c8.875 3.648 15.467 6.314 20.523 8.298-3.03 2.518-7.467 5.59-13.035 8.96z" fill="#FFEEB4" p-id="7254"></path><path d="M950.57 224h14.507c14.144 50.133 24.96 89.259 32.512 117.333 7.552 28.075 15.787 67.2 24.704 117.334H964.14a42.667 42.667 0 0 1-42.496-38.806l-13.568-149.333A42.667 42.667 0 0 1 950.57 224z" fill="#333549" p-id="7255"></path><path d="M948.63 245.419a21.333 21.333 0 0 0-19.307 23.189l13.568 149.333a21.333 21.333 0 0 0 21.248 19.392h32.576c-7.062-37.717-13.654-67.882-19.712-90.453a9747.072 9747.072 0 0 0-28.054-101.483 21.333 21.333 0 0 0-0.32 0.022z" fill="#B9BECA" p-id="7256"></path><path d="M397.653 224h395.734a53.333 53.333 0 0 1 53.077 48.021l12.8 128a53.333 53.333 0 0 1-53.077 58.646H372.053a53.333 53.333 0 0 1-52.309-63.787l25.6-128a53.333 53.333 0 0 1 52.31-42.88z" fill="#333549" p-id="7257"></path><path d="M397.653 245.333a32 32 0 0 0-31.381 25.728l-25.6 128a32 32 0 0 0 31.36 38.272h434.155a32 32 0 0 0 31.85-35.2l-12.8-128a32 32 0 0 0-31.85-28.8H397.653z" fill="#B9BECA" p-id="7258"></path><path d="M552.32 291.115l-15.104 15.104a10.667 10.667 0 0 0 15.083 15.082l15.082-15.082a10.667 10.667 0 0 0-15.082-15.104z m-45.27 45.269l-15.082 15.083a10.667 10.667 0 1 0 15.083 15.082l15.082-15.082a10.667 10.667 0 1 0-15.082-15.083z m-45.269 45.248a10.667 10.667 0 1 0 15.104 15.083 10.667 10.667 0 0 0-15.104-15.083z m26.539-90.517l-90.539 90.517a10.667 10.667 0 0 0 15.104 15.083l90.496-90.496a10.667 10.667 0 0 0-15.082-15.104zM320 522.667v128a10.667 10.667 0 1 0 21.333 0v-128a10.667 10.667 0 1 0-21.333 0zM216.81 229.76a10.667 10.667 0 0 1 9.473-5.76h23.936a53.333 53.333 0 0 1 52.288 63.787l-25.6 128a53.333 53.333 0 0 1-52.288 42.88H59.413a10.667 10.667 0 0 1-6.229-19.328c34.517-24.79 59.52-44.779 74.816-59.776 14.613-14.294 44.672-64.811 88.81-149.803z" fill="#333549" p-id="7259"></path><path d="M142.933 394.816c-11.904 11.648-28.885 25.813-51.008 42.517H224.62a32 32 0 0 0 31.36-25.728l25.6-128a32 32 0 0 0-31.36-38.272h-17.472c-43.734 83.947-73.259 133.248-89.814 149.483z" fill="#B9BECA" p-id="7260"></path><path d="M373.333 192h448a32 32 0 0 1 0 64h-448a32 32 0 0 1 0-64z" fill="#333549" p-id="7261"></path><path d="M373.333 213.333a10.667 10.667 0 1 0 0 21.334h448a10.667 10.667 0 1 0 0-21.334h-448z" fill="#FFEEB4" p-id="7262"></path><path d="M906.667 192h72.704a35.264 35.264 0 0 1-15.51 25.792c2.518 9.813 5.547 22.528 9.174 38.208h-66.368a32 32 0 0 1 0-64z" fill="#333549" p-id="7263"></path><path d="M906.667 213.333a10.667 10.667 0 1 0 0 21.334h39.424l-2.902-11.606-2.474-9.728h-34.048z" fill="#FFEEB4" p-id="7264"></path><path d="M970.667 490.667h51.2V576h-51.2a32 32 0 0 1-32-32v-21.333a32 32 0 0 1 32-32z" fill="#333549" p-id="7265"></path><path d="M1000.533 512h-29.866A10.667 10.667 0 0 0 960 522.667V544a10.667 10.667 0 0 0 10.667 10.667h29.866V512z" fill="#FFEEB4" p-id="7266"></path></svg>',
+    seo: {
+      title: "Play 3D parking Games Online | Fun & Safe 3D parking Games - 3dsgames.com",
+      description: "fun and challenging online Parking games that test your driving control, precision, and timing. Enjoy realistic 3D parking simulators and exciting car.",
+      keywords: "parking games, car parking online, 3D parking game, driving games, parking simulator, free parking games"
+    },
+  },
+  {
+    id: 'jump', // 内部标识符，被游戏的 categories 字段引用
+    name: '3D Jump game', // 显示名称
+    title: '3D Jump game', // 页面 H1 标题
+    addressBar: '3d-jump-games', // 地址栏
+    description: 'Explore a wide variety of online Parking games that challenge your driving precision, spatial awareness, and timing skills. From realistic 3D parking simulators to fun casual challenges, test how well you can park under pressure!',
+    icon: '<svg t="1763952684629" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9711"><path d="M609.835 224.04a105.88 105.88 0 1 0 211.76 0 105.88 105.88 0 1 0-211.76 0z" fill="#F2D8AA" p-id="9712"></path><path d="M649.946 323.97c-55.101-36.265-70.427-110.598-34.162-165.698 22.203-33.735 59.598-53.875 100.03-53.875 23.368 0 46.076 6.817 65.672 19.713 26.692 17.568 44.945 44.478 51.397 75.774 6.452 31.296 0.33 63.232-17.237 89.924-22.203 33.734-59.597 53.875-100.028 53.875-23.369 0-46.076-6.817-65.672-19.713z m-11.189-150.58c-27.928 42.434-16.126 99.678 26.308 127.607 15.094 9.934 32.575 15.184 50.553 15.184 31.15 0 59.956-15.511 77.055-41.492 13.53-20.556 18.244-45.15 13.275-69.252-4.969-24.101-19.027-44.826-39.582-58.354-15.094-9.934-32.575-15.184-50.553-15.184-31.149-0.001-59.956 15.51-77.056 41.491z" fill="#2B2B2B" p-id="9713"></path><path d="M536.04 491.473c-17.024 17.831-45.868 17.923-64.424 0.206-18.556-17.717-19.798-46.534-2.774-64.365l90.825-95.126c17.024-17.831 45.868-17.923 64.424-0.206 18.556 17.717 19.798 46.534 2.773 64.365l-90.824 95.126z" fill="#22D659" p-id="9714"></path><path d="M504.256 519.906c-15.991 0-31.261-6.172-42.999-17.378-11.791-11.258-18.666-26.295-19.357-42.343-0.701-16.273 5.014-31.625 16.093-43.229l90.825-95.126c11.128-11.656 26.269-18.075 42.633-18.075 15.99 0 31.261 6.172 42.998 17.378 11.791 11.258 18.666 26.296 19.357 42.343 0.701 16.273-5.015 31.625-16.094 43.229l-90.824 95.126c-11.127 11.656-26.269 18.075-42.632 18.075z m87.195-186.151c-8.087 0-15.521 3.122-20.936 8.792l-90.824 95.126c-5.389 5.644-8.166 13.18-7.819 21.221 0.356 8.267 3.943 16.057 10.102 21.937 6.13 5.854 14.043 9.077 22.282 9.077 8.087 0 15.521-3.123 20.936-8.792l90.824-95.126c5.389-5.644 8.165-13.18 7.818-21.221-0.355-8.267-3.943-16.057-10.102-21.937-6.13-5.854-14.044-9.077-22.281-9.077z" fill="#2B2B2B" p-id="9715"></path><path d="M167.24 823.116h194.99v76.496H167.24z" fill="#5B392C" p-id="9716"></path><path d="M377.231 914.612h-224.99V808.116h224.99v106.496z m-194.99-30h164.99v-46.496h-164.99v46.496z" fill="#2B2B2B" p-id="9717"></path><path d="M378.25 829.626h472v70h-472z" fill="#F4BD6E" p-id="9718"></path><path d="M374.354 884.585h478v30h-478zM694.227 398.66c-44.223 0-82.592-9.252-84.781-9.79-8.045-1.976-12.966-10.099-10.99-18.145 1.975-8.042 10.091-12.962 18.137-10.992 0.672 0.165 67.854 16.295 121.988 4.736 37.224-7.948 103.015-77.099 125.225-103.073 5.385-6.297 14.852-7.036 21.148-1.652 6.297 5.384 7.036 14.852 1.652 21.148-0.869 1.017-21.614 25.208-48.952 51.107-37.97 35.971-69.195 56.766-92.81 61.809-16.626 3.55-34.036 4.852-50.617 4.852zM242.26 663.447c-8.163 0-14.85-6.545-14.992-14.738-0.145-8.283 6.453-15.115 14.736-15.26 8.668-0.15 17.406-0.143 25.855-0.139 42.942 0.023 83.512 0.059 115.271-19.66 31.537-19.58 70.419-89.426 82.741-114.686 3.631-7.444 12.61-10.538 20.056-6.909 7.445 3.63 10.54 12.606 6.912 20.053-1.961 4.024-48.548 98.881-93.884 127.028-39.039 24.238-85.854 24.197-131.117 24.174-8.313-0.006-16.915-0.012-25.311 0.135l-0.267 0.002z" fill="#2B2B2B" p-id="9719"></path></svg>',
     seo: {
       title: "Play 3D parking Games Online | Fun & Safe 3D parking Games - 3dsgames.com",
       description: "fun and challenging online Parking games that test your driving control, precision, and timing. Enjoy realistic 3D parking simulators and exciting car.",
