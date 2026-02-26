@@ -278,6 +278,10 @@ body {
   .details-html img {
     margin: 16px 0;
   }
+
+  .is-pc {
+    display: none;
+  }
 }
 
 /* 详情页HTML样式 - 通用样式 */
